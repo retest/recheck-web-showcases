@@ -20,6 +20,7 @@ public class MyFirstTest {
 		final ChromeOptions opts = new ChromeOptions();
 		opts.addArguments(
 				// Enable headless mode to execute on Travis
+				// can be removed for local execution
 				"--headless",
 				// Use Chrome in container-based Travis CI enviroment (see https://docs.travis-ci.com/user/chrome#Sandboxing).
 				"--no-sandbox" );
@@ -29,6 +30,7 @@ public class MyFirstTest {
 	@Test
 	public void check_formPage() throws Exception {
 		driver.startTest();
+		// To see differences, simply switch to formPage-changed.html below
 		String url = Paths.get( "src/test/resources/formPage.html" ).toUri().toURL().toString();
 		driver.get(url);
 
