@@ -2,6 +2,8 @@
 
 # To ignore attributes globally, use:
 attribute=class
+attribute=outline
+attribute=absolute-outline
 
 # You can also ignore attributes with regex:
 attribute-regex=.*
