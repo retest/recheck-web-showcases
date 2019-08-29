@@ -16,7 +16,8 @@ public class MyUnbreakableSeleniumTest {
 
 	@Before
 	public void setup() {
-		driver = new RecheckDriver( new ChromeDriver());
+		//		RecheckOptions opts = RecheckOptions.builder().reportUploadEnabled(true).build();
+		driver = new RecheckDriver( new ChromeDriver() );
 	}
 
 	@Test
