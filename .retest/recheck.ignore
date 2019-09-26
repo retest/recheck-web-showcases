@@ -1,19 +1,22 @@
 # Ignore file for recheck. Please do not delete, even if it is empty.
 
 # To ignore attributes globally, use:
-attribute=class
 attribute=outline
 attribute=absolute-outline
-#attribute=id
+attribute=style
+attribute=transform
+attribute=id
+attribute-regex=padding-.*
+attribute-regex=margin-.*
 
-# You can also ignore attributes with regex:
-attribute-regex=.*
+matcher: xpath=html[1]/body[1]/div[1]/div[1]/form[1]/div[1]/input[1], attribute-regex: border-.*-color
+matcher: xpath=html[1]/body[1]/div[1]/div[1]/form[1]/div[2]/input[1], attribute-regex: border-.*-color
 
 # Instead of attributes, you can also ignore elements:
-matcher: type=a
+#matcher: type=a
 
 # Or ignore elements that have a specific attribute:
-matcher: id=banner
+#matcher: id=banner
 
 # Of course, these can also be combined.
 # Ignore font of specific elements
@@ -24,6 +27,3 @@ matcher: id=banner
 
 # More details and examples can be found here:
 # https://retest.github.io/docs/recheck/how-ignore-works-in-recheck/
-
-attribute: style
-attribute: transform

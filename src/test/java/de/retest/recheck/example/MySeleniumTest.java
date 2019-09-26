@@ -1,9 +1,8 @@
 package de.retest.recheck.example;
 
-import java.nio.file.Paths;
+import static org.junit.Assert.assertEquals;
 
 import org.junit.After;
-import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -21,16 +20,14 @@ public class MySeleniumTest {
 	}
 
 	@Test
-	public void check_formPage() throws Exception {
-		// To see differences, simply switch to formPage-changed.html below
-		String url = Paths.get( "src/test/resources/formPage.html" ).toUri().toURL().toString();
-		driver.get(url);
+	public void login() throws Exception {
+		driver.get("https://assets.retest.org/demos/app/demo-app.html");
 
-		driver.findElement(By.id("email")).sendKeys("Emil");
-		driver.findElement(By.id("age")).sendKeys("16");
-		driver.findElement(By.name("login")).submit();
+		driver.findElement(By.id("username")).sendKeys("Simon");
+		driver.findElement(By.id("password")).sendKeys("secret");
+		driver.findElement(By.id("sign-in")).click();
 
-		Assert.assertEquals(driver.findElement(By.id("email")).getText(), "");
+		assertEquals(driver.findElement(By.tagName("h4")).getText(), "Success!");
 	}
 
 	@After

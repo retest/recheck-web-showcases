@@ -1,7 +1,5 @@
 package de.retest.recheck.example;
 
-import java.nio.file.Paths;
-
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -16,20 +14,19 @@ public class MyUnbreakableSeleniumTest {
 
 	@Before
 	public void setup() {
-		//		RecheckOptions opts = RecheckOptions.builder().reportUploadEnabled(true).build();
+		// RecheckOptions opts = RecheckOptions.builder().enableReportUpload().build();
 		driver = new RecheckDriver( new ChromeDriver() );
 	}
 
 	@Test
-	public void check_formPage() throws Exception {
+	public void login() throws Exception {
 		driver.startTest();
-		// To see differences, simply switch to formPage-changed.html below
-		String url = Paths.get( "src/test/resources/formPage.html" ).toUri().toURL().toString();
-		driver.get(url);
+		// To see differences, simply switch to demo-app_btn-change.html
+		driver.get("https://assets.retest.org/demos/app/demo-app.html");
 
-		driver.findElement(By.id("email")).sendKeys("Emil");
-		driver.findElement(By.id("age")).sendKeys("16");
-		driver.findElement(By.name("login")).submit();
+		driver.findElement(By.id("username")).sendKeys("Simon");
+		driver.findElement(By.id("password")).sendKeys("secret");
+		driver.findElement(By.id("sign-in")).click();
 
 		driver.capTest();
 	}
