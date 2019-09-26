@@ -4,6 +4,7 @@
 attribute=class
 attribute=outline
 attribute=absolute-outline
+#attribute=id
 
 # You can also ignore attributes with regex:
 attribute-regex=.*
@@ -23,3 +24,6 @@ matcher: id=banner
 
 # More details and examples can be found here:
 # https://retest.github.io/docs/recheck/how-ignore-works-in-recheck/
+
+attribute: style
+attribute: transform
