@@ -2,6 +2,8 @@ package de.retest.recheck.example;
 
 import static org.junit.Assert.assertEquals;
 
+import java.nio.file.Paths;
+
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -21,7 +23,8 @@ public class MySeleniumTest {
 
 	@Test
 	public void login() throws Exception {
-		driver.get("https://assets.retest.org/demos/app/demo-app.html");
+		String url = Paths.get( "src/test/resources/demo-app.html" ).toUri().toURL().toString();
+		driver.get(url);
 
 		driver.findElement(By.id("username")).sendKeys("Simon");
 		driver.findElement(By.id("password")).sendKeys("secret");
