@@ -1,5 +1,7 @@
 package de.retest.recheck.example;
 
+import java.nio.file.Paths;
+
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -20,9 +22,8 @@ public class MyUnbreakableSeleniumTest {
 
 	@Test
 	public void login() throws Exception {
-		driver.startTest();
-		// To see differences, simply switch to demo-app_btn-change.html
-		driver.get("https://assets.retest.org/demos/app/demo-app.html");
+		String url = Paths.get( "src/test/resources/demo-app.html" ).toUri().toURL().toString();
+		driver.get(url);
 
 		driver.findElement(By.id("username")).sendKeys("Simon");
 		driver.findElement(By.id("password")).sendKeys("secret");
