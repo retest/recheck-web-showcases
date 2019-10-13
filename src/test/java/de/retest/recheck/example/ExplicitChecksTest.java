@@ -1,20 +1,20 @@
 package de.retest.recheck.example;
 
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
 import de.retest.recheck.Recheck;
 import de.retest.recheck.RecheckImpl;
 
-public class ExplicitChecksTest {
+class ExplicitChecksTest {
 
 	RemoteWebDriver driver;
 	Recheck re;
 
-	@Before
+	@BeforeEach
 	public void setup() {
 		re = new RecheckImpl();
 		driver =  new ChromeDriver();
@@ -28,7 +28,7 @@ public class ExplicitChecksTest {
 		re.capTest();
 	}
 
-	@After
+	@AfterEach
 	public void tearDown() throws InterruptedException {
 		driver.quit();
 		re.cap();
