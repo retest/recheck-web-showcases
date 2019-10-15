@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<reTestXmlDataContainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" reTestVersion="1.5.0" dataType="de.retest.recheck.ui.descriptors.SutState" dataTypeVersion="4">
+<reTestXmlDataContainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" reTestVersion="${pom.parent.version}" dataType="de.retest.recheck.ui.descriptors.SutState" dataTypeVersion="4">
 	<data xsi:type="sutState">
 		<descriptors retestId="html" screenId="1" screen="Demo App" title="Demo App">
 			<identifyingAttributes>
@@ -136,7 +136,7 @@
 						</attributes>
 					</attributes>
 				</containedElements>
-				<containedElements retestId="meta-bc4c2">
+				<containedElements retestId="meta-1">
 					<identifyingAttributes>
 						<attributes>
 							<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -170,7 +170,44 @@
 						</attributes>
 					</attributes>
 				</containedElements>
-				<containedElements retestId="meta-87101">
+				<containedElements retestId="meta-2">
+					<identifyingAttributes>
+						<attributes>
+							<attribute key="absolute-outline" xsi:type="outlineAttribute">
+								<x>0</x>
+								<y>0</y>
+								<height>0</height>
+								<width>0</width>
+							</attribute>
+							<attribute key="outline" xsi:type="outlineAttribute">
+								<x>0</x>
+								<y>0</y>
+								<height>0</height>
+								<width>0</width>
+							</attribute>
+							<attribute key="path" xsi:type="pathAttribute">html[1]/head[1]/meta[3]</attribute>
+							<attribute key="suffix" xsi:type="suffixAttribute">3</attribute>
+							<attribute key="type" xsi:type="stringAttribute">meta</attribute>
+						</attributes>
+					</identifyingAttributes>
+					<attributes>
+						<attributes>
+							<entry>
+								<key>content</key>
+								<value xsi:type="xsd:string">ie=edge</value>
+							</entry>
+							<entry>
+								<key>http-equiv</key>
+								<value xsi:type="xsd:string">x-ua-compatible</value>
+							</entry>
+							<entry>
+								<key>shown</key>
+								<value xsi:type="xsd:string">false</value>
+							</entry>
+						</attributes>
+					</attributes>
+				</containedElements>
+				<containedElements retestId="meta-3">
 					<identifyingAttributes>
 						<attributes>
 							<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -187,40 +224,6 @@
 								<width>0</width>
 							</attribute>
 							<attribute key="path" xsi:type="pathAttribute">html[1]/head[1]/meta[4]</attribute>
-							<attribute key="suffix" xsi:type="suffixAttribute">3</attribute>
-							<attribute key="type" xsi:type="stringAttribute">meta</attribute>
-						</attributes>
-					</identifyingAttributes>
-					<attributes>
-						<attributes>
-							<entry>
-								<key>content</key>
-								<value xsi:type="xsd:string">recheck-web test demo</value>
-							</entry>
-							<entry>
-								<key>shown</key>
-								<value xsi:type="xsd:string">false</value>
-							</entry>
-						</attributes>
-					</attributes>
-				</containedElements>
-				<containedElements retestId="meta-5d1b0">
-					<identifyingAttributes>
-						<attributes>
-							<attribute key="absolute-outline" xsi:type="outlineAttribute">
-								<x>0</x>
-								<y>0</y>
-								<height>0</height>
-								<width>0</width>
-							</attribute>
-							<attribute key="name" xsi:type="stringAttribute"/>
-							<attribute key="outline" xsi:type="outlineAttribute">
-								<x>0</x>
-								<y>0</y>
-								<height>0</height>
-								<width>0</width>
-							</attribute>
-							<attribute key="path" xsi:type="pathAttribute">html[1]/head[1]/meta[3]</attribute>
 							<attribute key="suffix" xsi:type="suffixAttribute">4</attribute>
 							<attribute key="type" xsi:type="stringAttribute">meta</attribute>
 						</attributes>
@@ -229,11 +232,7 @@
 						<attributes>
 							<entry>
 								<key>content</key>
-								<value xsi:type="xsd:string">ie=edge</value>
-							</entry>
-							<entry>
-								<key>http-equiv</key>
-								<value xsi:type="xsd:string">x-ua-compatible</value>
+								<value xsi:type="xsd:string">recheck-web test demo</value>
 							</entry>
 							<entry>
 								<key>shown</key>
@@ -350,14 +349,14 @@
 							<attribute key="absolute-outline" xsi:type="outlineAttribute">
 								<x>0</x>
 								<y>0</y>
-								<height>577</height>
+								<height>595</height>
 								<width>1200</width>
 							</attribute>
 							<attribute key="class" xsi:type="stringAttribute">all-wrapper menu-side with-pattern</attribute>
 							<attribute key="outline" xsi:type="outlineAttribute">
 								<x>0</x>
 								<y>0</y>
-								<height>-66</height>
+								<height>-57</height>
 								<width>0</width>
 							</attribute>
 							<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/div[1]</attribute>
@@ -389,13 +388,13 @@
 							</entry>
 						</attributes>
 					</attributes>
-					<containedElements retestId="div-92827">
+					<containedElements retestId="div-1">
 						<identifyingAttributes>
 							<attributes>
 								<attribute key="absolute-outline" xsi:type="outlineAttribute">
 									<x>375</x>
 									<y>0</y>
-									<height>561</height>
+									<height>579</height>
 									<width>450</width>
 								</attribute>
 								<attribute key="class" xsi:type="stringAttribute">auth-box-w centered</attribute>
@@ -462,13 +461,13 @@
 								</entry>
 							</attributes>
 						</attributes>
-						<containedElements retestId="div-86599">
+						<containedElements retestId="div-2">
 							<identifyingAttributes>
 								<attributes>
 									<attribute key="absolute-outline" xsi:type="outlineAttribute">
 										<x>375</x>
 										<y>0</y>
-										<height>225</height>
+										<height>243</height>
 										<width>450</width>
 									</attribute>
 									<attribute key="class" xsi:type="stringAttribute">logo-w</attribute>
@@ -487,19 +486,19 @@
 								<attributes>
 									<entry>
 										<key>padding-bottom</key>
-										<value xsi:type="xsd:string">90px</value>
+										<value xsi:type="xsd:string">58.5px</value>
 									</entry>
 									<entry>
 										<key>padding-left</key>
-										<value xsi:type="xsd:string">90px</value>
+										<value xsi:type="xsd:string">58.5px</value>
 									</entry>
 									<entry>
 										<key>padding-right</key>
-										<value xsi:type="xsd:string">90px</value>
+										<value xsi:type="xsd:string">58.5px</value>
 									</entry>
 									<entry>
 										<key>padding-top</key>
-										<value xsi:type="xsd:string">90px</value>
+										<value xsi:type="xsd:string">58.5px</value>
 									</entry>
 									<entry>
 										<key>shown</key>
@@ -511,16 +510,16 @@
 								<identifyingAttributes>
 									<attributes>
 										<attribute key="absolute-outline" xsi:type="outlineAttribute">
-											<x>562</x>
-											<y>102</y>
+											<x>475</x>
+											<y>111</y>
 											<height>17</height>
-											<width>76</width>
+											<width>250</width>
 										</attribute>
 										<attribute key="outline" xsi:type="outlineAttribute">
-											<x>93</x>
-											<y>51</y>
-											<height>-104</height>
-											<width>-187</width>
+											<x>50</x>
+											<y>55</y>
+											<height>-113</height>
+											<width>-100</width>
 										</attribute>
 										<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/div[1]/div[1]/div[1]/a[1]</attribute>
 										<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
@@ -579,15 +578,15 @@
 									<identifyingAttributes>
 										<attributes>
 											<attribute key="absolute-outline" xsi:type="outlineAttribute">
-												<x>562</x>
-												<y>90</y>
-												<height>45</height>
-												<width>76</width>
+												<x>475</x>
+												<y>59</y>
+												<height>126</height>
+												<width>250</width>
 											</attribute>
 											<attribute key="outline" xsi:type="outlineAttribute">
 												<x>0</x>
-												<y>-6</y>
-												<height>14</height>
+												<y>-26</y>
+												<height>54</height>
 												<width>0</width>
 											</attribute>
 											<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/div[1]/div[1]/div[1]/a[1]/img[1]</attribute>
@@ -619,14 +618,14 @@
 								<attributes>
 									<attribute key="absolute-outline" xsi:type="outlineAttribute">
 										<x>375</x>
-										<y>225</y>
+										<y>243</y>
 										<height>28</height>
 										<width>450</width>
 									</attribute>
 									<attribute key="outline" xsi:type="outlineAttribute">
 										<x>0</x>
-										<y>112</y>
-										<height>-266</height>
+										<y>121</y>
+										<height>-275</height>
 										<width>0</width>
 									</attribute>
 									<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/div[1]/div[1]/h4[1]</attribute>
@@ -701,14 +700,14 @@
 								<attributes>
 									<attribute key="absolute-outline" xsi:type="outlineAttribute">
 										<x>375</x>
-										<y>261</y>
+										<y>279</y>
 										<height>300</height>
 										<width>450</width>
 									</attribute>
 									<attribute key="outline" xsi:type="outlineAttribute">
 										<x>0</x>
-										<y>130</y>
-										<height>-130</height>
+										<y>139</y>
+										<height>-139</height>
 										<width>0</width>
 									</attribute>
 									<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/div[1]/div[1]/p[1]</attribute>
