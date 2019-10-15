@@ -1,5 +1,7 @@
 package de.retest.recheck.example;
 
+import java.nio.file.Paths;
+
 import org.junit.After;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
@@ -20,11 +22,14 @@ public class BudgetTest {
 				.build();
 		re = new RecheckImpl( options );
 
-		System.setProperty( "webdriver.chrome.driver", "src/test/resources/chromedriver" );
+		System.setProperty( "webdriver.chrome.driver", "chromedriver" );
 		driver = new ChromeDriver();
 
+		String url = Paths.get( "src/test/resources/AdaptedBudget.htm" ).toUri().toURL().toString();
+		driver.get(url);
+
 		//		driver.get( "https://assets.retest.org/demos/budget/OriginalBudget.htm" );
-		driver.get( "https://assets.retest.org/demos/budget/AdaptedBudget.htm" );
+		//		driver.get( "https://assets.retest.org/demos/budget/AdaptedBudget.htm" );
 		Thread.sleep( 1000 );
 
 		re.check( driver, "open" );
