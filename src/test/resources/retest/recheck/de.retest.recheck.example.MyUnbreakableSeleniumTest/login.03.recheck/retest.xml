@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<reTestXmlDataContainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" reTestVersion="${pom.parent.version}" dataType="de.retest.recheck.ui.descriptors.SutState" dataTypeVersion="4">
+<reTestXmlDataContainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" reTestVersion="1.5.0-beta.2" dataType="de.retest.recheck.ui.descriptors.SutState" dataTypeVersion="4">
 	<data xsi:type="sutState">
 		<descriptors retestId="html" screenId="1" screen="Demo App" title="Demo App">
 			<identifyingAttributes>
@@ -136,7 +136,7 @@
 						</attributes>
 					</attributes>
 				</containedElements>
-				<containedElements retestId="meta-1">
+				<containedElements retestId="meta-18b5a">
 					<identifyingAttributes>
 						<attributes>
 							<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -170,7 +170,7 @@
 						</attributes>
 					</attributes>
 				</containedElements>
-				<containedElements retestId="meta-2">
+				<containedElements retestId="meta-91dc7">
 					<identifyingAttributes>
 						<attributes>
 							<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -207,7 +207,7 @@
 						</attributes>
 					</attributes>
 				</containedElements>
-				<containedElements retestId="meta-3">
+				<containedElements retestId="meta-c7d8a">
 					<identifyingAttributes>
 						<attributes>
 							<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -388,7 +388,7 @@
 							</entry>
 						</attributes>
 					</attributes>
-					<containedElements retestId="div-1">
+					<containedElements retestId="div-2cf8f">
 						<identifyingAttributes>
 							<attributes>
 								<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -461,7 +461,7 @@
 								</entry>
 							</attributes>
 						</attributes>
-						<containedElements retestId="div-2">
+						<containedElements retestId="div-d23bd">
 							<identifyingAttributes>
 								<attributes>
 									<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -733,7 +733,7 @@
 				</containedElements>
 			</containedElements>
 			<screenshot>
-				<persistenceId>html_0cdf9711cbad29296e215ce2912312f930f0048311bcdddbf456c279dc68e7c4</persistenceId>
+				<persistenceId>html_f8161d57c6162aecd124d720970e610e4645ca87c3eaf7e9c574c53053be98d3</persistenceId>
 				<type>PNG</type>
 			</screenshot>
 		</descriptors>
