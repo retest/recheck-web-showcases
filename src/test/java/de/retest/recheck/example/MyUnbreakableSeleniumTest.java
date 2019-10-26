@@ -2,21 +2,24 @@ package de.retest.recheck.example;
 
 import java.nio.file.Paths;
 
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import de.retest.recheck.junit.jupiter.RecheckExtension;
 import de.retest.web.selenium.By;
 import de.retest.web.selenium.RecheckDriver;
 
-public class MyUnbreakableSeleniumTest {
+@ExtendWith(RecheckExtension.class)
+class MyUnbreakableSeleniumTest {
 
 	RecheckDriver driver;
 
-	@Before
-	public void setup() {
-		// RecheckOptions opts = RecheckOptions.builder().enableReportUpload().build();
+	@BeforeEach
+	void setup() {
+		// RecheckWebOptions opts = RecheckWebOptions.builder().omitScreenshots().build();
 		driver = new RecheckDriver( new ChromeDriver() );
 	}
 
@@ -28,11 +31,9 @@ public class MyUnbreakableSeleniumTest {
 		driver.findElement(By.id("username")).sendKeys("Simon");
 		driver.findElement(By.id("password")).sendKeys("secret");
 		driver.findElement(By.id("sign-in")).click();
-
-		driver.capTest();
 	}
 
-	@After
+	@AfterEach
 	public void tearDown() throws InterruptedException {
 		driver.quit();
 	}
