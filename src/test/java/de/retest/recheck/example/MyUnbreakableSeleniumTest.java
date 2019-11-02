@@ -5,14 +5,11 @@ import java.nio.file.Paths;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.extension.ExtendWith;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import de.retest.recheck.junit.jupiter.RecheckExtension;
 import de.retest.web.selenium.By;
 import de.retest.web.selenium.RecheckDriver;
 
-@ExtendWith(RecheckExtension.class)
 class MyUnbreakableSeleniumTest {
 
 	RecheckDriver driver;

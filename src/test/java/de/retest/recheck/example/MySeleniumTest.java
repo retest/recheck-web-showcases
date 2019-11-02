@@ -7,14 +7,14 @@ import java.nio.file.Paths;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.remote.RemoteWebDriver;
 
 import de.retest.web.selenium.By;
 
 class MySeleniumTest {
 
-	RemoteWebDriver driver;
+	WebDriver driver;
 
 	@BeforeEach
 	void setup() {
