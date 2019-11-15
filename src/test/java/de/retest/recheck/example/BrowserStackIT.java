@@ -12,7 +12,7 @@ import de.retest.recheck.Recheck;
 import de.retest.recheck.RecheckImpl;
 import de.retest.recheck.RecheckProperties;
 
-class BrowserStackTest {
+class BrowserStackIT {
 
 	public static final String USERNAME = "sebastianrler1";
 	public static final String AUTOMATE_KEY = "Wqp2KsfqSHJpo3gCpkYg";
