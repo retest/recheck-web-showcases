@@ -25,7 +25,7 @@ To correctly setup and use this project, it is probably helpful to install eithe
 
 You might also want to try out our [Chrome Extension](https://chrome.google.com/webstore/detail/recheck-web-demo/ifbcdobnjihilgldbjeomakdaejhplii). You need to setup a [free account](https://sso.prod.cloud.retest.org/auth/realms/customer/account/) with us to use it.
 
-recheck-web can be used in conjunction with the [Selenium IDE](https://chrome.google.com/webstore/detail/selenium-ide/mooikfkahbdckldjjndioackbalphokd), to create tests quickly.
+recheck-web can be used in conjunction with the [Selenium IDE](https://chrome.google.com/webstore/detail/selenium-ide/mooikfkahbdckldjjndioackbalphokd), to create tests quickly. As is shown in a some of the [contained tests](src/test/java/de/retest/recheck/example/BrowserStackTest.java), you can even use recheck-web together with e.g. [BrowserStack](https://www.browserstack.com/) or [Sauce Labs](https://saucelabs.com/) to do cross-browser testing or cross-device testing. Note that you need an account with each of them.
 
 This project was mentioned in various articles, the latest of which is on [opensource.com](https://opensource.com/article/19/10/test-automation-without-assertions). 
 
