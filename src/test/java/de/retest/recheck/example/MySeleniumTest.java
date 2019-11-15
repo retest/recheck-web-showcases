@@ -10,6 +10,7 @@ import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 
 class MySeleniumTest {
@@ -18,7 +19,15 @@ class MySeleniumTest {
 
 	@BeforeEach
 	void setup() {
-		driver = new ChromeDriver();
+		final ChromeOptions opts = new ChromeOptions();
+		opts.addArguments(
+				// Enable headless mode for faster execution.
+				"--headless",
+				// Use Chrome in container-based Travis CI enviroment (see https://docs.travis-ci.com/user/chrome#Sandboxing).
+				"--no-sandbox",
+				// Fix window size for stable results.
+				"--window-size=1200,800" );
+		driver = new ChromeDriver( opts );
 	}
 
 	@Test
