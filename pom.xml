@@ -29,10 +29,16 @@
       <version>3.141.59</version>
       <scope>test</scope>
     </dependency>
+		<dependency>
+			<groupId>de.retest</groupId>
+			<artifactId>recheck-WEB</artifactId>
+			<version>1.6.0</version>
+			<scope>test</scope>
+		</dependency>
     <dependency>
       <groupId>de.retest</groupId>
       <artifactId>recheck-junit-jupiter-extension</artifactId>
-      <version>1.5.0-beta.1</version>
+      <version>1.6.0</version>
       <scope>test</scope>
     </dependency>
   </dependencies>

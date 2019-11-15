@@ -2,8 +2,8 @@ package de.retest.recheck.example;
 
 import java.nio.file.Paths;
 
-import org.junit.After;
-import org.junit.Test;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -11,7 +11,7 @@ import de.retest.recheck.Recheck;
 import de.retest.recheck.RecheckImpl;
 import de.retest.recheck.RecheckOptions;
 
-public class BudgetTest {
+class BudgetTest {
 	WebDriver driver;
 	Recheck re;
 
@@ -36,7 +36,7 @@ public class BudgetTest {
 		re.capTest();
 	}
 
-	@After
+	@AfterEach
 	public void tearDown() {
 		driver.quit();
 

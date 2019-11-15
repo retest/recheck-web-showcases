@@ -2,9 +2,9 @@ package de.retest.recheck.example;
 
 import java.net.URL;
 
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
@@ -12,7 +12,7 @@ import de.retest.recheck.Properties;
 import de.retest.recheck.Recheck;
 import de.retest.recheck.RecheckImpl;
 
-public class BrowserStackTest {
+class BrowserStackTest {
 
 	public static final String USERNAME = "sebastianrler1";
 	public static final String AUTOMATE_KEY = "Wqp2KsfqSHJpo3gCpkYg";
@@ -59,13 +59,13 @@ public class BrowserStackTest {
 		re.capTest();
 	}
 
-	@Before
-	public void setup() {
-		System.setProperty(Properties.WINDOW_MATCH_THRESHOLD_PROPERTY, "0.0");
+	@BeforeAll
+	public static void setup() {
+		System.setProperty(Properties.ROOT_ELEMENT_MATCH_THRESHOLD_PROPERTY, "0.0");
 		System.setProperty(Properties.ELEMENT_MATCH_THRESHOLD_PROPERTY, "0.0");
 	}
 
-	@After
+	@AfterEach
 	public void tearDown() throws InterruptedException {
 		driver.quit();
 		re.cap();

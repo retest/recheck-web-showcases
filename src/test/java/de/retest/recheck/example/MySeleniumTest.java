@@ -1,16 +1,16 @@
 package de.retest.recheck.example;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import java.nio.file.Paths;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import de.retest.web.selenium.By;
 
 class MySeleniumTest {
 
@@ -18,7 +18,7 @@ class MySeleniumTest {
 
 	@BeforeEach
 	void setup() {
-		driver =  new ChromeDriver();
+		driver = new ChromeDriver();
 	}
 
 	@Test

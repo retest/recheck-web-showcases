@@ -2,9 +2,9 @@ package de.retest.recheck.example;
 
 import java.net.URL;
 
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
@@ -13,7 +13,7 @@ import de.retest.recheck.Properties;
 import de.retest.recheck.Recheck;
 import de.retest.recheck.RecheckImpl;
 
-public class SauceLabsTest {
+class SauceLabsTest {
 
 	private static final String sauceUserName = "roessler1";
 	private static final String sauceAccessKey = "49342fea-55f6-4c60-9402-aac73de16828";
@@ -83,15 +83,15 @@ public class SauceLabsTest {
 		re.capTest();
 	}
 
-	@After
+	@AfterEach
 	public void afterTest() {
 		driver.quit();
 		re.cap();
 	}
 
-	@Before
-	public void setup() {
-		System.setProperty(Properties.WINDOW_MATCH_THRESHOLD_PROPERTY, "0.0");
+	@BeforeAll
+	public static void setup() {
+		System.setProperty(Properties.ROOT_ELEMENT_MATCH_THRESHOLD_PROPERTY, "0.0");
 		System.setProperty(Properties.ELEMENT_MATCH_THRESHOLD_PROPERTY, "0.0");
 	}
 
