@@ -31,7 +31,7 @@
     </dependency>
 		<dependency>
 			<groupId>de.retest</groupId>
-			<artifactId>recheck-WEB</artifactId>
+			<artifactId>recheck-web</artifactId>
 			<version>1.6.0</version>
 			<scope>test</scope>
 		</dependency>
