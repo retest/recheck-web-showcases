@@ -29,12 +29,12 @@
       <version>3.141.59</version>
       <scope>test</scope>
     </dependency>
-		<dependency>
-			<groupId>de.retest</groupId>
-			<artifactId>recheck-web</artifactId>
-			<version>1.6.0</version>
-			<scope>test</scope>
-		</dependency>
+    <dependency>
+      <groupId>de.retest</groupId>
+      <artifactId>recheck-web</artifactId>
+      <version>1.6.0</version>
+      <scope>test</scope>
+    </dependency>
     <dependency>
       <groupId>de.retest</groupId>
       <artifactId>recheck-junit-jupiter-extension</artifactId>
@@ -42,4 +42,55 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+
+
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.8.1</version>
+        <configuration>
+          <source>${maven.compiler.source}</source>
+          <target>${maven.compiler.target}</target>
+        </configuration>
+        <executions>
+          <execution>
+            <id>compile</id>
+            <phase>process-sources</phase>
+            <goals>
+              <goal>compile</goal>
+            </goals>
+            <configuration>
+              <skipMain>true</skipMain>
+            </configuration>
+          </execution>
+          <execution>
+            <id>test-compile</id>
+            <phase>process-test-sources</phase>
+            <goals>
+              <goal>testCompile</goal>
+            </goals>
+            <configuration>
+              <source>${maven.compiler.source}</source>
+              <target>${maven.compiler.target}</target>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>2.22.2</version>
+        <configuration>
+          <properties>
+            <configurationParameters>
+              junit.jupiter.execution.parallel.enabled=true
+              junit.jupiter.execution.parallel.config.dynamic.factor=1
+            </configurationParameters>
+          </properties>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
 </project>
