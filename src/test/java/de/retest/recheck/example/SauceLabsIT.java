@@ -13,7 +13,7 @@ import de.retest.recheck.Recheck;
 import de.retest.recheck.RecheckImpl;
 import de.retest.recheck.RecheckProperties;
 
-class SauceLabsTest {
+class SauceLabsIT {
 
 	private static final String sauceUserName = "roessler1";
 	private static final String sauceAccessKey = "49342fea-55f6-4c60-9402-aac73de16828";
