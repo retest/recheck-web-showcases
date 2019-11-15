@@ -1,0 +1,2324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<reTestXmlDataContainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" reTestVersion="1.6.0" dataType="de.retest.recheck.ui.descriptors.SutState" dataTypeVersion="4">
+	<data xsi:type="sutState">
+		<descriptors retestId="html" screenId="1" screen="Demo App" title="Demo App">
+			<identifyingAttributes>
+				<attributes>
+					<attribute key="absolute-outline" xsi:type="outlineAttribute">
+						<x>0</x>
+						<y>0</y>
+						<height>800</height>
+						<width>1200</width>
+					</attribute>
+					<attribute key="outline" xsi:type="outlineAttribute">
+						<x>0</x>
+						<y>0</y>
+						<height>400</height>
+						<width>600</width>
+					</attribute>
+					<attribute key="path" xsi:type="pathAttribute">html[1]</attribute>
+					<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+					<attribute key="type" xsi:type="stringAttribute">html</attribute>
+				</attributes>
+			</identifyingAttributes>
+			<attributes>
+				<attributes>
+					<entry>
+						<key>box-sizing</key>
+						<value xsi:type="xsd:string">border-box</value>
+					</entry>
+					<entry>
+						<key>font-family</key>
+						<value xsi:type="xsd:string">sans-serif</value>
+					</entry>
+					<entry>
+						<key>line-height</key>
+						<value xsi:type="xsd:string">18.4px</value>
+					</entry>
+					<entry>
+						<key>shown</key>
+						<value xsi:type="xsd:string">true</value>
+					</entry>
+				</attributes>
+			</attributes>
+			<containedElements retestId="body">
+				<identifyingAttributes>
+					<attributes>
+						<attribute key="absolute-outline" xsi:type="outlineAttribute">
+							<x>0</x>
+							<y>0</y>
+							<height>800</height>
+							<width>1200</width>
+						</attribute>
+						<attribute key="class" xsi:type="stringAttribute">auth-wrapper</attribute>
+						<attribute key="outline" xsi:type="outlineAttribute">
+							<x>0</x>
+							<y>0</y>
+							<height>0</height>
+							<width>0</width>
+						</attribute>
+						<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]</attribute>
+						<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+						<attribute key="type" xsi:type="stringAttribute">body</attribute>
+					</attributes>
+				</identifyingAttributes>
+				<attributes>
+					<attributes>
+						<entry>
+							<key>background-color</key>
+							<value xsi:type="xsd:string">rgb(255, 255, 255)</value>
+						</entry>
+						<entry>
+							<key>border-bottom-color</key>
+							<value xsi:type="xsd:string">rgb(62, 75, 91)</value>
+						</entry>
+						<entry>
+							<key>border-left-color</key>
+							<value xsi:type="xsd:string">rgb(62, 75, 91)</value>
+						</entry>
+						<entry>
+							<key>border-right-color</key>
+							<value xsi:type="xsd:string">rgb(62, 75, 91)</value>
+						</entry>
+						<entry>
+							<key>border-top-color</key>
+							<value xsi:type="xsd:string">rgb(62, 75, 91)</value>
+						</entry>
+						<entry>
+							<key>caret-color</key>
+							<value xsi:type="xsd:string">rgb(62, 75, 91)</value>
+						</entry>
+						<entry>
+							<key>color</key>
+							<value xsi:type="xsd:string">rgb(62, 75, 91)</value>
+						</entry>
+						<entry>
+							<key>column-rule-color</key>
+							<value xsi:type="xsd:string">rgb(62, 75, 91)</value>
+						</entry>
+						<entry>
+							<key>font-family</key>
+							<value xsi:type="xsd:string">&quot;Avenir Next W01&quot;, &quot;Proxima Nova W01&quot;, Rubik, -apple-system, system-ui, system-ui, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif</value>
+						</entry>
+						<entry>
+							<key>font-size</key>
+							<value xsi:type="xsd:string">14.4px</value>
+						</entry>
+						<entry>
+							<key>line-height</key>
+							<value xsi:type="xsd:string">21.6px</value>
+						</entry>
+						<entry>
+							<key>min-height</key>
+							<value xsi:type="xsd:string">100%</value>
+						</entry>
+						<entry>
+							<key>outline-color</key>
+							<value xsi:type="xsd:string">rgb(62, 75, 91)</value>
+						</entry>
+						<entry>
+							<key>overflow-x</key>
+							<value xsi:type="xsd:string">hidden</value>
+						</entry>
+						<entry>
+							<key>overflow-y</key>
+							<value xsi:type="xsd:string">auto</value>
+						</entry>
+						<entry>
+							<key>position</key>
+							<value xsi:type="xsd:string">relative</value>
+						</entry>
+						<entry>
+							<key>shown</key>
+							<value xsi:type="xsd:string">true</value>
+						</entry>
+						<entry>
+							<key>text-align</key>
+							<value xsi:type="xsd:string">left</value>
+						</entry>
+						<entry>
+							<key>text-decoration-color</key>
+							<value xsi:type="xsd:string">rgb(62, 75, 91)</value>
+						</entry>
+					</attributes>
+				</attributes>
+				<containedElements retestId="div">
+					<identifyingAttributes>
+						<attributes>
+							<attribute key="absolute-outline" xsi:type="outlineAttribute">
+								<x>0</x>
+								<y>0</y>
+								<height>655</height>
+								<width>1200</width>
+							</attribute>
+							<attribute key="class" xsi:type="stringAttribute">all-wrapper menu-side with-pattern</attribute>
+							<attribute key="outline" xsi:type="outlineAttribute">
+								<x>0</x>
+								<y>0</y>
+								<height>-72</height>
+								<width>0</width>
+							</attribute>
+							<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/div[1]</attribute>
+							<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+							<attribute key="type" xsi:type="stringAttribute">div</attribute>
+						</attributes>
+					</identifyingAttributes>
+					<attributes>
+						<attributes>
+							<entry>
+								<key>background-position</key>
+								<value xsi:type="xsd:string">0px 0px</value>
+							</entry>
+							<entry>
+								<key>background-size</key>
+								<value xsi:type="xsd:string">contain</value>
+							</entry>
+							<entry>
+								<key>max-width</key>
+								<value xsi:type="xsd:string">100%</value>
+							</entry>
+							<entry>
+								<key>overflow-y</key>
+								<value xsi:type="xsd:string">hidden</value>
+							</entry>
+							<entry>
+								<key>shown</key>
+								<value xsi:type="xsd:string">true</value>
+							</entry>
+						</attributes>
+					</attributes>
+					<containedElements retestId="div-1">
+						<identifyingAttributes>
+							<attributes>
+								<attribute key="absolute-outline" xsi:type="outlineAttribute">
+									<x>375</x>
+									<y>0</y>
+									<height>655</height>
+									<width>450</width>
+								</attribute>
+								<attribute key="class" xsi:type="stringAttribute">auth-box-w</attribute>
+								<attribute key="outline" xsi:type="outlineAttribute">
+									<x>187</x>
+									<y>0</y>
+									<height>0</height>
+									<width>-375</width>
+								</attribute>
+								<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/div[1]/div[1]</attribute>
+								<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+								<attribute key="type" xsi:type="stringAttribute">div</attribute>
+							</attributes>
+						</identifyingAttributes>
+						<attributes>
+							<attributes>
+								<entry>
+									<key>background-color</key>
+									<value xsi:type="xsd:string">rgb(255, 255, 255)</value>
+								</entry>
+								<entry>
+									<key>border-bottom-left-radius</key>
+									<value xsi:type="xsd:string">6px</value>
+								</entry>
+								<entry>
+									<key>border-bottom-right-radius</key>
+									<value xsi:type="xsd:string">6px</value>
+								</entry>
+								<entry>
+									<key>border-radius</key>
+									<value xsi:type="xsd:string">6px</value>
+								</entry>
+								<entry>
+									<key>border-top-left-radius</key>
+									<value xsi:type="xsd:string">6px</value>
+								</entry>
+								<entry>
+									<key>border-top-right-radius</key>
+									<value xsi:type="xsd:string">6px</value>
+								</entry>
+								<entry>
+									<key>box-shadow</key>
+									<value xsi:type="xsd:string">rgba(0, 0, 0, 0.1) 0px 0px 40px 0px</value>
+								</entry>
+								<entry>
+									<key>margin-left</key>
+									<value xsi:type="xsd:string">375px</value>
+								</entry>
+								<entry>
+									<key>margin-right</key>
+									<value xsi:type="xsd:string">375px</value>
+								</entry>
+								<entry>
+									<key>max-width</key>
+									<value xsi:type="xsd:string">450px</value>
+								</entry>
+								<entry>
+									<key>shown</key>
+									<value xsi:type="xsd:string">true</value>
+								</entry>
+							</attributes>
+						</attributes>
+						<containedElements retestId="div-2">
+							<identifyingAttributes>
+								<attributes>
+									<attribute key="absolute-outline" xsi:type="outlineAttribute">
+										<x>375</x>
+										<y>0</y>
+										<height>243</height>
+										<width>450</width>
+									</attribute>
+									<attribute key="class" xsi:type="stringAttribute">logo-w</attribute>
+									<attribute key="outline" xsi:type="outlineAttribute">
+										<x>0</x>
+										<y>0</y>
+										<height>-206</height>
+										<width>0</width>
+									</attribute>
+									<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/div[1]/div[1]/div[1]</attribute>
+									<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+									<attribute key="type" xsi:type="stringAttribute">div</attribute>
+								</attributes>
+							</identifyingAttributes>
+							<attributes>
+								<attributes>
+									<entry>
+										<key>padding-bottom</key>
+										<value xsi:type="xsd:string">58.5px</value>
+									</entry>
+									<entry>
+										<key>padding-left</key>
+										<value xsi:type="xsd:string">58.5px</value>
+									</entry>
+									<entry>
+										<key>padding-right</key>
+										<value xsi:type="xsd:string">58.5px</value>
+									</entry>
+									<entry>
+										<key>padding-top</key>
+										<value xsi:type="xsd:string">58.5px</value>
+									</entry>
+									<entry>
+										<key>shown</key>
+										<value xsi:type="xsd:string">true</value>
+									</entry>
+									<entry>
+										<key>text-align</key>
+										<value xsi:type="xsd:string">center</value>
+									</entry>
+								</attributes>
+							</attributes>
+							<containedElements retestId="a">
+								<identifyingAttributes>
+									<attributes>
+										<attribute key="absolute-outline" xsi:type="outlineAttribute">
+											<x>475</x>
+											<y>111</y>
+											<height>17</height>
+											<width>250</width>
+										</attribute>
+										<attribute key="outline" xsi:type="outlineAttribute">
+											<x>50</x>
+											<y>55</y>
+											<height>-113</height>
+											<width>-100</width>
+										</attribute>
+										<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/div[1]/div[1]/div[1]/a[1]</attribute>
+										<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+										<attribute key="type" xsi:type="stringAttribute">a</attribute>
+									</attributes>
+								</identifyingAttributes>
+								<attributes>
+									<attributes>
+										<entry>
+											<key>border-bottom-color</key>
+											<value xsi:type="xsd:string">rgb(4, 123, 248)</value>
+										</entry>
+										<entry>
+											<key>border-left-color</key>
+											<value xsi:type="xsd:string">rgb(4, 123, 248)</value>
+										</entry>
+										<entry>
+											<key>border-right-color</key>
+											<value xsi:type="xsd:string">rgb(4, 123, 248)</value>
+										</entry>
+										<entry>
+											<key>border-top-color</key>
+											<value xsi:type="xsd:string">rgb(4, 123, 248)</value>
+										</entry>
+										<entry>
+											<key>caret-color</key>
+											<value xsi:type="xsd:string">rgb(4, 123, 248)</value>
+										</entry>
+										<entry>
+											<key>color</key>
+											<value xsi:type="xsd:string">rgb(4, 123, 248)</value>
+										</entry>
+										<entry>
+											<key>column-rule-color</key>
+											<value xsi:type="xsd:string">rgb(4, 123, 248)</value>
+										</entry>
+										<entry>
+											<key>href</key>
+											<value xsi:type="xsd:string">#</value>
+										</entry>
+										<entry>
+											<key>outline-color</key>
+											<value xsi:type="xsd:string">rgb(4, 123, 248)</value>
+										</entry>
+										<entry>
+											<key>shown</key>
+											<value xsi:type="xsd:string">true</value>
+										</entry>
+										<entry>
+											<key>text-decoration-color</key>
+											<value xsi:type="xsd:string">rgb(4, 123, 248)</value>
+										</entry>
+									</attributes>
+								</attributes>
+								<containedElements retestId="img">
+									<identifyingAttributes>
+										<attributes>
+											<attribute key="absolute-outline" xsi:type="outlineAttribute">
+												<x>475</x>
+												<y>59</y>
+												<height>126</height>
+												<width>250</width>
+											</attribute>
+											<attribute key="outline" xsi:type="outlineAttribute">
+												<x>0</x>
+												<y>-26</y>
+												<height>54</height>
+												<width>0</width>
+											</attribute>
+											<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/div[1]/div[1]/div[1]/a[1]/img[1]</attribute>
+											<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+											<attribute key="type" xsi:type="stringAttribute">img</attribute>
+										</attributes>
+									</identifyingAttributes>
+									<attributes>
+										<attributes>
+											<entry>
+												<key>shown</key>
+												<value xsi:type="xsd:string">true</value>
+											</entry>
+											<entry>
+												<key>src</key>
+												<value xsi:type="xsd:string">./files/logo-big.png</value>
+											</entry>
+											<entry>
+												<key>vertical-align</key>
+												<value xsi:type="xsd:string">middle</value>
+											</entry>
+										</attributes>
+									</attributes>
+								</containedElements>
+							</containedElements>
+						</containedElements>
+						<containedElements retestId="form">
+							<identifyingAttributes>
+								<attributes>
+									<attribute key="absolute-outline" xsi:type="outlineAttribute">
+										<x>375</x>
+										<y>320</y>
+										<height>335</height>
+										<width>450</width>
+									</attribute>
+									<attribute key="outline" xsi:type="outlineAttribute">
+										<x>0</x>
+										<y>160</y>
+										<height>-160</height>
+										<width>0</width>
+									</attribute>
+									<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/div[1]/div[1]/form[1]</attribute>
+									<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+									<attribute key="type" xsi:type="stringAttribute">form</attribute>
+								</attributes>
+							</identifyingAttributes>
+							<attributes>
+								<attributes>
+									<entry>
+										<key>action</key>
+										<value xsi:type="xsd:string">#</value>
+									</entry>
+									<entry>
+										<key>padding-bottom</key>
+										<value xsi:type="xsd:string">60px</value>
+									</entry>
+									<entry>
+										<key>padding-left</key>
+										<value xsi:type="xsd:string">80px</value>
+									</entry>
+									<entry>
+										<key>padding-right</key>
+										<value xsi:type="xsd:string">80px</value>
+									</entry>
+									<entry>
+										<key>padding-top</key>
+										<value xsi:type="xsd:string">20px</value>
+									</entry>
+									<entry>
+										<key>shown</key>
+										<value xsi:type="xsd:string">true</value>
+									</entry>
+								</attributes>
+							</attributes>
+							<containedElements retestId="div-3">
+								<identifyingAttributes>
+									<attributes>
+										<attribute key="absolute-outline" xsi:type="outlineAttribute">
+											<x>455</x>
+											<y>496</y>
+											<height>99</height>
+											<width>290</width>
+										</attribute>
+										<attribute key="class" xsi:type="stringAttribute">buttons-w</attribute>
+										<attribute key="outline" xsi:type="outlineAttribute">
+											<x>40</x>
+											<y>88</y>
+											<height>-118</height>
+											<width>-80</width>
+										</attribute>
+										<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/div[1]/div[1]/form[1]/div[3]</attribute>
+										<attribute key="suffix" xsi:type="suffixAttribute">3</attribute>
+										<attribute key="type" xsi:type="stringAttribute">div</attribute>
+									</attributes>
+								</identifyingAttributes>
+								<attributes>
+									<attributes>
+										<entry>
+											<key>border-top-color</key>
+											<value xsi:type="xsd:string">rgba(0, 0, 0, 0.05)</value>
+										</entry>
+										<entry>
+											<key>border-top-style</key>
+											<value xsi:type="xsd:string">solid</value>
+										</entry>
+										<entry>
+											<key>border-top-width</key>
+											<value xsi:type="xsd:string">1px</value>
+										</entry>
+										<entry>
+											<key>margin-top</key>
+											<value xsi:type="xsd:string">8px</value>
+										</entry>
+										<entry>
+											<key>padding-top</key>
+											<value xsi:type="xsd:string">16px</value>
+										</entry>
+										<entry>
+											<key>shown</key>
+											<value xsi:type="xsd:string">true</value>
+										</entry>
+									</attributes>
+								</attributes>
+								<containedElements retestId="div-4">
+									<identifyingAttributes>
+										<attributes>
+											<attribute key="absolute-outline" xsi:type="outlineAttribute">
+												<x>548</x>
+												<y>516</y>
+												<height>21</height>
+												<width>113</width>
+											</attribute>
+											<attribute key="class" xsi:type="stringAttribute">form-check-inline</attribute>
+											<attribute key="outline" xsi:type="outlineAttribute">
+												<x>46</x>
+												<y>10</y>
+												<height>-39</height>
+												<width>-88</width>
+											</attribute>
+											<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/div[1]/div[1]/form[1]/div[3]/div[1]</attribute>
+											<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+											<attribute key="type" xsi:type="stringAttribute">div</attribute>
+										</attributes>
+									</identifyingAttributes>
+									<attributes>
+										<attributes>
+											<entry>
+												<key>align-items</key>
+												<value xsi:type="xsd:string">center</value>
+											</entry>
+											<entry>
+												<key>border-top-color</key>
+												<value xsi:type="xsd:string">rgb(62, 75, 91)</value>
+											</entry>
+											<entry>
+												<key>display</key>
+												<value xsi:type="xsd:string">inline-flex</value>
+											</entry>
+											<entry>
+												<key>margin-left</key>
+												<value xsi:type="xsd:string">16px</value>
+											</entry>
+											<entry>
+												<key>margin-right</key>
+												<value xsi:type="xsd:string">12px</value>
+											</entry>
+											<entry>
+												<key>shown</key>
+												<value xsi:type="xsd:string">true</value>
+											</entry>
+										</attributes>
+									</attributes>
+									<containedElements retestId="label">
+										<identifyingAttributes>
+											<attributes>
+												<attribute key="absolute-outline" xsi:type="outlineAttribute">
+													<x>548</x>
+													<y>516</y>
+													<height>21</height>
+													<width>113</width>
+												</attribute>
+												<attribute key="class" xsi:type="stringAttribute">form-check-label</attribute>
+												<attribute key="outline" xsi:type="outlineAttribute">
+													<x>0</x>
+													<y>0</y>
+													<height>0</height>
+													<width>0</width>
+												</attribute>
+												<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/div[1]/div[1]/form[1]/div[3]/div[1]/label[1]</attribute>
+												<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+												<attribute key="type" xsi:type="stringAttribute">label</attribute>
+											</attributes>
+										</identifyingAttributes>
+										<attributes>
+											<attributes>
+												<entry>
+													<key>display</key>
+													<value xsi:type="xsd:string">block</value>
+												</entry>
+												<entry>
+													<key>shown</key>
+													<value xsi:type="xsd:string">true</value>
+												</entry>
+											</attributes>
+										</attributes>
+										<containedElements retestId="input">
+											<identifyingAttributes>
+												<attributes>
+													<attribute key="absolute-outline" xsi:type="outlineAttribute">
+														<x>548</x>
+														<y>522</y>
+														<height>12</height>
+														<width>12</width>
+													</attribute>
+													<attribute key="class" xsi:type="stringAttribute">form-check-input</attribute>
+													<attribute key="outline" xsi:type="outlineAttribute">
+														<x>0</x>
+														<y>3</y>
+														<height>-4</height>
+														<width>-50</width>
+													</attribute>
+													<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/div[1]/div[1]/form[1]/div[3]/div[1]/label[1]/input[1]</attribute>
+													<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+													<attribute key="type" xsi:type="stringAttribute">input</attribute>
+												</attributes>
+											</identifyingAttributes>
+											<attributes>
+												<attributes>
+													<entry>
+														<key>margin-right</key>
+														<value xsi:type="xsd:string">5px</value>
+													</entry>
+													<entry>
+														<key>min-height</key>
+														<value xsi:type="xsd:string">12px</value>
+													</entry>
+													<entry>
+														<key>min-width</key>
+														<value xsi:type="xsd:string">12px</value>
+													</entry>
+													<entry>
+														<key>shown</key>
+														<value xsi:type="xsd:string">true</value>
+													</entry>
+													<entry>
+														<key>type</key>
+														<value xsi:type="xsd:string">checkbox</value>
+													</entry>
+													<entry>
+														<key>value</key>
+														<value xsi:type="xsd:string">on</value>
+													</entry>
+												</attributes>
+											</attributes>
+										</containedElements>
+										<containedElements retestId="remember_me">
+											<identifyingAttributes>
+												<attributes>
+													<attribute key="absolute-outline" xsi:type="outlineAttribute">
+														<x>548</x>
+														<y>516</y>
+														<height>21</height>
+														<width>113</width>
+													</attribute>
+													<attribute key="outline" xsi:type="outlineAttribute">
+														<x>0</x>
+														<y>0</y>
+														<height>0</height>
+														<width>0</width>
+													</attribute>
+													<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/div[1]/div[1]/form[1]/div[3]/div[1]/label[1]/textnode[1]</attribute>
+													<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+													<attribute key="text" xsi:type="textAttribute">Remember Me</attribute>
+													<attribute key="type" xsi:type="stringAttribute">textnode</attribute>
+												</attributes>
+											</identifyingAttributes>
+											<attributes>
+												<attributes>
+													<entry>
+														<key>shown</key>
+														<value xsi:type="xsd:string">true</value>
+													</entry>
+												</attributes>
+											</attributes>
+										</containedElements>
+									</containedElements>
+								</containedElements>
+								<containedElements retestId="div-5">
+									<identifyingAttributes>
+										<attributes>
+											<attribute key="absolute-outline" xsi:type="outlineAttribute">
+												<x>455</x>
+												<y>543</y>
+												<height>52</height>
+												<width>290</width>
+											</attribute>
+											<attribute key="outline" xsi:type="outlineAttribute">
+												<x>0</x>
+												<y>23</y>
+												<height>-23</height>
+												<width>0</width>
+											</attribute>
+											<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/div[1]/div[1]/form[1]/div[3]/div[2]</attribute>
+											<attribute key="suffix" xsi:type="suffixAttribute">2</attribute>
+											<attribute key="type" xsi:type="stringAttribute">div</attribute>
+										</attributes>
+									</identifyingAttributes>
+									<attributes>
+										<attributes>
+											<entry>
+												<key>border-top-color</key>
+												<value xsi:type="xsd:string">rgb(62, 75, 91)</value>
+											</entry>
+											<entry>
+												<key>shown</key>
+												<value xsi:type="xsd:string">true</value>
+											</entry>
+										</attributes>
+									</attributes>
+									<containedElements retestId="a-1">
+										<identifyingAttributes>
+											<attributes>
+												<attribute key="absolute-outline" xsi:type="outlineAttribute">
+													<x>571</x>
+													<y>563</y>
+													<height>28</height>
+													<width>28</width>
+												</attribute>
+												<attribute key="outline" xsi:type="outlineAttribute">
+													<x>58</x>
+													<y>10</y>
+													<height>-12</height>
+													<width>-131</width>
+												</attribute>
+												<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/div[1]/div[1]/form[1]/div[3]/div[2]/a[3]</attribute>
+												<attribute key="suffix" xsi:type="suffixAttribute">3</attribute>
+												<attribute key="type" xsi:type="stringAttribute">a</attribute>
+											</attributes>
+										</identifyingAttributes>
+										<attributes>
+											<attributes>
+												<entry>
+													<key>border-bottom-color</key>
+													<value xsi:type="xsd:string">rgb(4, 123, 248)</value>
+												</entry>
+												<entry>
+													<key>border-left-color</key>
+													<value xsi:type="xsd:string">rgb(4, 123, 248)</value>
+												</entry>
+												<entry>
+													<key>border-right-color</key>
+													<value xsi:type="xsd:string">rgb(4, 123, 248)</value>
+												</entry>
+												<entry>
+													<key>border-top-color</key>
+													<value xsi:type="xsd:string">rgb(4, 123, 248)</value>
+												</entry>
+												<entry>
+													<key>caret-color</key>
+													<value xsi:type="xsd:string">rgb(4, 123, 248)</value>
+												</entry>
+												<entry>
+													<key>color</key>
+													<value xsi:type="xsd:string">rgb(4, 123, 248)</value>
+												</entry>
+												<entry>
+													<key>column-rule-color</key>
+													<value xsi:type="xsd:string">rgb(4, 123, 248)</value>
+												</entry>
+												<entry>
+													<key>display</key>
+													<value xsi:type="xsd:string">inline-block</value>
+												</entry>
+												<entry>
+													<key>href</key>
+													<value xsi:type="xsd:string">#</value>
+												</entry>
+												<entry>
+													<key>margin-left</key>
+													<value xsi:type="xsd:string">30px</value>
+												</entry>
+												<entry>
+													<key>margin-top</key>
+													<value xsi:type="xsd:string">20px</value>
+												</entry>
+												<entry>
+													<key>outline-color</key>
+													<value xsi:type="xsd:string">rgb(4, 123, 248)</value>
+												</entry>
+												<entry>
+													<key>shown</key>
+													<value xsi:type="xsd:string">true</value>
+												</entry>
+												<entry>
+													<key>style</key>
+													<value xsi:type="xsd:string">display: inline-block; margin-left: 30px;margin-top:20px;</value>
+												</entry>
+												<entry>
+													<key>text-decoration-color</key>
+													<value xsi:type="xsd:string">rgb(4, 123, 248)</value>
+												</entry>
+											</attributes>
+										</attributes>
+										<containedElements retestId="img-1">
+											<identifyingAttributes>
+												<attributes>
+													<attribute key="absolute-outline" xsi:type="outlineAttribute">
+														<x>571</x>
+														<y>563</y>
+														<height>28</height>
+														<width>28</width>
+													</attribute>
+													<attribute key="outline" xsi:type="outlineAttribute">
+														<x>0</x>
+														<y>0</y>
+														<height>0</height>
+														<width>0</width>
+													</attribute>
+													<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/div[1]/div[1]/form[1]/div[3]/div[2]/a[3]/img[1]</attribute>
+													<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+													<attribute key="type" xsi:type="stringAttribute">img</attribute>
+												</attributes>
+											</identifyingAttributes>
+											<attributes>
+												<attributes>
+													<entry>
+														<key>shown</key>
+														<value xsi:type="xsd:string">true</value>
+													</entry>
+													<entry>
+														<key>src</key>
+														<value xsi:type="xsd:string">./files/linkedin.png</value>
+													</entry>
+													<entry>
+														<key>style</key>
+														<value xsi:type="xsd:string">width: 28px;</value>
+													</entry>
+													<entry>
+														<key>vertical-align</key>
+														<value xsi:type="xsd:string">middle</value>
+													</entry>
+												</attributes>
+											</attributes>
+										</containedElements>
+									</containedElements>
+									<containedElements retestId="a-2">
+										<identifyingAttributes>
+											<attributes>
+												<attribute key="absolute-outline" xsi:type="outlineAttribute">
+													<x>455</x>
+													<y>563</y>
+													<height>28</height>
+													<width>28</width>
+												</attribute>
+												<attribute key="outline" xsi:type="outlineAttribute">
+													<x>0</x>
+													<y>10</y>
+													<height>-12</height>
+													<width>-131</width>
+												</attribute>
+												<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/div[1]/div[1]/form[1]/div[3]/div[2]/a[1]</attribute>
+												<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+												<attribute key="type" xsi:type="stringAttribute">a</attribute>
+											</attributes>
+										</identifyingAttributes>
+										<attributes>
+											<attributes>
+												<entry>
+													<key>border-bottom-color</key>
+													<value xsi:type="xsd:string">rgb(4, 123, 248)</value>
+												</entry>
+												<entry>
+													<key>border-left-color</key>
+													<value xsi:type="xsd:string">rgb(4, 123, 248)</value>
+												</entry>
+												<entry>
+													<key>border-right-color</key>
+													<value xsi:type="xsd:string">rgb(4, 123, 248)</value>
+												</entry>
+												<entry>
+													<key>border-top-color</key>
+													<value xsi:type="xsd:string">rgb(4, 123, 248)</value>
+												</entry>
+												<entry>
+													<key>caret-color</key>
+													<value xsi:type="xsd:string">rgb(4, 123, 248)</value>
+												</entry>
+												<entry>
+													<key>color</key>
+													<value xsi:type="xsd:string">rgb(4, 123, 248)</value>
+												</entry>
+												<entry>
+													<key>column-rule-color</key>
+													<value xsi:type="xsd:string">rgb(4, 123, 248)</value>
+												</entry>
+												<entry>
+													<key>display</key>
+													<value xsi:type="xsd:string">inline-block</value>
+												</entry>
+												<entry>
+													<key>href</key>
+													<value xsi:type="xsd:string">#</value>
+												</entry>
+												<entry>
+													<key>margin-bottom</key>
+													<value xsi:type="xsd:string">4px</value>
+												</entry>
+												<entry>
+													<key>outline-color</key>
+													<value xsi:type="xsd:string">rgb(4, 123, 248)</value>
+												</entry>
+												<entry>
+													<key>shown</key>
+													<value xsi:type="xsd:string">true</value>
+												</entry>
+												<entry>
+													<key>style</key>
+													<value xsi:type="xsd:string">display: inline-block; margin-bottom:4px;</value>
+												</entry>
+												<entry>
+													<key>text-decoration-color</key>
+													<value xsi:type="xsd:string">rgb(4, 123, 248)</value>
+												</entry>
+											</attributes>
+										</attributes>
+										<containedElements retestId="img-2">
+											<identifyingAttributes>
+												<attributes>
+													<attribute key="absolute-outline" xsi:type="outlineAttribute">
+														<x>455</x>
+														<y>563</y>
+														<height>28</height>
+														<width>28</width>
+													</attribute>
+													<attribute key="outline" xsi:type="outlineAttribute">
+														<x>0</x>
+														<y>0</y>
+														<height>0</height>
+														<width>0</width>
+													</attribute>
+													<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/div[1]/div[1]/form[1]/div[3]/div[2]/a[1]/img[1]</attribute>
+													<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+													<attribute key="type" xsi:type="stringAttribute">img</attribute>
+												</attributes>
+											</identifyingAttributes>
+											<attributes>
+												<attributes>
+													<entry>
+														<key>shown</key>
+														<value xsi:type="xsd:string">true</value>
+													</entry>
+													<entry>
+														<key>src</key>
+														<value xsi:type="xsd:string">./files/twitter.png</value>
+													</entry>
+													<entry>
+														<key>style</key>
+														<value xsi:type="xsd:string">width: 28px;</value>
+													</entry>
+													<entry>
+														<key>vertical-align</key>
+														<value xsi:type="xsd:string">middle</value>
+													</entry>
+												</attributes>
+											</attributes>
+										</containedElements>
+									</containedElements>
+									<containedElements retestId="a-3">
+										<identifyingAttributes>
+											<attributes>
+												<attribute key="absolute-outline" xsi:type="outlineAttribute">
+													<x>513</x>
+													<y>563</y>
+													<height>28</height>
+													<width>28</width>
+												</attribute>
+												<attribute key="outline" xsi:type="outlineAttribute">
+													<x>29</x>
+													<y>10</y>
+													<height>-12</height>
+													<width>-131</width>
+												</attribute>
+												<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/div[1]/div[1]/form[1]/div[3]/div[2]/a[2]</attribute>
+												<attribute key="suffix" xsi:type="suffixAttribute">2</attribute>
+												<attribute key="type" xsi:type="stringAttribute">a</attribute>
+											</attributes>
+										</identifyingAttributes>
+										<attributes>
+											<attributes>
+												<entry>
+													<key>border-bottom-color</key>
+													<value xsi:type="xsd:string">rgb(4, 123, 248)</value>
+												</entry>
+												<entry>
+													<key>border-left-color</key>
+													<value xsi:type="xsd:string">rgb(4, 123, 248)</value>
+												</entry>
+												<entry>
+													<key>border-right-color</key>
+													<value xsi:type="xsd:string">rgb(4, 123, 248)</value>
+												</entry>
+												<entry>
+													<key>border-top-color</key>
+													<value xsi:type="xsd:string">rgb(4, 123, 248)</value>
+												</entry>
+												<entry>
+													<key>caret-color</key>
+													<value xsi:type="xsd:string">rgb(4, 123, 248)</value>
+												</entry>
+												<entry>
+													<key>color</key>
+													<value xsi:type="xsd:string">rgb(4, 123, 248)</value>
+												</entry>
+												<entry>
+													<key>column-rule-color</key>
+													<value xsi:type="xsd:string">rgb(4, 123, 248)</value>
+												</entry>
+												<entry>
+													<key>display</key>
+													<value xsi:type="xsd:string">inline-block</value>
+												</entry>
+												<entry>
+													<key>href</key>
+													<value xsi:type="xsd:string">#</value>
+												</entry>
+												<entry>
+													<key>margin-left</key>
+													<value xsi:type="xsd:string">30px</value>
+												</entry>
+												<entry>
+													<key>margin-top</key>
+													<value xsi:type="xsd:string">20px</value>
+												</entry>
+												<entry>
+													<key>outline-color</key>
+													<value xsi:type="xsd:string">rgb(4, 123, 248)</value>
+												</entry>
+												<entry>
+													<key>shown</key>
+													<value xsi:type="xsd:string">true</value>
+												</entry>
+												<entry>
+													<key>style</key>
+													<value xsi:type="xsd:string">display: inline-block; margin-left: 30px;margin-top:20px;</value>
+												</entry>
+												<entry>
+													<key>text-decoration-color</key>
+													<value xsi:type="xsd:string">rgb(4, 123, 248)</value>
+												</entry>
+											</attributes>
+										</attributes>
+										<containedElements retestId="img-3">
+											<identifyingAttributes>
+												<attributes>
+													<attribute key="absolute-outline" xsi:type="outlineAttribute">
+														<x>513</x>
+														<y>563</y>
+														<height>28</height>
+														<width>28</width>
+													</attribute>
+													<attribute key="outline" xsi:type="outlineAttribute">
+														<x>0</x>
+														<y>0</y>
+														<height>0</height>
+														<width>0</width>
+													</attribute>
+													<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/div[1]/div[1]/form[1]/div[3]/div[2]/a[2]/img[1]</attribute>
+													<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+													<attribute key="type" xsi:type="stringAttribute">img</attribute>
+												</attributes>
+											</identifyingAttributes>
+											<attributes>
+												<attributes>
+													<entry>
+														<key>shown</key>
+														<value xsi:type="xsd:string">true</value>
+													</entry>
+													<entry>
+														<key>src</key>
+														<value xsi:type="xsd:string">./files/facebook.png</value>
+													</entry>
+													<entry>
+														<key>style</key>
+														<value xsi:type="xsd:string">width: 28px;</value>
+													</entry>
+													<entry>
+														<key>vertical-align</key>
+														<value xsi:type="xsd:string">middle</value>
+													</entry>
+												</attributes>
+											</attributes>
+										</containedElements>
+									</containedElements>
+								</containedElements>
+								<containedElements retestId="signin">
+									<identifyingAttributes>
+										<attributes>
+											<attribute key="absolute-outline" xsi:type="outlineAttribute">
+												<x>455</x>
+												<y>513</y>
+												<height>30</height>
+												<width>73</width>
+											</attribute>
+											<attribute key="class" xsi:type="stringAttribute">btn btn-primary</attribute>
+											<attribute key="id" xsi:type="stringAttribute">sign-in</attribute>
+											<attribute key="outline" xsi:type="outlineAttribute">
+												<x>0</x>
+												<y>8</y>
+												<height>-34</height>
+												<width>-108</width>
+											</attribute>
+											<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/div[1]/div[1]/form[1]/div[3]/a[1]</attribute>
+											<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+											<attribute key="text" xsi:type="textAttribute">Sign in</attribute>
+											<attribute key="type" xsi:type="stringAttribute">a</attribute>
+										</attributes>
+									</identifyingAttributes>
+									<attributes>
+										<attributes>
+											<entry>
+												<key>background-color</key>
+												<value xsi:type="xsd:string">rgb(4, 123, 248)</value>
+											</entry>
+											<entry>
+												<key>border-bottom-color</key>
+												<value xsi:type="xsd:string">rgb(4, 123, 248)</value>
+											</entry>
+											<entry>
+												<key>border-bottom-left-radius</key>
+												<value xsi:type="xsd:string">4px</value>
+											</entry>
+											<entry>
+												<key>border-bottom-right-radius</key>
+												<value xsi:type="xsd:string">4px</value>
+											</entry>
+											<entry>
+												<key>border-bottom-style</key>
+												<value xsi:type="xsd:string">solid</value>
+											</entry>
+											<entry>
+												<key>border-bottom-width</key>
+												<value xsi:type="xsd:string">2px</value>
+											</entry>
+											<entry>
+												<key>border-left-color</key>
+												<value xsi:type="xsd:string">rgb(4, 123, 248)</value>
+											</entry>
+											<entry>
+												<key>border-left-style</key>
+												<value xsi:type="xsd:string">solid</value>
+											</entry>
+											<entry>
+												<key>border-left-width</key>
+												<value xsi:type="xsd:string">2px</value>
+											</entry>
+											<entry>
+												<key>border-radius</key>
+												<value xsi:type="xsd:string">4px</value>
+											</entry>
+											<entry>
+												<key>border-right-color</key>
+												<value xsi:type="xsd:string">rgb(4, 123, 248)</value>
+											</entry>
+											<entry>
+												<key>border-right-style</key>
+												<value xsi:type="xsd:string">solid</value>
+											</entry>
+											<entry>
+												<key>border-right-width</key>
+												<value xsi:type="xsd:string">2px</value>
+											</entry>
+											<entry>
+												<key>border-top-color</key>
+												<value xsi:type="xsd:string">rgb(4, 123, 248)</value>
+											</entry>
+											<entry>
+												<key>border-top-left-radius</key>
+												<value xsi:type="xsd:string">4px</value>
+											</entry>
+											<entry>
+												<key>border-top-right-radius</key>
+												<value xsi:type="xsd:string">4px</value>
+											</entry>
+											<entry>
+												<key>border-top-width</key>
+												<value xsi:type="xsd:string">2px</value>
+											</entry>
+											<entry>
+												<key>caret-color</key>
+												<value xsi:type="xsd:string">rgb(255, 255, 255)</value>
+											</entry>
+											<entry>
+												<key>color</key>
+												<value xsi:type="xsd:string">rgb(255, 255, 255)</value>
+											</entry>
+											<entry>
+												<key>column-rule-color</key>
+												<value xsi:type="xsd:string">rgb(255, 255, 255)</value>
+											</entry>
+											<entry>
+												<key>display</key>
+												<value xsi:type="xsd:string">inline-block</value>
+											</entry>
+											<entry>
+												<key>href</key>
+												<value xsi:type="xsd:string">success.html</value>
+											</entry>
+											<entry>
+												<key>line-height</key>
+												<value xsi:type="xsd:string">14.4px</value>
+											</entry>
+											<entry>
+												<key>outline-color</key>
+												<value xsi:type="xsd:string">rgb(255, 255, 255)</value>
+											</entry>
+											<entry>
+												<key>padding-bottom</key>
+												<value xsi:type="xsd:string">6px</value>
+											</entry>
+											<entry>
+												<key>padding-left</key>
+												<value xsi:type="xsd:string">12px</value>
+											</entry>
+											<entry>
+												<key>padding-right</key>
+												<value xsi:type="xsd:string">12px</value>
+											</entry>
+											<entry>
+												<key>padding-top</key>
+												<value xsi:type="xsd:string">6px</value>
+											</entry>
+											<entry>
+												<key>shown</key>
+												<value xsi:type="xsd:string">true</value>
+											</entry>
+											<entry>
+												<key>text-align</key>
+												<value xsi:type="xsd:string">center</value>
+											</entry>
+											<entry>
+												<key>text-decoration-color</key>
+												<value xsi:type="xsd:string">rgb(255, 255, 255)</value>
+											</entry>
+											<entry>
+												<key>transition-delay</key>
+												<value xsi:type="xsd:string">0s, 0s, 0s, 0s, 0s</value>
+											</entry>
+											<entry>
+												<key>transition-duration</key>
+												<value xsi:type="xsd:string">0.15s, 0.15s, 0.15s, 0.15s, 0.15s</value>
+											</entry>
+											<entry>
+												<key>transition-property</key>
+												<value xsi:type="xsd:string">color, background-color, border-color, box-shadow, -webkit-box-shadow</value>
+											</entry>
+											<entry>
+												<key>transition-timing-function</key>
+												<value xsi:type="xsd:string">ease-in-out, ease-in-out, ease-in-out, ease-in-out, ease-in-out</value>
+											</entry>
+											<entry>
+												<key>vertical-align</key>
+												<value xsi:type="xsd:string">middle</value>
+											</entry>
+											<entry>
+												<key>white-space</key>
+												<value xsi:type="xsd:string">nowrap</value>
+											</entry>
+										</attributes>
+									</attributes>
+								</containedElements>
+							</containedElements>
+							<containedElements retestId="div-6">
+								<identifyingAttributes>
+									<attributes>
+										<attribute key="absolute-outline" xsi:type="outlineAttribute">
+											<x>455</x>
+											<y>340</y>
+											<height>62</height>
+											<width>290</width>
+										</attribute>
+										<attribute key="class" xsi:type="stringAttribute">form-group</attribute>
+										<attribute key="outline" xsi:type="outlineAttribute">
+											<x>40</x>
+											<y>10</y>
+											<height>-136</height>
+											<width>-80</width>
+										</attribute>
+										<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/div[1]/div[1]/form[1]/div[1]</attribute>
+										<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+										<attribute key="type" xsi:type="stringAttribute">div</attribute>
+									</attributes>
+								</identifyingAttributes>
+								<attributes>
+									<attributes>
+										<entry>
+											<key>margin-bottom</key>
+											<value xsi:type="xsd:string">16px</value>
+										</entry>
+										<entry>
+											<key>position</key>
+											<value xsi:type="xsd:string">relative</value>
+										</entry>
+										<entry>
+											<key>shown</key>
+											<value xsi:type="xsd:string">true</value>
+										</entry>
+									</attributes>
+								</attributes>
+								<containedElements retestId="div-7">
+									<identifyingAttributes>
+										<attributes>
+											<attribute key="absolute-outline" xsi:type="outlineAttribute">
+												<x>417</x>
+												<y>373</y>
+												<height>24</height>
+												<width>24</width>
+											</attribute>
+											<attribute key="class" xsi:type="stringAttribute">pre-icon os-icon os-icon-user-male-circle</attribute>
+											<attribute key="outline" xsi:type="outlineAttribute">
+												<x>-19</x>
+												<y>16</y>
+												<height>-19</height>
+												<width>-133</width>
+											</attribute>
+											<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/div[1]/div[1]/form[1]/div[1]/div[1]</attribute>
+											<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+											<attribute key="type" xsi:type="stringAttribute">div</attribute>
+										</attributes>
+									</identifyingAttributes>
+									<attributes>
+										<attributes>
+											<entry>
+												<key>border-bottom-color</key>
+												<value xsi:type="xsd:string">rgb(4, 123, 248)</value>
+											</entry>
+											<entry>
+												<key>border-left-color</key>
+												<value xsi:type="xsd:string">rgb(4, 123, 248)</value>
+											</entry>
+											<entry>
+												<key>border-right-color</key>
+												<value xsi:type="xsd:string">rgb(4, 123, 248)</value>
+											</entry>
+											<entry>
+												<key>border-top-color</key>
+												<value xsi:type="xsd:string">rgb(4, 123, 248)</value>
+											</entry>
+											<entry>
+												<key>bottom</key>
+												<value xsi:type="xsd:string">5px</value>
+											</entry>
+											<entry>
+												<key>caret-color</key>
+												<value xsi:type="xsd:string">rgb(4, 123, 248)</value>
+											</entry>
+											<entry>
+												<key>color</key>
+												<value xsi:type="xsd:string">rgb(4, 123, 248)</value>
+											</entry>
+											<entry>
+												<key>column-rule-color</key>
+												<value xsi:type="xsd:string">rgb(4, 123, 248)</value>
+											</entry>
+											<entry>
+												<key>font-family</key>
+												<value xsi:type="xsd:string">osfont</value>
+											</entry>
+											<entry>
+												<key>font-size</key>
+												<value xsi:type="xsd:string">24px</value>
+											</entry>
+											<entry>
+												<key>left</key>
+												<value xsi:type="xsd:string">-38px</value>
+											</entry>
+											<entry>
+												<key>line-height</key>
+												<value xsi:type="xsd:string">24px</value>
+											</entry>
+											<entry>
+												<key>outline-color</key>
+												<value xsi:type="xsd:string">rgb(4, 123, 248)</value>
+											</entry>
+											<entry>
+												<key>position</key>
+												<value xsi:type="xsd:string">absolute</value>
+											</entry>
+											<entry>
+												<key>right</key>
+												<value xsi:type="xsd:string">304px</value>
+											</entry>
+											<entry>
+												<key>shown</key>
+												<value xsi:type="xsd:string">true</value>
+											</entry>
+											<entry>
+												<key>text-decoration-color</key>
+												<value xsi:type="xsd:string">rgb(4, 123, 248)</value>
+											</entry>
+											<entry>
+												<key>top</key>
+												<value xsi:type="xsd:string">33px</value>
+											</entry>
+										</attributes>
+									</attributes>
+								</containedElements>
+								<containedElements retestId="username">
+									<identifyingAttributes>
+										<attributes>
+											<attribute key="absolute-outline" xsi:type="outlineAttribute">
+												<x>455</x>
+												<y>340</y>
+												<height>21</height>
+												<width>68</width>
+											</attribute>
+											<attribute key="outline" xsi:type="outlineAttribute">
+												<x>0</x>
+												<y>0</y>
+												<height>-20</height>
+												<width>-111</width>
+											</attribute>
+											<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/div[1]/div[1]/form[1]/div[1]/label[1]</attribute>
+											<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+											<attribute key="text" xsi:type="textAttribute">Username</attribute>
+											<attribute key="type" xsi:type="stringAttribute">label</attribute>
+										</attributes>
+									</identifyingAttributes>
+									<attributes>
+										<attributes>
+											<entry>
+												<key>display</key>
+												<value xsi:type="xsd:string">inline-block</value>
+											</entry>
+											<entry>
+												<key>margin-bottom</key>
+												<value xsi:type="xsd:string">4px</value>
+											</entry>
+											<entry>
+												<key>shown</key>
+												<value xsi:type="xsd:string">true</value>
+											</entry>
+										</attributes>
+									</attributes>
+								</containedElements>
+								<containedElements retestId="username-1">
+									<identifyingAttributes>
+										<attributes>
+											<attribute key="absolute-outline" xsi:type="outlineAttribute">
+												<x>455</x>
+												<y>365</y>
+												<height>37</height>
+												<width>290</width>
+											</attribute>
+											<attribute key="class" xsi:type="stringAttribute">form-control</attribute>
+											<attribute key="id" xsi:type="stringAttribute">username</attribute>
+											<attribute key="outline" xsi:type="outlineAttribute">
+												<x>0</x>
+												<y>12</y>
+												<height>-12</height>
+												<width>0</width>
+											</attribute>
+											<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/div[1]/div[1]/form[1]/div[1]/input[1]</attribute>
+											<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+											<attribute key="type" xsi:type="stringAttribute">input</attribute>
+										</attributes>
+									</identifyingAttributes>
+									<attributes>
+										<attributes>
+											<entry>
+												<key>autocomplete</key>
+												<value xsi:type="xsd:string">off</value>
+											</entry>
+											<entry>
+												<key>background-clip</key>
+												<value xsi:type="xsd:string">padding-box</value>
+											</entry>
+											<entry>
+												<key>background-color</key>
+												<value xsi:type="xsd:string">rgb(255, 255, 255)</value>
+											</entry>
+											<entry>
+												<key>background-image</key>
+												<value xsi:type="xsd:string">url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAkCAYAAADo6zjiAAAAAXNSR0IArs4c6QAAAx9JREFUWAndV79LY0EQnjySSAQ1OUG4OxvxR5BALggBi0BEIYUYtLC43v8ghZVgY3V9/oUjpMovEBvRSsGAHrY2Yi7BwlgEREXNzffMLnnP91bzkiDcQNjdmdlvvt3ZnbdxEcvOzs73p6enX9xdaDab36DrlbhcripjHbjd7s2tra2/ZlxXK/gfDjxqNvZyzERumMQPMwkNK+93cCwEMVq7bFiXxqMFg6a/gzextF7nXMXfKhZ24FPl/yYwOztLqVSK0NpJX3cgFArR8PAwobWTvhLgu6/HFa0Vib4SsApo1hkIDAwM0OTkJAUCAbMfObW9ATIp3GLs9/tpY2ODhoaG6OXlhQqFAp2dnelmpzaBrWrlDszPz+vB4axpGi0uLsp5Tm0SQNGRBBQ+fTVJAsfHx9RoNPRgSMH+/r4M7NQmARQd1/b2dlPYcdDGx8epXq/T7e2tUOutymZwfGfAV7LGLoet98GVgcA7c3tqZiJ1JhGRKegp+gfA+Mv4Be+DTyPQ4hiXdeADpG1dUCei0ShNT0/TyMgI3d/fU61Wo3K5TBcXF7bzeBe+dk0gHA7TysoKeb1eGQgHFkRmZmZod3eXTk5OpM3c6ToFExMThuDPz88yBgpaIpHQy7hUmjpd70CxWCSkYHBwkEqlElUqFYrFYrS0tKSH8ng8uv36+toU+nXo5utQtXqrWXpbKFG0MpkMYeV8qnUP1JF2EQWuXSf6SMGBGDhtHx4eZHCsOB6PS6jLy0u6u7uTY3NHQ0XiXbgxG5yMkfP19XUaGxvTp2NH9vb2lFAa/qngHwuT+I10KL0VRp5La2trFAwGdS+kJp/PU7Wqhnx9MymAzab2b4ewIfjq6ipFIhFdhfOQy+Xo/PxcuNi2Xd8CICeTSRn88fGRstmssgC1s+mawPLyMs3NzUlMrB53Hz8hR0dHdHp6KoaGtmsCU1NTBkCfz0f4tQtqhJ10XAk53/ie90SA5WQHDjn6T8EgnU4TDqFKcCNs5LBjAqgbfL8T+J4DtL322wSxVDNpPEg2O04B140rnhhhgAy20BJdocQczAUGsP4BPJYni4VMj2AAAAAASUVORK5CYII=&quot;)</value>
+											</entry>
+											<entry>
+												<key>background-position</key>
+												<value xsi:type="xsd:string">98% 50%</value>
+											</entry>
+											<entry>
+												<key>background-repeat</key>
+												<value xsi:type="xsd:string">no-repeat</value>
+											</entry>
+											<entry>
+												<key>background-size</key>
+												<value xsi:type="xsd:string">16px 18px</value>
+											</entry>
+											<entry>
+												<key>border-bottom-color</key>
+												<value xsi:type="xsd:string">rgb(221, 226, 236)</value>
+											</entry>
+											<entry>
+												<key>border-bottom-left-radius</key>
+												<value xsi:type="xsd:string">4px</value>
+											</entry>
+											<entry>
+												<key>border-bottom-right-radius</key>
+												<value xsi:type="xsd:string">4px</value>
+											</entry>
+											<entry>
+												<key>border-bottom-style</key>
+												<value xsi:type="xsd:string">solid</value>
+											</entry>
+											<entry>
+												<key>border-bottom-width</key>
+												<value xsi:type="xsd:string">2px</value>
+											</entry>
+											<entry>
+												<key>border-left-color</key>
+												<value xsi:type="xsd:string">rgb(221, 226, 236)</value>
+											</entry>
+											<entry>
+												<key>border-left-style</key>
+												<value xsi:type="xsd:string">solid</value>
+											</entry>
+											<entry>
+												<key>border-left-width</key>
+												<value xsi:type="xsd:string">2px</value>
+											</entry>
+											<entry>
+												<key>border-radius</key>
+												<value xsi:type="xsd:string">4px</value>
+											</entry>
+											<entry>
+												<key>border-right-color</key>
+												<value xsi:type="xsd:string">rgb(221, 226, 236)</value>
+											</entry>
+											<entry>
+												<key>border-right-style</key>
+												<value xsi:type="xsd:string">solid</value>
+											</entry>
+											<entry>
+												<key>border-right-width</key>
+												<value xsi:type="xsd:string">2px</value>
+											</entry>
+											<entry>
+												<key>border-top-color</key>
+												<value xsi:type="xsd:string">rgb(221, 226, 236)</value>
+											</entry>
+											<entry>
+												<key>border-top-left-radius</key>
+												<value xsi:type="xsd:string">4px</value>
+											</entry>
+											<entry>
+												<key>border-top-right-radius</key>
+												<value xsi:type="xsd:string">4px</value>
+											</entry>
+											<entry>
+												<key>border-top-style</key>
+												<value xsi:type="xsd:string">solid</value>
+											</entry>
+											<entry>
+												<key>border-top-width</key>
+												<value xsi:type="xsd:string">2px</value>
+											</entry>
+											<entry>
+												<key>caret-color</key>
+												<value xsi:type="xsd:string">rgb(73, 80, 87)</value>
+											</entry>
+											<entry>
+												<key>color</key>
+												<value xsi:type="xsd:string">rgb(73, 80, 87)</value>
+											</entry>
+											<entry>
+												<key>column-rule-color</key>
+												<value xsi:type="xsd:string">rgb(73, 80, 87)</value>
+											</entry>
+											<entry>
+												<key>font-weight</key>
+												<value xsi:type="xsd:string">300</value>
+											</entry>
+											<entry>
+												<key>margin-bottom</key>
+												<value xsi:type="xsd:string">0px</value>
+											</entry>
+											<entry>
+												<key>outline-color</key>
+												<value xsi:type="xsd:string">rgb(73, 80, 87)</value>
+											</entry>
+											<entry>
+												<key>padding-bottom</key>
+												<value xsi:type="xsd:string">6px</value>
+											</entry>
+											<entry>
+												<key>padding-left</key>
+												<value xsi:type="xsd:string">12px</value>
+											</entry>
+											<entry>
+												<key>padding-right</key>
+												<value xsi:type="xsd:string">12px</value>
+											</entry>
+											<entry>
+												<key>padding-top</key>
+												<value xsi:type="xsd:string">6px</value>
+											</entry>
+											<entry>
+												<key>placeholder</key>
+												<value xsi:type="xsd:string">Enter your username</value>
+											</entry>
+											<entry>
+												<key>shown</key>
+												<value xsi:type="xsd:string">true</value>
+											</entry>
+											<entry>
+												<key>style</key>
+												<value xsi:type="xsd:string">background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAkCAYAAADo6zjiAAAAAXNSR0IArs4c6QAAAx9JREFUWAndV79LY0EQnjySSAQ1OUG4OxvxR5BALggBi0BEIYUYtLC43v8ghZVgY3V9/oUjpMovEBvRSsGAHrY2Yi7BwlgEREXNzffMLnnP91bzkiDcQNjdmdlvvt3ZnbdxEcvOzs73p6enX9xdaDab36DrlbhcripjHbjd7s2tra2/ZlxXK/gfDjxqNvZyzERumMQPMwkNK+93cCwEMVq7bFiXxqMFg6a/gzextF7nXMXfKhZ24FPl/yYwOztLqVSK0NpJX3cgFArR8PAwobWTvhLgu6/HFa0Vib4SsApo1hkIDAwM0OTkJAUCAbMfObW9ATIp3GLs9/tpY2ODhoaG6OXlhQqFAp2dnelmpzaBrWrlDszPz+vB4axpGi0uLsp5Tm0SQNGRBBQ+fTVJAsfHx9RoNPRgSMH+/r4M7NQmARQd1/b2dlPYcdDGx8epXq/T7e2tUOutymZwfGfAV7LGLoet98GVgcA7c3tqZiJ1JhGRKegp+gfA+Mv4Be+DTyPQ4hiXdeADpG1dUCei0ShNT0/TyMgI3d/fU61Wo3K5TBcXF7bzeBe+dk0gHA7TysoKeb1eGQgHFkRmZmZod3eXTk5OpM3c6ToFExMThuDPz88yBgpaIpHQy7hUmjpd70CxWCSkYHBwkEqlElUqFYrFYrS0tKSH8ng8uv36+toU+nXo5utQtXqrWXpbKFG0MpkMYeV8qnUP1JF2EQWuXSf6SMGBGDhtHx4eZHCsOB6PS6jLy0u6u7uTY3NHQ0XiXbgxG5yMkfP19XUaGxvTp2NH9vb2lFAa/qngHwuT+I10KL0VRp5La2trFAwGdS+kJp/PU7Wqhnx9MymAzab2b4ewIfjq6ipFIhFdhfOQy+Xo/PxcuNi2Xd8CICeTSRn88fGRstmssgC1s+mawPLyMs3NzUlMrB53Hz8hR0dHdHp6KoaGtmsCU1NTBkCfz0f4tQtqhJ10XAk53/ie90SA5WQHDjn6T8EgnU4TDqFKcCNs5LBjAqgbfL8T+J4DtL322wSxVDNpPEg2O04B140rnhhhgAy20BJdocQczAUGsP4BPJYni4VMj2AAAAAASUVORK5CYII=&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%;</value>
+											</entry>
+											<entry>
+												<key>text-decoration-color</key>
+												<value xsi:type="xsd:string">rgb(73, 80, 87)</value>
+											</entry>
+											<entry>
+												<key>transition-delay</key>
+												<value xsi:type="xsd:string">0s, 0s, 0s</value>
+											</entry>
+											<entry>
+												<key>transition-duration</key>
+												<value xsi:type="xsd:string">0.15s, 0.15s, 0.15s</value>
+											</entry>
+											<entry>
+												<key>transition-property</key>
+												<value xsi:type="xsd:string">border-color, box-shadow, -webkit-box-shadow</value>
+											</entry>
+											<entry>
+												<key>transition-timing-function</key>
+												<value xsi:type="xsd:string">ease-in-out, ease-in-out, ease-in-out</value>
+											</entry>
+											<entry>
+												<key>type</key>
+												<value xsi:type="xsd:string">text</value>
+											</entry>
+										</attributes>
+									</attributes>
+								</containedElements>
+							</containedElements>
+							<containedElements retestId="div-8">
+								<identifyingAttributes>
+									<attributes>
+										<attribute key="absolute-outline" xsi:type="outlineAttribute">
+											<x>455</x>
+											<y>418</y>
+											<height>62</height>
+											<width>290</width>
+										</attribute>
+										<attribute key="class" xsi:type="stringAttribute">form-group</attribute>
+										<attribute key="outline" xsi:type="outlineAttribute">
+											<x>40</x>
+											<y>49</y>
+											<height>-136</height>
+											<width>-80</width>
+										</attribute>
+										<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/div[1]/div[1]/form[1]/div[2]</attribute>
+										<attribute key="suffix" xsi:type="suffixAttribute">2</attribute>
+										<attribute key="type" xsi:type="stringAttribute">div</attribute>
+									</attributes>
+								</identifyingAttributes>
+								<attributes>
+									<attributes>
+										<entry>
+											<key>margin-bottom</key>
+											<value xsi:type="xsd:string">16px</value>
+										</entry>
+										<entry>
+											<key>position</key>
+											<value xsi:type="xsd:string">relative</value>
+										</entry>
+										<entry>
+											<key>shown</key>
+											<value xsi:type="xsd:string">true</value>
+										</entry>
+									</attributes>
+								</attributes>
+								<containedElements retestId="div-9">
+									<identifyingAttributes>
+										<attributes>
+											<attribute key="absolute-outline" xsi:type="outlineAttribute">
+												<x>417</x>
+												<y>451</y>
+												<height>24</height>
+												<width>24</width>
+											</attribute>
+											<attribute key="class" xsi:type="stringAttribute">pre-icon os-icon os-icon-fingerprint</attribute>
+											<attribute key="outline" xsi:type="outlineAttribute">
+												<x>-19</x>
+												<y>16</y>
+												<height>-19</height>
+												<width>-133</width>
+											</attribute>
+											<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/div[1]/div[1]/form[1]/div[2]/div[1]</attribute>
+											<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+											<attribute key="type" xsi:type="stringAttribute">div</attribute>
+										</attributes>
+									</identifyingAttributes>
+									<attributes>
+										<attributes>
+											<entry>
+												<key>border-bottom-color</key>
+												<value xsi:type="xsd:string">rgb(4, 123, 248)</value>
+											</entry>
+											<entry>
+												<key>border-left-color</key>
+												<value xsi:type="xsd:string">rgb(4, 123, 248)</value>
+											</entry>
+											<entry>
+												<key>border-right-color</key>
+												<value xsi:type="xsd:string">rgb(4, 123, 248)</value>
+											</entry>
+											<entry>
+												<key>border-top-color</key>
+												<value xsi:type="xsd:string">rgb(4, 123, 248)</value>
+											</entry>
+											<entry>
+												<key>bottom</key>
+												<value xsi:type="xsd:string">5px</value>
+											</entry>
+											<entry>
+												<key>caret-color</key>
+												<value xsi:type="xsd:string">rgb(4, 123, 248)</value>
+											</entry>
+											<entry>
+												<key>color</key>
+												<value xsi:type="xsd:string">rgb(4, 123, 248)</value>
+											</entry>
+											<entry>
+												<key>column-rule-color</key>
+												<value xsi:type="xsd:string">rgb(4, 123, 248)</value>
+											</entry>
+											<entry>
+												<key>font-family</key>
+												<value xsi:type="xsd:string">osfont</value>
+											</entry>
+											<entry>
+												<key>font-size</key>
+												<value xsi:type="xsd:string">24px</value>
+											</entry>
+											<entry>
+												<key>left</key>
+												<value xsi:type="xsd:string">-38px</value>
+											</entry>
+											<entry>
+												<key>line-height</key>
+												<value xsi:type="xsd:string">24px</value>
+											</entry>
+											<entry>
+												<key>outline-color</key>
+												<value xsi:type="xsd:string">rgb(4, 123, 248)</value>
+											</entry>
+											<entry>
+												<key>position</key>
+												<value xsi:type="xsd:string">absolute</value>
+											</entry>
+											<entry>
+												<key>right</key>
+												<value xsi:type="xsd:string">304.047px</value>
+											</entry>
+											<entry>
+												<key>shown</key>
+												<value xsi:type="xsd:string">true</value>
+											</entry>
+											<entry>
+												<key>text-decoration-color</key>
+												<value xsi:type="xsd:string">rgb(4, 123, 248)</value>
+											</entry>
+											<entry>
+												<key>top</key>
+												<value xsi:type="xsd:string">33px</value>
+											</entry>
+										</attributes>
+									</attributes>
+								</containedElements>
+								<containedElements retestId="password">
+									<identifyingAttributes>
+										<attributes>
+											<attribute key="absolute-outline" xsi:type="outlineAttribute">
+												<x>455</x>
+												<y>443</y>
+												<height>37</height>
+												<width>290</width>
+											</attribute>
+											<attribute key="class" xsi:type="stringAttribute">form-control</attribute>
+											<attribute key="id" xsi:type="stringAttribute">password</attribute>
+											<attribute key="outline" xsi:type="outlineAttribute">
+												<x>0</x>
+												<y>12</y>
+												<height>-12</height>
+												<width>0</width>
+											</attribute>
+											<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/div[1]/div[1]/form[1]/div[2]/input[1]</attribute>
+											<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+											<attribute key="type" xsi:type="stringAttribute">input</attribute>
+										</attributes>
+									</identifyingAttributes>
+									<attributes>
+										<attributes>
+											<entry>
+												<key>autocomplete</key>
+												<value xsi:type="xsd:string">off</value>
+											</entry>
+											<entry>
+												<key>background-clip</key>
+												<value xsi:type="xsd:string">padding-box</value>
+											</entry>
+											<entry>
+												<key>background-color</key>
+												<value xsi:type="xsd:string">rgb(255, 255, 255)</value>
+											</entry>
+											<entry>
+												<key>background-image</key>
+												<value xsi:type="xsd:string">url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAkCAYAAADo6zjiAAAAAXNSR0IArs4c6QAAAx9JREFUWAndV79LY0EQnjySSAQ1OUG4OxvxR5BALggBi0BEIYUYtLC43v8ghZVgY3V9/oUjpMovEBvRSsGAHrY2Yi7BwlgEREXNzffMLnnP91bzkiDcQNjdmdlvvt3ZnbdxEcvOzs73p6enX9xdaDab36DrlbhcripjHbjd7s2tra2/ZlxXK/gfDjxqNvZyzERumMQPMwkNK+93cCwEMVq7bFiXxqMFg6a/gzextF7nXMXfKhZ24FPl/yYwOztLqVSK0NpJX3cgFArR8PAwobWTvhLgu6/HFa0Vib4SsApo1hkIDAwM0OTkJAUCAbMfObW9ATIp3GLs9/tpY2ODhoaG6OXlhQqFAp2dnelmpzaBrWrlDszPz+vB4axpGi0uLsp5Tm0SQNGRBBQ+fTVJAsfHx9RoNPRgSMH+/r4M7NQmARQd1/b2dlPYcdDGx8epXq/T7e2tUOutymZwfGfAV7LGLoet98GVgcA7c3tqZiJ1JhGRKegp+gfA+Mv4Be+DTyPQ4hiXdeADpG1dUCei0ShNT0/TyMgI3d/fU61Wo3K5TBcXF7bzeBe+dk0gHA7TysoKeb1eGQgHFkRmZmZod3eXTk5OpM3c6ToFExMThuDPz88yBgpaIpHQy7hUmjpd70CxWCSkYHBwkEqlElUqFYrFYrS0tKSH8ng8uv36+toU+nXo5utQtXqrWXpbKFG0MpkMYeV8qnUP1JF2EQWuXSf6SMGBGDhtHx4eZHCsOB6PS6jLy0u6u7uTY3NHQ0XiXbgxG5yMkfP19XUaGxvTp2NH9vb2lFAa/qngHwuT+I10KL0VRp5La2trFAwGdS+kJp/PU7Wqhnx9MymAzab2b4ewIfjq6ipFIhFdhfOQy+Xo/PxcuNi2Xd8CICeTSRn88fGRstmssgC1s+mawPLyMs3NzUlMrB53Hz8hR0dHdHp6KoaGtmsCU1NTBkCfz0f4tQtqhJ10XAk53/ie90SA5WQHDjn6T8EgnU4TDqFKcCNs5LBjAqgbfL8T+J4DtL322wSxVDNpPEg2O04B140rnhhhgAy20BJdocQczAUGsP4BPJYni4VMj2AAAAAASUVORK5CYII=&quot;)</value>
+											</entry>
+											<entry>
+												<key>background-position</key>
+												<value xsi:type="xsd:string">98% 50%</value>
+											</entry>
+											<entry>
+												<key>background-repeat</key>
+												<value xsi:type="xsd:string">no-repeat</value>
+											</entry>
+											<entry>
+												<key>background-size</key>
+												<value xsi:type="xsd:string">16px 18px</value>
+											</entry>
+											<entry>
+												<key>border-bottom-color</key>
+												<value xsi:type="xsd:string">rgb(221, 226, 236)</value>
+											</entry>
+											<entry>
+												<key>border-bottom-left-radius</key>
+												<value xsi:type="xsd:string">4px</value>
+											</entry>
+											<entry>
+												<key>border-bottom-right-radius</key>
+												<value xsi:type="xsd:string">4px</value>
+											</entry>
+											<entry>
+												<key>border-bottom-style</key>
+												<value xsi:type="xsd:string">solid</value>
+											</entry>
+											<entry>
+												<key>border-bottom-width</key>
+												<value xsi:type="xsd:string">2px</value>
+											</entry>
+											<entry>
+												<key>border-left-color</key>
+												<value xsi:type="xsd:string">rgb(221, 226, 236)</value>
+											</entry>
+											<entry>
+												<key>border-left-style</key>
+												<value xsi:type="xsd:string">solid</value>
+											</entry>
+											<entry>
+												<key>border-left-width</key>
+												<value xsi:type="xsd:string">2px</value>
+											</entry>
+											<entry>
+												<key>border-radius</key>
+												<value xsi:type="xsd:string">4px</value>
+											</entry>
+											<entry>
+												<key>border-right-color</key>
+												<value xsi:type="xsd:string">rgb(221, 226, 236)</value>
+											</entry>
+											<entry>
+												<key>border-right-style</key>
+												<value xsi:type="xsd:string">solid</value>
+											</entry>
+											<entry>
+												<key>border-right-width</key>
+												<value xsi:type="xsd:string">2px</value>
+											</entry>
+											<entry>
+												<key>border-top-color</key>
+												<value xsi:type="xsd:string">rgb(221, 226, 236)</value>
+											</entry>
+											<entry>
+												<key>border-top-left-radius</key>
+												<value xsi:type="xsd:string">4px</value>
+											</entry>
+											<entry>
+												<key>border-top-right-radius</key>
+												<value xsi:type="xsd:string">4px</value>
+											</entry>
+											<entry>
+												<key>border-top-style</key>
+												<value xsi:type="xsd:string">solid</value>
+											</entry>
+											<entry>
+												<key>border-top-width</key>
+												<value xsi:type="xsd:string">2px</value>
+											</entry>
+											<entry>
+												<key>caret-color</key>
+												<value xsi:type="xsd:string">rgb(73, 80, 87)</value>
+											</entry>
+											<entry>
+												<key>color</key>
+												<value xsi:type="xsd:string">rgb(73, 80, 87)</value>
+											</entry>
+											<entry>
+												<key>column-rule-color</key>
+												<value xsi:type="xsd:string">rgb(73, 80, 87)</value>
+											</entry>
+											<entry>
+												<key>font-weight</key>
+												<value xsi:type="xsd:string">300</value>
+											</entry>
+											<entry>
+												<key>margin-bottom</key>
+												<value xsi:type="xsd:string">0px</value>
+											</entry>
+											<entry>
+												<key>outline-color</key>
+												<value xsi:type="xsd:string">rgb(73, 80, 87)</value>
+											</entry>
+											<entry>
+												<key>padding-bottom</key>
+												<value xsi:type="xsd:string">6px</value>
+											</entry>
+											<entry>
+												<key>padding-left</key>
+												<value xsi:type="xsd:string">12px</value>
+											</entry>
+											<entry>
+												<key>padding-right</key>
+												<value xsi:type="xsd:string">12px</value>
+											</entry>
+											<entry>
+												<key>padding-top</key>
+												<value xsi:type="xsd:string">6px</value>
+											</entry>
+											<entry>
+												<key>placeholder</key>
+												<value xsi:type="xsd:string">Enter your password</value>
+											</entry>
+											<entry>
+												<key>shown</key>
+												<value xsi:type="xsd:string">true</value>
+											</entry>
+											<entry>
+												<key>style</key>
+												<value xsi:type="xsd:string">background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAkCAYAAADo6zjiAAAAAXNSR0IArs4c6QAAAx9JREFUWAndV79LY0EQnjySSAQ1OUG4OxvxR5BALggBi0BEIYUYtLC43v8ghZVgY3V9/oUjpMovEBvRSsGAHrY2Yi7BwlgEREXNzffMLnnP91bzkiDcQNjdmdlvvt3ZnbdxEcvOzs73p6enX9xdaDab36DrlbhcripjHbjd7s2tra2/ZlxXK/gfDjxqNvZyzERumMQPMwkNK+93cCwEMVq7bFiXxqMFg6a/gzextF7nXMXfKhZ24FPl/yYwOztLqVSK0NpJX3cgFArR8PAwobWTvhLgu6/HFa0Vib4SsApo1hkIDAwM0OTkJAUCAbMfObW9ATIp3GLs9/tpY2ODhoaG6OXlhQqFAp2dnelmpzaBrWrlDszPz+vB4axpGi0uLsp5Tm0SQNGRBBQ+fTVJAsfHx9RoNPRgSMH+/r4M7NQmARQd1/b2dlPYcdDGx8epXq/T7e2tUOutymZwfGfAV7LGLoet98GVgcA7c3tqZiJ1JhGRKegp+gfA+Mv4Be+DTyPQ4hiXdeADpG1dUCei0ShNT0/TyMgI3d/fU61Wo3K5TBcXF7bzeBe+dk0gHA7TysoKeb1eGQgHFkRmZmZod3eXTk5OpM3c6ToFExMThuDPz88yBgpaIpHQy7hUmjpd70CxWCSkYHBwkEqlElUqFYrFYrS0tKSH8ng8uv36+toU+nXo5utQtXqrWXpbKFG0MpkMYeV8qnUP1JF2EQWuXSf6SMGBGDhtHx4eZHCsOB6PS6jLy0u6u7uTY3NHQ0XiXbgxG5yMkfP19XUaGxvTp2NH9vb2lFAa/qngHwuT+I10KL0VRp5La2trFAwGdS+kJp/PU7Wqhnx9MymAzab2b4ewIfjq6ipFIhFdhfOQy+Xo/PxcuNi2Xd8CICeTSRn88fGRstmssgC1s+mawPLyMs3NzUlMrB53Hz8hR0dHdHp6KoaGtmsCU1NTBkCfz0f4tQtqhJ10XAk53/ie90SA5WQHDjn6T8EgnU4TDqFKcCNs5LBjAqgbfL8T+J4DtL322wSxVDNpPEg2O04B140rnhhhgAy20BJdocQczAUGsP4BPJYni4VMj2AAAAAASUVORK5CYII=&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%;</value>
+											</entry>
+											<entry>
+												<key>text-decoration-color</key>
+												<value xsi:type="xsd:string">rgb(73, 80, 87)</value>
+											</entry>
+											<entry>
+												<key>transition-delay</key>
+												<value xsi:type="xsd:string">0s, 0s, 0s</value>
+											</entry>
+											<entry>
+												<key>transition-duration</key>
+												<value xsi:type="xsd:string">0.15s, 0.15s, 0.15s</value>
+											</entry>
+											<entry>
+												<key>transition-property</key>
+												<value xsi:type="xsd:string">border-color, box-shadow, -webkit-box-shadow</value>
+											</entry>
+											<entry>
+												<key>transition-timing-function</key>
+												<value xsi:type="xsd:string">ease-in-out, ease-in-out, ease-in-out</value>
+											</entry>
+											<entry>
+												<key>type</key>
+												<value xsi:type="xsd:string">password</value>
+											</entry>
+										</attributes>
+									</attributes>
+								</containedElements>
+								<containedElements retestId="password-1">
+									<identifyingAttributes>
+										<attributes>
+											<attribute key="absolute-outline" xsi:type="outlineAttribute">
+												<x>455</x>
+												<y>418</y>
+												<height>21</height>
+												<width>64</width>
+											</attribute>
+											<attribute key="outline" xsi:type="outlineAttribute">
+												<x>0</x>
+												<y>0</y>
+												<height>-20</height>
+												<width>-113</width>
+											</attribute>
+											<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/div[1]/div[1]/form[1]/div[2]/label[1]</attribute>
+											<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+											<attribute key="text" xsi:type="textAttribute">Password</attribute>
+											<attribute key="type" xsi:type="stringAttribute">label</attribute>
+										</attributes>
+									</identifyingAttributes>
+									<attributes>
+										<attributes>
+											<entry>
+												<key>display</key>
+												<value xsi:type="xsd:string">inline-block</value>
+											</entry>
+											<entry>
+												<key>margin-bottom</key>
+												<value xsi:type="xsd:string">4px</value>
+											</entry>
+											<entry>
+												<key>shown</key>
+												<value xsi:type="xsd:string">true</value>
+											</entry>
+										</attributes>
+									</attributes>
+								</containedElements>
+							</containedElements>
+						</containedElements>
+						<containedElements retestId="login_form">
+							<identifyingAttributes>
+								<attributes>
+									<attribute key="absolute-outline" xsi:type="outlineAttribute">
+										<x>375</x>
+										<y>243</y>
+										<height>45</height>
+										<width>450</width>
+									</attribute>
+									<attribute key="class" xsi:type="stringAttribute">auth-header</attribute>
+									<attribute key="outline" xsi:type="outlineAttribute">
+										<x>0</x>
+										<y>121</y>
+										<height>-305</height>
+										<width>0</width>
+									</attribute>
+									<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/div[1]/div[1]/h4[1]</attribute>
+									<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+									<attribute key="text" xsi:type="textAttribute">Login Form</attribute>
+									<attribute key="type" xsi:type="stringAttribute">h4</attribute>
+								</attributes>
+							</identifyingAttributes>
+							<attributes>
+								<attributes>
+									<entry>
+										<key>border-bottom-color</key>
+										<value xsi:type="xsd:string">rgba(0, 0, 0, 0.1)</value>
+									</entry>
+									<entry>
+										<key>border-bottom-style</key>
+										<value xsi:type="xsd:string">solid</value>
+									</entry>
+									<entry>
+										<key>border-bottom-width</key>
+										<value xsi:type="xsd:string">1px</value>
+									</entry>
+									<entry>
+										<key>border-left-color</key>
+										<value xsi:type="xsd:string">rgb(51, 65, 82)</value>
+									</entry>
+									<entry>
+										<key>border-right-color</key>
+										<value xsi:type="xsd:string">rgb(51, 65, 82)</value>
+									</entry>
+									<entry>
+										<key>border-top-color</key>
+										<value xsi:type="xsd:string">rgb(51, 65, 82)</value>
+									</entry>
+									<entry>
+										<key>caret-color</key>
+										<value xsi:type="xsd:string">rgb(51, 65, 82)</value>
+									</entry>
+									<entry>
+										<key>color</key>
+										<value xsi:type="xsd:string">rgb(51, 65, 82)</value>
+									</entry>
+									<entry>
+										<key>column-rule-color</key>
+										<value xsi:type="xsd:string">rgb(51, 65, 82)</value>
+									</entry>
+									<entry>
+										<key>font-size</key>
+										<value xsi:type="xsd:string">24px</value>
+									</entry>
+									<entry>
+										<key>font-weight</key>
+										<value xsi:type="xsd:string">500</value>
+									</entry>
+									<entry>
+										<key>line-height</key>
+										<value xsi:type="xsd:string">28.8px</value>
+									</entry>
+									<entry>
+										<key>margin-bottom</key>
+										<value xsi:type="xsd:string">32px</value>
+									</entry>
+									<entry>
+										<key>outline-color</key>
+										<value xsi:type="xsd:string">rgb(51, 65, 82)</value>
+									</entry>
+									<entry>
+										<key>padding-bottom</key>
+										<value xsi:type="xsd:string">16px</value>
+									</entry>
+									<entry>
+										<key>padding-left</key>
+										<value xsi:type="xsd:string">80px</value>
+									</entry>
+									<entry>
+										<key>position</key>
+										<value xsi:type="xsd:string">relative</value>
+									</entry>
+									<entry>
+										<key>shown</key>
+										<value xsi:type="xsd:string">true</value>
+									</entry>
+									<entry>
+										<key>text-decoration-color</key>
+										<value xsi:type="xsd:string">rgb(51, 65, 82)</value>
+									</entry>
+									<entry>
+										<key>z-index</key>
+										<value xsi:type="xsd:string">1</value>
+									</entry>
+								</attributes>
+							</attributes>
+						</containedElements>
+					</containedElements>
+				</containedElements>
+			</containedElements>
+			<containedElements retestId="head">
+				<identifyingAttributes>
+					<attributes>
+						<attribute key="absolute-outline" xsi:type="outlineAttribute">
+							<x>0</x>
+							<y>0</y>
+							<height>0</height>
+							<width>0</width>
+						</attribute>
+						<attribute key="outline" xsi:type="outlineAttribute">
+							<x>0</x>
+							<y>0</y>
+							<height>-400</height>
+							<width>-600</width>
+						</attribute>
+						<attribute key="path" xsi:type="pathAttribute">html[1]/head[1]</attribute>
+						<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+						<attribute key="type" xsi:type="stringAttribute">head</attribute>
+					</attributes>
+				</identifyingAttributes>
+				<attributes>
+					<attributes>
+						<entry>
+							<key>shown</key>
+							<value xsi:type="xsd:string">false</value>
+						</entry>
+					</attributes>
+				</attributes>
+				<containedElements retestId="meta">
+					<identifyingAttributes>
+						<attributes>
+							<attribute key="absolute-outline" xsi:type="outlineAttribute">
+								<x>0</x>
+								<y>0</y>
+								<height>0</height>
+								<width>0</width>
+							</attribute>
+							<attribute key="outline" xsi:type="outlineAttribute">
+								<x>0</x>
+								<y>0</y>
+								<height>0</height>
+								<width>0</width>
+							</attribute>
+							<attribute key="path" xsi:type="pathAttribute">html[1]/head[1]/meta[1]</attribute>
+							<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+							<attribute key="type" xsi:type="stringAttribute">meta</attribute>
+						</attributes>
+					</identifyingAttributes>
+					<attributes>
+						<attributes>
+							<entry>
+								<key>content</key>
+								<value xsi:type="xsd:string">text/html; charset=UTF-8</value>
+							</entry>
+							<entry>
+								<key>http-equiv</key>
+								<value xsi:type="xsd:string">Content-Type</value>
+							</entry>
+							<entry>
+								<key>shown</key>
+								<value xsi:type="xsd:string">false</value>
+							</entry>
+						</attributes>
+					</attributes>
+				</containedElements>
+				<containedElements retestId="meta-1">
+					<identifyingAttributes>
+						<attributes>
+							<attribute key="absolute-outline" xsi:type="outlineAttribute">
+								<x>0</x>
+								<y>0</y>
+								<height>0</height>
+								<width>0</width>
+							</attribute>
+							<attribute key="outline" xsi:type="outlineAttribute">
+								<x>0</x>
+								<y>0</y>
+								<height>0</height>
+								<width>0</width>
+							</attribute>
+							<attribute key="path" xsi:type="pathAttribute">html[1]/head[1]/meta[3]</attribute>
+							<attribute key="suffix" xsi:type="suffixAttribute">3</attribute>
+							<attribute key="type" xsi:type="stringAttribute">meta</attribute>
+						</attributes>
+					</identifyingAttributes>
+					<attributes>
+						<attributes>
+							<entry>
+								<key>content</key>
+								<value xsi:type="xsd:string">ie=edge</value>
+							</entry>
+							<entry>
+								<key>http-equiv</key>
+								<value xsi:type="xsd:string">x-ua-compatible</value>
+							</entry>
+							<entry>
+								<key>shown</key>
+								<value xsi:type="xsd:string">false</value>
+							</entry>
+						</attributes>
+					</attributes>
+				</containedElements>
+				<containedElements retestId="demo_app">
+					<identifyingAttributes>
+						<attributes>
+							<attribute key="absolute-outline" xsi:type="outlineAttribute">
+								<x>0</x>
+								<y>0</y>
+								<height>0</height>
+								<width>0</width>
+							</attribute>
+							<attribute key="outline" xsi:type="outlineAttribute">
+								<x>0</x>
+								<y>0</y>
+								<height>0</height>
+								<width>0</width>
+							</attribute>
+							<attribute key="path" xsi:type="pathAttribute">html[1]/head[1]/title[1]</attribute>
+							<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+							<attribute key="text" xsi:type="textAttribute">Demo App</attribute>
+							<attribute key="type" xsi:type="stringAttribute">title</attribute>
+						</attributes>
+					</identifyingAttributes>
+					<attributes>
+						<attributes>
+							<entry>
+								<key>shown</key>
+								<value xsi:type="xsd:string">false</value>
+							</entry>
+						</attributes>
+					</attributes>
+				</containedElements>
+				<containedElements retestId="meta-2">
+					<identifyingAttributes>
+						<attributes>
+							<attribute key="absolute-outline" xsi:type="outlineAttribute">
+								<x>0</x>
+								<y>0</y>
+								<height>0</height>
+								<width>0</width>
+							</attribute>
+							<attribute key="name" xsi:type="stringAttribute">viewport</attribute>
+							<attribute key="outline" xsi:type="outlineAttribute">
+								<x>0</x>
+								<y>0</y>
+								<height>0</height>
+								<width>0</width>
+							</attribute>
+							<attribute key="path" xsi:type="pathAttribute">html[1]/head[1]/meta[2]</attribute>
+							<attribute key="suffix" xsi:type="suffixAttribute">2</attribute>
+							<attribute key="type" xsi:type="stringAttribute">meta</attribute>
+						</attributes>
+					</identifyingAttributes>
+					<attributes>
+						<attributes>
+							<entry>
+								<key>content</key>
+								<value xsi:type="xsd:string">width=device-width, initial-scale=1</value>
+							</entry>
+							<entry>
+								<key>shown</key>
+								<value xsi:type="xsd:string">false</value>
+							</entry>
+						</attributes>
+					</attributes>
+				</containedElements>
+				<containedElements retestId="meta-3">
+					<identifyingAttributes>
+						<attributes>
+							<attribute key="absolute-outline" xsi:type="outlineAttribute">
+								<x>0</x>
+								<y>0</y>
+								<height>0</height>
+								<width>0</width>
+							</attribute>
+							<attribute key="name" xsi:type="stringAttribute">keywords</attribute>
+							<attribute key="outline" xsi:type="outlineAttribute">
+								<x>0</x>
+								<y>0</y>
+								<height>0</height>
+								<width>0</width>
+							</attribute>
+							<attribute key="path" xsi:type="pathAttribute">html[1]/head[1]/meta[4]</attribute>
+							<attribute key="suffix" xsi:type="suffixAttribute">4</attribute>
+							<attribute key="type" xsi:type="stringAttribute">meta</attribute>
+						</attributes>
+					</identifyingAttributes>
+					<attributes>
+						<attributes>
+							<entry>
+								<key>content</key>
+								<value xsi:type="xsd:string">recheck-web test demo</value>
+							</entry>
+							<entry>
+								<key>shown</key>
+								<value xsi:type="xsd:string">false</value>
+							</entry>
+						</attributes>
+					</attributes>
+				</containedElements>
+			</containedElements>
+			<screenshot>
+				<persistenceId>html</persistenceId>
+				<type>PNG</type>
+			</screenshot>
+		</descriptors>
+	</data>
+</reTestXmlDataContainer>

@@ -1,5 +1,7 @@
 package de.retest.recheck.example;
 
+import java.nio.file.Paths;
+
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -23,7 +25,8 @@ class ExplicitChecksTest {
 	@Test
 	public void check() throws Exception {
 		re.startTest();
-		driver.get("https://assets.retest.org/demos/css/templated-intensify-2/index.html");
+		String url = Paths.get( "src/test/resources/demo-app.html" ).toUri().toURL().toString();
+		driver.get(url);
 		re.check(driver, "init");
 		re.capTest();
 	}
