@@ -1,0 +1,8 @@
+attribute=v:shapes
+matcher: type=meta, attribute-regex: .*
+attribute=text-transform
+attribute=clip
+attribute=unicode-bidi
+pixel-diff=1
+attribute=border-radius
+matcher: type=img, attribute: alt
