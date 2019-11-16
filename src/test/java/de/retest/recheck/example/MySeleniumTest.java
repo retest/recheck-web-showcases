@@ -7,6 +7,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 import de.retest.recheck.RecheckOptions;
 import de.retest.recheck.persistence.ClassAndMethodBasedShortNamingStrategy;
@@ -25,7 +26,16 @@ class MySeleniumTest {
 				namingStrategy(new ClassAndMethodBasedShortNamingStrategy() ). //
 				enableReportUpload().
 				build();
-		driver = new RecheckDriver( new ChromeDriver(), opts );
+		final ChromeOptions chromeOpts = new ChromeOptions();
+		chromeOpts.addArguments(
+				// Enable headless mode for faster execution.
+				"--headless",
+				// Use Chrome in container-based Travis CI enviroment (see https://docs.travis-ci.com/user/chrome#Sandboxing).
+				"--no-sandbox",
+				// Fix window size for stable results.
+				"--window-size=1200,800" );
+
+		driver = new RecheckDriver( new ChromeDriver(chromeOpts), opts );
 	}
 
 	@Test
