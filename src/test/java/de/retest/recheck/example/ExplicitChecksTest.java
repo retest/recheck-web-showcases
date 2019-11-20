@@ -24,16 +24,13 @@ class ExplicitChecksTest {
 
 	@Test
 	public void check() throws Exception {
-		re.startTest();
 		String url = Paths.get( "src/test/resources/demo-app.html" ).toUri().toURL().toString();
 		driver.get(url);
 		re.check(driver, "init");
-		re.capTest();
 	}
 
 	@AfterEach
 	public void tearDown() throws InterruptedException {
 		driver.quit();
-		re.cap();
 	}
 }
