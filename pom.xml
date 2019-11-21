@@ -87,6 +87,7 @@
             <configurationParameters>
               junit.jupiter.execution.parallel.enabled=true
               junit.jupiter.execution.parallel.config.dynamic.factor=1
+			  junit.jupiter.extensions.autodetection.enabled=true
             </configurationParameters>
           </properties>
         </configuration>
