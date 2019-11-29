@@ -25,11 +25,11 @@ class BudgetTest {
 		System.setProperty( "webdriver.chrome.driver", "chromedriver" );
 		driver = new ChromeDriver();
 
+		//		driver.get( "https://assets.retest.org/demos/budget/OriginalBudget.htm" );
+		//		driver.get( "https://assets.retest.org/demos/budget/AdaptedBudget.htm" );
 		String url = Paths.get( "src/test/resources/AdaptedBudget.htm" ).toUri().toURL().toString();
 		driver.get(url);
 
-		//		driver.get( "https://assets.retest.org/demos/budget/OriginalBudget.htm" );
-		//		driver.get( "https://assets.retest.org/demos/budget/AdaptedBudget.htm" );
 		Thread.sleep( 1000 );
 
 		re.check( driver, "open" );
