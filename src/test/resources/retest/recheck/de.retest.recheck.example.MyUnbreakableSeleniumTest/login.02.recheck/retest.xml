@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<reTestXmlDataContainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" reTestVersion="1.5.0-beta.2" dataType="de.retest.recheck.ui.descriptors.SutState" dataTypeVersion="4">
+<reTestXmlDataContainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" reTestVersion="1.7.0" dataType="de.retest.recheck.ui.descriptors.SutState" dataTypeVersion="4">
 	<data xsi:type="sutState">
 		<descriptors retestId="html" screenId="1" screen="Demo App" title="Demo App">
 			<identifyingAttributes>
@@ -187,7 +187,7 @@
 							</entry>
 						</attributes>
 					</attributes>
-					<containedElements retestId="div-e71be">
+					<containedElements retestId="div-1">
 						<identifyingAttributes>
 							<attributes>
 								<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -256,7 +256,7 @@
 								</entry>
 							</attributes>
 						</attributes>
-						<containedElements retestId="div-ba4bf">
+						<containedElements retestId="div-2">
 							<identifyingAttributes>
 								<attributes>
 									<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -460,7 +460,7 @@
 									</entry>
 								</attributes>
 							</attributes>
-							<containedElements retestId="div-31d21">
+							<containedElements retestId="div-3">
 								<identifyingAttributes>
 									<attributes>
 										<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -509,7 +509,7 @@
 										</entry>
 									</attributes>
 								</attributes>
-								<containedElements retestId="div-42b33">
+								<containedElements retestId="div-4">
 									<identifyingAttributes>
 										<attributes>
 											<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -673,7 +673,7 @@
 										</containedElements>
 									</containedElements>
 								</containedElements>
-								<containedElements retestId="div-6c80b">
+								<containedElements retestId="div-5">
 									<identifyingAttributes>
 										<attributes>
 											<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -705,7 +705,7 @@
 											</entry>
 										</attributes>
 									</attributes>
-									<containedElements retestId="a-e8da6">
+									<containedElements retestId="a-1">
 										<identifyingAttributes>
 											<attributes>
 												<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -789,7 +789,7 @@
 												</entry>
 											</attributes>
 										</attributes>
-										<containedElements retestId="img-1beea">
+										<containedElements retestId="img-1">
 											<identifyingAttributes>
 												<attributes>
 													<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -831,7 +831,7 @@
 											</attributes>
 										</containedElements>
 									</containedElements>
-									<containedElements retestId="a-6b117">
+									<containedElements retestId="a-2">
 										<identifyingAttributes>
 											<attributes>
 												<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -911,7 +911,7 @@
 												</entry>
 											</attributes>
 										</attributes>
-										<containedElements retestId="img-c0a13">
+										<containedElements retestId="img-2">
 											<identifyingAttributes>
 												<attributes>
 													<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -953,7 +953,7 @@
 											</attributes>
 										</containedElements>
 									</containedElements>
-									<containedElements retestId="a-90ef1">
+									<containedElements retestId="a-3">
 										<identifyingAttributes>
 											<attributes>
 												<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -1037,7 +1037,7 @@
 												</entry>
 											</attributes>
 										</attributes>
-										<containedElements retestId="img-c9dcf">
+										<containedElements retestId="img-3">
 											<identifyingAttributes>
 												<attributes>
 													<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -1080,7 +1080,7 @@
 										</containedElements>
 									</containedElements>
 								</containedElements>
-								<containedElements retestId="sign_in">
+								<containedElements retestId="signin">
 									<identifyingAttributes>
 										<attributes>
 											<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -1257,7 +1257,7 @@
 									</attributes>
 								</containedElements>
 							</containedElements>
-							<containedElements retestId="div-faa6c">
+							<containedElements retestId="div-6">
 								<identifyingAttributes>
 									<attributes>
 										<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -1294,7 +1294,7 @@
 										</entry>
 									</attributes>
 								</attributes>
-								<containedElements retestId="div-df10c">
+								<containedElements retestId="div-7">
 									<identifyingAttributes>
 										<attributes>
 											<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -1430,7 +1430,7 @@
 										</attributes>
 									</attributes>
 								</containedElements>
-								<containedElements retestId="input-ee140">
+								<containedElements retestId="username-1">
 									<identifyingAttributes>
 										<attributes>
 											<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -1484,7 +1484,7 @@
 											</entry>
 											<entry>
 												<key>border-bottom-color</key>
-												<value xsi:type="xsd:string">rgb(26, 133, 247)</value>
+												<value xsi:type="xsd:string">rgb(221, 226, 236)</value>
 											</entry>
 											<entry>
 												<key>border-bottom-left-radius</key>
@@ -1504,7 +1504,7 @@
 											</entry>
 											<entry>
 												<key>border-left-color</key>
-												<value xsi:type="xsd:string">rgb(26, 133, 247)</value>
+												<value xsi:type="xsd:string">rgb(221, 226, 236)</value>
 											</entry>
 											<entry>
 												<key>border-left-style</key>
@@ -1520,7 +1520,7 @@
 											</entry>
 											<entry>
 												<key>border-right-color</key>
-												<value xsi:type="xsd:string">rgb(26, 133, 247)</value>
+												<value xsi:type="xsd:string">rgb(221, 226, 236)</value>
 											</entry>
 											<entry>
 												<key>border-right-style</key>
@@ -1532,7 +1532,7 @@
 											</entry>
 											<entry>
 												<key>border-top-color</key>
-												<value xsi:type="xsd:string">rgb(26, 133, 247)</value>
+												<value xsi:type="xsd:string">rgb(221, 226, 236)</value>
 											</entry>
 											<entry>
 												<key>border-top-left-radius</key>
@@ -1634,7 +1634,7 @@
 									</attributes>
 								</containedElements>
 							</containedElements>
-							<containedElements retestId="div-9f5ae">
+							<containedElements retestId="div-8">
 								<identifyingAttributes>
 									<attributes>
 										<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -1671,7 +1671,7 @@
 										</entry>
 									</attributes>
 								</attributes>
-								<containedElements retestId="div-6f2a7">
+								<containedElements retestId="div-9">
 									<identifyingAttributes>
 										<attributes>
 											<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -1769,7 +1769,7 @@
 										</attributes>
 									</attributes>
 								</containedElements>
-								<containedElements retestId="input-2fb7d">
+								<containedElements retestId="password">
 									<identifyingAttributes>
 										<attributes>
 											<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -1823,7 +1823,7 @@
 											</entry>
 											<entry>
 												<key>border-bottom-color</key>
-												<value xsi:type="xsd:string">rgb(199, 216, 237)</value>
+												<value xsi:type="xsd:string">rgb(4, 123, 248)</value>
 											</entry>
 											<entry>
 												<key>border-bottom-left-radius</key>
@@ -1843,7 +1843,7 @@
 											</entry>
 											<entry>
 												<key>border-left-color</key>
-												<value xsi:type="xsd:string">rgb(199, 216, 237)</value>
+												<value xsi:type="xsd:string">rgb(4, 123, 248)</value>
 											</entry>
 											<entry>
 												<key>border-left-style</key>
@@ -1859,7 +1859,7 @@
 											</entry>
 											<entry>
 												<key>border-right-color</key>
-												<value xsi:type="xsd:string">rgb(199, 216, 237)</value>
+												<value xsi:type="xsd:string">rgb(4, 123, 248)</value>
 											</entry>
 											<entry>
 												<key>border-right-style</key>
@@ -1871,7 +1871,7 @@
 											</entry>
 											<entry>
 												<key>border-top-color</key>
-												<value xsi:type="xsd:string">rgb(199, 216, 237)</value>
+												<value xsi:type="xsd:string">rgb(4, 123, 248)</value>
 											</entry>
 											<entry>
 												<key>border-top-left-radius</key>
@@ -1972,7 +1972,7 @@
 										</attributes>
 									</attributes>
 								</containedElements>
-								<containedElements retestId="password">
+								<containedElements retestId="password-1">
 									<identifyingAttributes>
 										<attributes>
 											<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -2187,7 +2187,7 @@
 						</attributes>
 					</attributes>
 				</containedElements>
-				<containedElements retestId="meta-55da4">
+				<containedElements retestId="meta-1">
 					<identifyingAttributes>
 						<attributes>
 							<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -2254,7 +2254,7 @@
 						</attributes>
 					</attributes>
 				</containedElements>
-				<containedElements retestId="meta-64bb5">
+				<containedElements retestId="meta-2">
 					<identifyingAttributes>
 						<attributes>
 							<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -2288,7 +2288,7 @@
 						</attributes>
 					</attributes>
 				</containedElements>
-				<containedElements retestId="meta-9e1b4">
+				<containedElements retestId="meta-3">
 					<identifyingAttributes>
 						<attributes>
 							<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -2324,7 +2324,7 @@
 				</containedElements>
 			</containedElements>
 			<screenshot>
-				<persistenceId>html_063d3bf011b4cd383f484fd2dec53bdd7d6c3c7d508453e45945bbe457f97339</persistenceId>
+				<persistenceId>html</persistenceId>
 				<type>PNG</type>
 			</screenshot>
 		</descriptors>
