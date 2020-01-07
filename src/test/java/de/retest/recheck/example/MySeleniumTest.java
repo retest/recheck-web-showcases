@@ -12,7 +12,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
-
 class MySeleniumTest {
 
 	WebDriver driver;
@@ -32,14 +31,14 @@ class MySeleniumTest {
 
 	@Test
 	void login() throws Exception {
-		String url = Paths.get( "src/test/resources/demo-app.html" ).toUri().toURL().toString();
-		driver.get(url);
+		final String url = Paths.get( "src/test/resources/demo-app.html" ).toUri().toURL().toString();
+		driver.get( url );
 
-		driver.findElement(By.id("username")).sendKeys("Simon");
-		driver.findElement(By.id("password")).sendKeys("secret");
-		driver.findElement(By.id("sign-in")).click();
+		driver.findElement( By.id( "username" ) ).sendKeys( "Simon" );
+		driver.findElement( By.id( "password" ) ).sendKeys( "secret" );
+		driver.findElement( By.id( "sign-in" ) ).click();
 
-		assertEquals(driver.findElement(By.tagName("h4")).getText(), "Success!");
+		assertEquals( driver.findElement( By.tagName( "h4" ) ).getText(), "Success!" );
 	}
 
 	@AfterEach
