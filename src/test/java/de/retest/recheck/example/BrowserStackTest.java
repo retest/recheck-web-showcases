@@ -8,9 +8,9 @@ import org.junit.jupiter.api.Test;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
-import de.retest.recheck.Properties;
 import de.retest.recheck.Recheck;
 import de.retest.recheck.RecheckImpl;
+import de.retest.recheck.RecheckProperties;
 
 class BrowserStackTest {
 
@@ -61,8 +61,8 @@ class BrowserStackTest {
 
 	@BeforeAll
 	public static void setup() {
-		System.setProperty(Properties.ROOT_ELEMENT_MATCH_THRESHOLD_PROPERTY, "0.0");
-		System.setProperty(Properties.ELEMENT_MATCH_THRESHOLD_PROPERTY, "0.0");
+		System.setProperty(RecheckProperties.ROOT_ELEMENT_MATCH_THRESHOLD_PROPERTY_KEY, "0.0");
+		System.setProperty(RecheckProperties.ELEMENT_MATCH_THRESHOLD_PROPERTY_KEY, "0.0");
 	}
 
 	@AfterEach
