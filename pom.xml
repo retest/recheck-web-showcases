@@ -1,4 +1,4 @@
-<project>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>de.retest</groupId>
@@ -32,13 +32,13 @@
     <dependency>
       <groupId>de.retest</groupId>
       <artifactId>recheck-web</artifactId>
-      <version>1.8.0</version>
+      <version>1.9.0</version>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>de.retest</groupId>
       <artifactId>recheck-junit-jupiter-extension</artifactId>
-      <version>1.7.0</version>
+      <version>1.9.0</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
@@ -87,7 +87,7 @@
             <configurationParameters>
               junit.jupiter.execution.parallel.enabled=true
               junit.jupiter.execution.parallel.config.dynamic.factor=1
-			  junit.jupiter.extensions.autodetection.enabled=true
+              junit.jupiter.extensions.autodetection.enabled=true
             </configurationParameters>
           </properties>
         </configuration>

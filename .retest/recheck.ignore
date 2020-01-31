@@ -9,9 +9,9 @@ attribute-regex=padding-.*
 attribute-regex=margin-.*
 attribute=font-family
 
-matcher: type=input, attribute-regex: border-.*-color
+matcher: type=input, attribute-regex=border-.*-color
 
-pixel-diff=2
+pixel-diff=2px
 
 
 # Instead of attributes, you can also ignore elements:
