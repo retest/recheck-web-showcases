@@ -16,7 +16,7 @@ class MyUnbreakableSeleniumTest {
 
 	@BeforeEach
 	void setup() {
-		// RecheckWebOptions opts = RecheckWebOptions.builder().omitScreenshots().build();
+		// RecheckOptions opts = RecheckWebOptions.builder().disableScreenshots().enableReportUpload().build();
 		driver = new RecheckDriver( new ChromeDriver() );
 	}
 
