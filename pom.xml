@@ -41,12 +41,12 @@
       <version>1.9.0</version>
       <scope>test</scope>
     </dependency>
-    
-<dependency>
-  <groupId>software.amazon.awssdk</groupId>
-  <artifactId>aws-sdk-java</artifactId>
-  <version>2.10.39</version>
-</dependency>
+	<!-- AWS SDK For Java dependency --> 
+	<dependency>
+	  <groupId>software.amazon.awssdk</groupId>
+	  <artifactId>aws-sdk-java</artifactId>
+	  <version>2.11.0</version>
+	</dependency>
 
   </dependencies>
 
