@@ -1,5 +1,7 @@
 # Ignore file for recheck. Please do not delete, even if it is empty.
 
+import: metadata.filter
+
 attribute=outline
 attribute=absolute-outline
 attribute=style

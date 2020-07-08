@@ -10,6 +10,17 @@
     <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
 
+  <repositories>
+    <repository>
+      <id>central</id>
+      <url>https://repo.maven.apache.org/maven2/</url>
+    </repository>
+    <repository>
+      <id>jitpack.io</id>
+      <url>https://jitpack.io/</url>
+    </repository>
+  </repositories>
+
   <dependencies>
     <dependency>
       <groupId>org.slf4j</groupId>
@@ -32,13 +43,13 @@
     <dependency>
       <groupId>de.retest</groupId>
       <artifactId>recheck-web</artifactId>
-      <version>1.9.0</version>
+      <version>e2e88523d3760c6c84c10f8a5ed9cf06ae7acf1b</version>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>de.retest</groupId>
       <artifactId>recheck-junit-jupiter-extension</artifactId>
-      <version>1.9.0</version>
+      <version>1.11.0</version>
       <scope>test</scope>
     </dependency>
     <dependency>
