@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<reTestXmlDataContainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" reTestVersion="1.7.0" dataType="de.retest.recheck.ui.descriptors.SutState" dataTypeVersion="4">
+<reTestXmlDataContainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" reTestVersion="1.11.1" dataType="de.retest.recheck.ui.descriptors.SutState" dataTypeVersion="4">
 	<data xsi:type="sutState">
 		<descriptors retestId="html" screenId="1" screen="Demo App" title="Demo App">
 			<identifyingAttributes>
@@ -24,8 +24,16 @@
 			<attributes>
 				<attributes>
 					<entry>
+						<key>border-image-outset</key>
+						<value xsi:type="xsd:string">0</value>
+					</entry>
+					<entry>
 						<key>box-sizing</key>
 						<value xsi:type="xsd:string">border-box</value>
+					</entry>
+					<entry>
+						<key>covered</key>
+						<value xsi:type="xsd:string">false</value>
 					</entry>
 					<entry>
 						<key>font-family</key>
@@ -95,6 +103,10 @@
 						<entry>
 							<key>column-rule-color</key>
 							<value xsi:type="xsd:string">rgb(62, 75, 91)</value>
+						</entry>
+						<entry>
+							<key>covered</key>
+							<value xsi:type="xsd:string">false</value>
 						</entry>
 						<entry>
 							<key>font-family</key>
@@ -174,6 +186,10 @@
 								<value xsi:type="xsd:string">contain</value>
 							</entry>
 							<entry>
+								<key>covered</key>
+								<value xsi:type="xsd:string">false</value>
+							</entry>
+							<entry>
 								<key>max-width</key>
 								<value xsi:type="xsd:string">100%</value>
 							</entry>
@@ -239,6 +255,10 @@
 									<value xsi:type="xsd:string">rgba(0, 0, 0, 0.1) 0px 0px 40px 0px</value>
 								</entry>
 								<entry>
+									<key>covered</key>
+									<value xsi:type="xsd:string">false</value>
+								</entry>
+								<entry>
 									<key>margin-left</key>
 									<value xsi:type="xsd:string">375px</value>
 								</entry>
@@ -279,6 +299,10 @@
 							</identifyingAttributes>
 							<attributes>
 								<attributes>
+									<entry>
+										<key>covered</key>
+										<value xsi:type="xsd:string">false</value>
+									</entry>
 									<entry>
 										<key>padding-bottom</key>
 										<value xsi:type="xsd:string">58.5px</value>
@@ -356,6 +380,10 @@
 											<value xsi:type="xsd:string">rgb(4, 123, 248)</value>
 										</entry>
 										<entry>
+											<key>covered</key>
+											<value xsi:type="xsd:string">false</value>
+										</entry>
+										<entry>
 											<key>href</key>
 											<value xsi:type="xsd:string">#</value>
 										</entry>
@@ -395,6 +423,10 @@
 									</identifyingAttributes>
 									<attributes>
 										<attributes>
+											<entry>
+												<key>covered</key>
+												<value xsi:type="xsd:string">false</value>
+											</entry>
 											<entry>
 												<key>shown</key>
 												<value xsi:type="xsd:string">true</value>
@@ -437,6 +469,10 @@
 									<entry>
 										<key>action</key>
 										<value xsi:type="xsd:string">#</value>
+									</entry>
+									<entry>
+										<key>covered</key>
+										<value xsi:type="xsd:string">false</value>
 									</entry>
 									<entry>
 										<key>padding-bottom</key>
@@ -496,6 +532,10 @@
 											<value xsi:type="xsd:string">1px</value>
 										</entry>
 										<entry>
+											<key>covered</key>
+											<value xsi:type="xsd:string">false</value>
+										</entry>
+										<entry>
 											<key>margin-top</key>
 											<value xsi:type="xsd:string">8px</value>
 										</entry>
@@ -516,7 +556,7 @@
 												<x>548</x>
 												<y>516</y>
 												<height>21</height>
-												<width>113</width>
+												<width>114</width>
 											</attribute>
 											<attribute key="class" xsi:type="stringAttribute">form-check-inline</attribute>
 											<attribute key="outline" xsi:type="outlineAttribute">
@@ -539,6 +579,10 @@
 											<entry>
 												<key>border-top-color</key>
 												<value xsi:type="xsd:string">rgb(62, 75, 91)</value>
+											</entry>
+											<entry>
+												<key>covered</key>
+												<value xsi:type="xsd:string">false</value>
 											</entry>
 											<entry>
 												<key>display</key>
@@ -565,7 +609,7 @@
 													<x>548</x>
 													<y>516</y>
 													<height>21</height>
-													<width>113</width>
+													<width>114</width>
 												</attribute>
 												<attribute key="class" xsi:type="stringAttribute">form-check-label</attribute>
 												<attribute key="outline" xsi:type="outlineAttribute">
@@ -582,6 +626,10 @@
 										<attributes>
 											<attributes>
 												<entry>
+													<key>covered</key>
+													<value xsi:type="xsd:string">false</value>
+												</entry>
+												<entry>
 													<key>display</key>
 													<value xsi:type="xsd:string">block</value>
 												</entry>
@@ -596,14 +644,14 @@
 												<attributes>
 													<attribute key="absolute-outline" xsi:type="outlineAttribute">
 														<x>548</x>
-														<y>522</y>
-														<height>12</height>
-														<width>12</width>
+														<y>519</y>
+														<height>13</height>
+														<width>13</width>
 													</attribute>
 													<attribute key="class" xsi:type="stringAttribute">form-check-input</attribute>
 													<attribute key="outline" xsi:type="outlineAttribute">
 														<x>0</x>
-														<y>3</y>
+														<y>1</y>
 														<height>-4</height>
 														<width>-50</width>
 													</attribute>
@@ -615,16 +663,20 @@
 											<attributes>
 												<attributes>
 													<entry>
+														<key>covered</key>
+														<value xsi:type="xsd:string">false</value>
+													</entry>
+													<entry>
 														<key>margin-right</key>
 														<value xsi:type="xsd:string">5px</value>
 													</entry>
 													<entry>
 														<key>min-height</key>
-														<value xsi:type="xsd:string">12px</value>
+														<value xsi:type="xsd:string">13px</value>
 													</entry>
 													<entry>
 														<key>min-width</key>
-														<value xsi:type="xsd:string">12px</value>
+														<value xsi:type="xsd:string">13px</value>
 													</entry>
 													<entry>
 														<key>shown</key>
@@ -648,7 +700,7 @@
 														<x>548</x>
 														<y>516</y>
 														<height>21</height>
-														<width>113</width>
+														<width>114</width>
 													</attribute>
 													<attribute key="outline" xsi:type="outlineAttribute">
 														<x>0</x>
@@ -664,6 +716,10 @@
 											</identifyingAttributes>
 											<attributes>
 												<attributes>
+													<entry>
+														<key>covered</key>
+														<value xsi:type="xsd:string">false</value>
+													</entry>
 													<entry>
 														<key>shown</key>
 														<value xsi:type="xsd:string">true</value>
@@ -698,6 +754,10 @@
 											<entry>
 												<key>border-top-color</key>
 												<value xsi:type="xsd:string">rgb(62, 75, 91)</value>
+											</entry>
+											<entry>
+												<key>covered</key>
+												<value xsi:type="xsd:string">false</value>
 											</entry>
 											<entry>
 												<key>shown</key>
@@ -756,6 +816,10 @@
 													<value xsi:type="xsd:string">rgb(4, 123, 248)</value>
 												</entry>
 												<entry>
+													<key>covered</key>
+													<value xsi:type="xsd:string">false</value>
+												</entry>
+												<entry>
 													<key>display</key>
 													<value xsi:type="xsd:string">inline-block</value>
 												</entry>
@@ -811,6 +875,10 @@
 											</identifyingAttributes>
 											<attributes>
 												<attributes>
+													<entry>
+														<key>covered</key>
+														<value xsi:type="xsd:string">false</value>
+													</entry>
 													<entry>
 														<key>shown</key>
 														<value xsi:type="xsd:string">true</value>
@@ -882,6 +950,10 @@
 													<value xsi:type="xsd:string">rgb(4, 123, 248)</value>
 												</entry>
 												<entry>
+													<key>covered</key>
+													<value xsi:type="xsd:string">false</value>
+												</entry>
+												<entry>
 													<key>display</key>
 													<value xsi:type="xsd:string">inline-block</value>
 												</entry>
@@ -933,6 +1005,10 @@
 											</identifyingAttributes>
 											<attributes>
 												<attributes>
+													<entry>
+														<key>covered</key>
+														<value xsi:type="xsd:string">false</value>
+													</entry>
 													<entry>
 														<key>shown</key>
 														<value xsi:type="xsd:string">true</value>
@@ -1004,6 +1080,10 @@
 													<value xsi:type="xsd:string">rgb(4, 123, 248)</value>
 												</entry>
 												<entry>
+													<key>covered</key>
+													<value xsi:type="xsd:string">false</value>
+												</entry>
+												<entry>
 													<key>display</key>
 													<value xsi:type="xsd:string">inline-block</value>
 												</entry>
@@ -1059,6 +1139,10 @@
 											</identifyingAttributes>
 											<attributes>
 												<attributes>
+													<entry>
+														<key>covered</key>
+														<value xsi:type="xsd:string">false</value>
+													</entry>
 													<entry>
 														<key>shown</key>
 														<value xsi:type="xsd:string">true</value>
@@ -1186,6 +1270,10 @@
 												<value xsi:type="xsd:string">rgb(255, 255, 255)</value>
 											</entry>
 											<entry>
+												<key>covered</key>
+												<value xsi:type="xsd:string">false</value>
+											</entry>
+											<entry>
 												<key>display</key>
 												<value xsi:type="xsd:string">inline-block</value>
 											</entry>
@@ -1281,6 +1369,10 @@
 								<attributes>
 									<attributes>
 										<entry>
+											<key>covered</key>
+											<value xsi:type="xsd:string">false</value>
+										</entry>
+										<entry>
 											<key>margin-bottom</key>
 											<value xsi:type="xsd:string">16px</value>
 										</entry>
@@ -1350,6 +1442,10 @@
 												<value xsi:type="xsd:string">rgb(4, 123, 248)</value>
 											</entry>
 											<entry>
+												<key>covered</key>
+												<value xsi:type="xsd:string">false</value>
+											</entry>
+											<entry>
 												<key>font-family</key>
 												<value xsi:type="xsd:string">osfont</value>
 											</entry>
@@ -1415,6 +1511,10 @@
 									</identifyingAttributes>
 									<attributes>
 										<attributes>
+											<entry>
+												<key>covered</key>
+												<value xsi:type="xsd:string">false</value>
+											</entry>
 											<entry>
 												<key>display</key>
 												<value xsi:type="xsd:string">inline-block</value>
@@ -1563,6 +1663,10 @@
 												<value xsi:type="xsd:string">rgb(73, 80, 87)</value>
 											</entry>
 											<entry>
+												<key>covered</key>
+												<value xsi:type="xsd:string">false</value>
+											</entry>
+											<entry>
 												<key>font-weight</key>
 												<value xsi:type="xsd:string">300</value>
 											</entry>
@@ -1573,6 +1677,10 @@
 											<entry>
 												<key>outline-color</key>
 												<value xsi:type="xsd:string">rgb(73, 80, 87)</value>
+											</entry>
+											<entry>
+												<key>outline-offset</key>
+												<value xsi:type="xsd:string">-2px</value>
 											</entry>
 											<entry>
 												<key>padding-bottom</key>
@@ -1658,6 +1766,10 @@
 								<attributes>
 									<attributes>
 										<entry>
+											<key>covered</key>
+											<value xsi:type="xsd:string">false</value>
+										</entry>
+										<entry>
 											<key>margin-bottom</key>
 											<value xsi:type="xsd:string">16px</value>
 										</entry>
@@ -1725,6 +1837,10 @@
 											<entry>
 												<key>column-rule-color</key>
 												<value xsi:type="xsd:string">rgb(4, 123, 248)</value>
+											</entry>
+											<entry>
+												<key>covered</key>
+												<value xsi:type="xsd:string">false</value>
 											</entry>
 											<entry>
 												<key>font-family</key>
@@ -1902,6 +2018,10 @@
 												<value xsi:type="xsd:string">rgb(73, 80, 87)</value>
 											</entry>
 											<entry>
+												<key>covered</key>
+												<value xsi:type="xsd:string">false</value>
+											</entry>
+											<entry>
 												<key>font-weight</key>
 												<value xsi:type="xsd:string">300</value>
 											</entry>
@@ -1992,6 +2112,10 @@
 									<attributes>
 										<attributes>
 											<entry>
+												<key>covered</key>
+												<value xsi:type="xsd:string">false</value>
+											</entry>
+											<entry>
 												<key>display</key>
 												<value xsi:type="xsd:string">inline-block</value>
 											</entry>
@@ -2069,6 +2193,10 @@
 										<value xsi:type="xsd:string">rgb(51, 65, 82)</value>
 									</entry>
 									<entry>
+										<key>covered</key>
+										<value xsi:type="xsd:string">false</value>
+									</entry>
+									<entry>
 										<key>font-size</key>
 										<value xsi:type="xsd:string">24px</value>
 									</entry>
@@ -2141,6 +2269,10 @@
 				<attributes>
 					<attributes>
 						<entry>
+							<key>covered</key>
+							<value xsi:type="xsd:string">false</value>
+						</entry>
+						<entry>
 							<key>shown</key>
 							<value xsi:type="xsd:string">false</value>
 						</entry>
@@ -2171,6 +2303,10 @@
 							<entry>
 								<key>content</key>
 								<value xsi:type="xsd:string">text/html; charset=UTF-8</value>
+							</entry>
+							<entry>
+								<key>covered</key>
+								<value xsi:type="xsd:string">false</value>
 							</entry>
 							<entry>
 								<key>http-equiv</key>
@@ -2210,6 +2346,10 @@
 								<value xsi:type="xsd:string">ie=edge</value>
 							</entry>
 							<entry>
+								<key>covered</key>
+								<value xsi:type="xsd:string">false</value>
+							</entry>
+							<entry>
 								<key>http-equiv</key>
 								<value xsi:type="xsd:string">x-ua-compatible</value>
 							</entry>
@@ -2243,6 +2383,10 @@
 					</identifyingAttributes>
 					<attributes>
 						<attributes>
+							<entry>
+								<key>covered</key>
+								<value xsi:type="xsd:string">false</value>
+							</entry>
 							<entry>
 								<key>shown</key>
 								<value xsi:type="xsd:string">false</value>
@@ -2278,6 +2422,10 @@
 								<value xsi:type="xsd:string">width=device-width, initial-scale=1</value>
 							</entry>
 							<entry>
+								<key>covered</key>
+								<value xsi:type="xsd:string">false</value>
+							</entry>
+							<entry>
 								<key>shown</key>
 								<value xsi:type="xsd:string">false</value>
 							</entry>
@@ -2310,6 +2458,10 @@
 							<entry>
 								<key>content</key>
 								<value xsi:type="xsd:string">recheck-web test demo</value>
+							</entry>
+							<entry>
+								<key>covered</key>
+								<value xsi:type="xsd:string">false</value>
 							</entry>
 							<entry>
 								<key>shown</key>
