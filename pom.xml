@@ -43,7 +43,7 @@
     <dependency>
       <groupId>de.retest</groupId>
       <artifactId>recheck-web</artifactId>
-      <version>e2e88523d3760c6c84c10f8a5ed9cf06ae7acf1b</version>
+      <version>c5aee532b6c2b6135eb1e0183f90d4beefab222e</version>
       <scope>test</scope>
     </dependency>
     <dependency>
