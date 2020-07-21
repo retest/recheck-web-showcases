@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<reTestXmlDataContainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" reTestVersion="1.11.1" dataType="de.retest.recheck.ui.descriptors.SutState" dataTypeVersion="4">
+<reTestXmlDataContainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" reTestVersion="1.12.0-SNAPSHOT" dataType="de.retest.recheck.ui.descriptors.SutState" dataTypeVersion="4">
 	<data xsi:type="sutState">
 		<descriptors retestId="html" screenId="1" screen="Demo App" title="Demo App">
 			<identifyingAttributes>
@@ -7,13 +7,13 @@
 					<attribute key="absolute-outline" xsi:type="outlineAttribute">
 						<x>0</x>
 						<y>0</y>
-						<height>710</height>
+						<height>1010</height>
 						<width>1200</width>
 					</attribute>
 					<attribute key="outline" xsi:type="outlineAttribute">
 						<x>0</x>
 						<y>0</y>
-						<height>355</height>
+						<height>505</height>
 						<width>600</width>
 					</attribute>
 					<attribute key="path" xsi:type="pathAttribute">html[1]</attribute>
@@ -24,16 +24,8 @@
 			<attributes>
 				<attributes>
 					<entry>
-						<key>border-image-outset</key>
-						<value xsi:type="xsd:string">0</value>
-					</entry>
-					<entry>
 						<key>box-sizing</key>
 						<value xsi:type="xsd:string">border-box</value>
-					</entry>
-					<entry>
-						<key>covered</key>
-						<value xsi:type="xsd:string">false</value>
 					</entry>
 					<entry>
 						<key>font-family</key>
@@ -61,7 +53,7 @@
 						<attribute key="outline" xsi:type="outlineAttribute">
 							<x>0</x>
 							<y>0</y>
-							<height>-355</height>
+							<height>-505</height>
 							<width>-600</width>
 						</attribute>
 						<attribute key="path" xsi:type="pathAttribute">html[1]/head[1]</attribute>
@@ -72,49 +64,11 @@
 				<attributes>
 					<attributes>
 						<entry>
-							<key>covered</key>
-							<value xsi:type="xsd:string">false</value>
-						</entry>
-						<entry>
 							<key>shown</key>
 							<value xsi:type="xsd:string">false</value>
 						</entry>
 					</attributes>
 				</attributes>
-				<containedElements retestId="demo_app">
-					<identifyingAttributes>
-						<attributes>
-							<attribute key="absolute-outline" xsi:type="outlineAttribute">
-								<x>0</x>
-								<y>0</y>
-								<height>0</height>
-								<width>0</width>
-							</attribute>
-							<attribute key="outline" xsi:type="outlineAttribute">
-								<x>0</x>
-								<y>0</y>
-								<height>0</height>
-								<width>0</width>
-							</attribute>
-							<attribute key="path" xsi:type="pathAttribute">html[1]/head[1]/title[1]</attribute>
-							<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
-							<attribute key="text" xsi:type="textAttribute">Demo App</attribute>
-							<attribute key="type" xsi:type="stringAttribute">title</attribute>
-						</attributes>
-					</identifyingAttributes>
-					<attributes>
-						<attributes>
-							<entry>
-								<key>covered</key>
-								<value xsi:type="xsd:string">false</value>
-							</entry>
-							<entry>
-								<key>shown</key>
-								<value xsi:type="xsd:string">false</value>
-							</entry>
-						</attributes>
-					</attributes>
-				</containedElements>
 				<containedElements retestId="meta">
 					<identifyingAttributes>
 						<attributes>
@@ -142,10 +96,6 @@
 								<value xsi:type="xsd:string">text/html; charset=UTF-8</value>
 							</entry>
 							<entry>
-								<key>covered</key>
-								<value xsi:type="xsd:string">false</value>
-							</entry>
-							<entry>
 								<key>http-equiv</key>
 								<value xsi:type="xsd:string">Content-Type</value>
 							</entry>
@@ -156,7 +106,7 @@
 						</attributes>
 					</attributes>
 				</containedElements>
-				<containedElements retestId="meta-1">
+				<containedElements retestId="viewport">
 					<identifyingAttributes>
 						<attributes>
 							<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -184,9 +134,35 @@
 								<value xsi:type="xsd:string">width=device-width, initial-scale=1</value>
 							</entry>
 							<entry>
-								<key>covered</key>
+								<key>shown</key>
 								<value xsi:type="xsd:string">false</value>
 							</entry>
+						</attributes>
+					</attributes>
+				</containedElements>
+				<containedElements retestId="demo_app">
+					<identifyingAttributes>
+						<attributes>
+							<attribute key="absolute-outline" xsi:type="outlineAttribute">
+								<x>0</x>
+								<y>0</y>
+								<height>0</height>
+								<width>0</width>
+							</attribute>
+							<attribute key="outline" xsi:type="outlineAttribute">
+								<x>0</x>
+								<y>0</y>
+								<height>0</height>
+								<width>0</width>
+							</attribute>
+							<attribute key="path" xsi:type="pathAttribute">html[1]/head[1]/title[1]</attribute>
+							<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+							<attribute key="text" xsi:type="textAttribute">Demo App</attribute>
+							<attribute key="type" xsi:type="stringAttribute">title</attribute>
+						</attributes>
+					</identifyingAttributes>
+					<attributes>
+						<attributes>
 							<entry>
 								<key>shown</key>
 								<value xsi:type="xsd:string">false</value>
@@ -194,7 +170,7 @@
 						</attributes>
 					</attributes>
 				</containedElements>
-				<containedElements retestId="meta-2">
+				<containedElements retestId="meta-1">
 					<identifyingAttributes>
 						<attributes>
 							<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -221,10 +197,6 @@
 								<value xsi:type="xsd:string">ie=edge</value>
 							</entry>
 							<entry>
-								<key>covered</key>
-								<value xsi:type="xsd:string">false</value>
-							</entry>
-							<entry>
 								<key>http-equiv</key>
 								<value xsi:type="xsd:string">x-ua-compatible</value>
 							</entry>
@@ -235,7 +207,7 @@
 						</attributes>
 					</attributes>
 				</containedElements>
-				<containedElements retestId="meta-3">
+				<containedElements retestId="keywords">
 					<identifyingAttributes>
 						<attributes>
 							<attribute key="absolute-outline" xsi:type="outlineAttribute">
@@ -263,10 +235,6 @@
 								<value xsi:type="xsd:string">recheck-web test demo</value>
 							</entry>
 							<entry>
-								<key>covered</key>
-								<value xsi:type="xsd:string">false</value>
-							</entry>
-							<entry>
 								<key>shown</key>
 								<value xsi:type="xsd:string">false</value>
 							</entry>
@@ -280,7 +248,7 @@
 						<attribute key="absolute-outline" xsi:type="outlineAttribute">
 							<x>0</x>
 							<y>0</y>
-							<height>710</height>
+							<height>1010</height>
 							<width>1200</width>
 						</attribute>
 						<attribute key="class" xsi:type="stringAttribute">auth-wrapper</attribute>
@@ -330,10 +298,6 @@
 							<value xsi:type="xsd:string">rgb(62, 75, 91)</value>
 						</entry>
 						<entry>
-							<key>covered</key>
-							<value xsi:type="xsd:string">false</value>
-						</entry>
-						<entry>
 							<key>font-family</key>
 							<value xsi:type="xsd:string">&quot;Avenir Next W01&quot;, &quot;Proxima Nova W01&quot;, Rubik, -apple-system, system-ui, system-ui, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif</value>
 						</entry>
@@ -379,6 +343,35 @@
 						</entry>
 					</attributes>
 				</attributes>
+				<containedElements retestId="before">
+					<identifyingAttributes>
+						<attributes>
+							<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/#pseudo::before[1]</attribute>
+							<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+							<attribute key="type" xsi:type="stringAttribute">::before</attribute>
+						</attributes>
+					</identifyingAttributes>
+					<attributes>
+						<attributes>
+							<entry>
+								<key>background-image</key>
+								<value xsi:type="xsd:string">linear-gradient(to right bottom, rgb(188, 207, 47), rgb(102, 153, 0))</value>
+							</entry>
+							<entry>
+								<key>position</key>
+								<value xsi:type="xsd:string">absolute</value>
+							</entry>
+							<entry>
+								<key>pseudo</key>
+								<value xsi:type="xsd:string">true</value>
+							</entry>
+							<entry>
+								<key>z-index</key>
+								<value xsi:type="xsd:string">-1</value>
+							</entry>
+						</attributes>
+					</attributes>
+				</containedElements>
 				<containedElements retestId="div">
 					<identifyingAttributes>
 						<attributes>
@@ -392,7 +385,7 @@
 							<attribute key="outline" xsi:type="outlineAttribute">
 								<x>0</x>
 								<y>0</y>
-								<height>-57</height>
+								<height>-207</height>
 								<width>0</width>
 							</attribute>
 							<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/div[1]</attribute>
@@ -409,10 +402,6 @@
 							<entry>
 								<key>background-size</key>
 								<value xsi:type="xsd:string">contain</value>
-							</entry>
-							<entry>
-								<key>covered</key>
-								<value xsi:type="xsd:string">false</value>
 							</entry>
 							<entry>
 								<key>max-width</key>
@@ -480,10 +469,6 @@
 									<value xsi:type="xsd:string">rgba(0, 0, 0, 0.1) 0px 0px 40px 0px</value>
 								</entry>
 								<entry>
-									<key>covered</key>
-									<value xsi:type="xsd:string">false</value>
-								</entry>
-								<entry>
 									<key>margin-left</key>
 									<value xsi:type="xsd:string">375px</value>
 								</entry>
@@ -528,10 +513,6 @@
 							</identifyingAttributes>
 							<attributes>
 								<attributes>
-									<entry>
-										<key>covered</key>
-										<value xsi:type="xsd:string">false</value>
-									</entry>
 									<entry>
 										<key>padding-bottom</key>
 										<value xsi:type="xsd:string">58.5px</value>
@@ -605,10 +586,6 @@
 											<value xsi:type="xsd:string">rgb(4, 123, 248)</value>
 										</entry>
 										<entry>
-											<key>covered</key>
-											<value xsi:type="xsd:string">false</value>
-										</entry>
-										<entry>
 											<key>href</key>
 											<value xsi:type="xsd:string">#</value>
 										</entry>
@@ -648,10 +625,6 @@
 									</identifyingAttributes>
 									<attributes>
 										<attributes>
-											<entry>
-												<key>covered</key>
-												<value xsi:type="xsd:string">false</value>
-											</entry>
 											<entry>
 												<key>shown</key>
 												<value xsi:type="xsd:string">true</value>
@@ -721,10 +694,6 @@
 										<value xsi:type="xsd:string">rgb(51, 65, 82)</value>
 									</entry>
 									<entry>
-										<key>covered</key>
-										<value xsi:type="xsd:string">false</value>
-									</entry>
-									<entry>
 										<key>font-size</key>
 										<value xsi:type="xsd:string">24px</value>
 									</entry>
@@ -779,10 +748,6 @@
 							<attributes>
 								<attributes>
 									<entry>
-										<key>covered</key>
-										<value xsi:type="xsd:string">false</value>
-									</entry>
-									<entry>
 										<key>shown</key>
 										<value xsi:type="xsd:string">true</value>
 									</entry>
@@ -801,5 +766,75 @@
 				<type>PNG</type>
 			</screenshot>
 		</descriptors>
+		<metadata>
+			<entry>
+				<key>driver.type</key>
+				<value>RecheckDriver</value>
+			</entry>
+			<entry>
+				<key>time.offset</key>
+				<value>+02:00</value>
+			</entry>
+			<entry>
+				<key>os.arch</key>
+				<value></value>
+			</entry>
+			<entry>
+				<key>check.type</key>
+				<value>driver</value>
+			</entry>
+			<entry>
+				<key>vcs.commit</key>
+				<value>d4455118b7fd229ddbfd1dacf763bf6944461fc0</value>
+			</entry>
+			<entry>
+				<key>window.height</key>
+				<value>1133</value>
+			</entry>
+			<entry>
+				<key>vcs.branch</key>
+				<value>feature/slow-driver</value>
+			</entry>
+			<entry>
+				<key>url</key>
+				<value>file:///Users/roessler/Documents/startup/workspace/recheck-web-example/src/test/resources/success.html</value>
+			</entry>
+			<entry>
+				<key>os.version</key>
+				<value></value>
+			</entry>
+			<entry>
+				<key>browser.name</key>
+				<value>chrome</value>
+			</entry>
+			<entry>
+				<key>browser.version</key>
+				<value>84.0.4147.89</value>
+			</entry>
+			<entry>
+				<key>time.time</key>
+				<value>09:57:12.904</value>
+			</entry>
+			<entry>
+				<key>time.zone</key>
+				<value>Europe/Berlin</value>
+			</entry>
+			<entry>
+				<key>window.width</key>
+				<value>1200</value>
+			</entry>
+			<entry>
+				<key>os.name</key>
+				<value>MAC</value>
+			</entry>
+			<entry>
+				<key>time.date</key>
+				<value>2020-07-21</value>
+			</entry>
+			<entry>
+				<key>vcs.name</key>
+				<value>git</value>
+			</entry>
+		</metadata>
 	</data>
 </reTestXmlDataContainer>
