@@ -8,6 +8,7 @@ import org.junit.jupiter.api.Test;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
+import de.retest.web.RecheckWebOptions;
 import de.retest.web.selenium.By;
 import de.retest.web.selenium.RecheckDriver;
 
@@ -17,7 +18,7 @@ class MyUnbreakableSeleniumTest {
 
 	@BeforeEach
 	void setup() {
-		// RecheckWebOptions opts = RecheckWebOptions.builder().omitScreenshots().build();
+		final RecheckWebOptions reopts = RecheckWebOptions.builder().enableReportUpload().build();
 		final ChromeOptions opts = new ChromeOptions();
 		opts.addArguments(
 				// Enable headless mode for faster execution.
@@ -26,7 +27,7 @@ class MyUnbreakableSeleniumTest {
 				"--no-sandbox",
 				// Fix window size for stable results.
 				"--window-size=1200,800" );
-		driver = new RecheckDriver( new ChromeDriver( opts ) );
+		driver = new RecheckDriver( new ChromeDriver( opts ), reopts );
 	}
 
 	@Test
