@@ -16,6 +16,10 @@
 # More details and examples can be found here:
 # https://retest.github.io/docs/recheck/how-ignore-works-in-recheck/
 
+import: positioning.filter
+import: style-attributes.filter
+import: invisible-attributes.filter
+
 matcher: type=input, attribute=border-.*-color
 matcher: type=input, attribute=outline-color
 matcher: type=iframe

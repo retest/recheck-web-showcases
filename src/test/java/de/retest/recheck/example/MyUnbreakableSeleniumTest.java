@@ -4,6 +4,7 @@ import java.nio.file.Paths;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -12,6 +13,7 @@ import de.retest.web.RecheckWebOptions;
 import de.retest.web.selenium.By;
 import de.retest.web.selenium.RecheckDriver;
 
+@Disabled
 class MyUnbreakableSeleniumTest {
 
 	RecheckDriver driver;
