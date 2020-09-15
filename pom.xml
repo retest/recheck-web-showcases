@@ -10,17 +10,6 @@
     <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
 
-  <repositories>
-    <repository>
-      <id>central</id>
-      <url>https://repo.maven.apache.org/maven2/</url>
-    </repository>
-    <repository>
-      <id>jitpack.io</id>
-      <url>https://jitpack.io/</url>
-    </repository>
-  </repositories>
-
   <dependencies>
     <dependency>
       <groupId>org.slf4j</groupId>
@@ -43,7 +32,7 @@
     <dependency>
       <groupId>de.retest</groupId>
       <artifactId>recheck-web</artifactId>
-      <version>d67e8ea6e70f0e0d73f9a5afebcce8aa7a1427d8</version>
+      <version>1.11.0</version>
       <scope>test</scope>
     </dependency>
     <dependency>

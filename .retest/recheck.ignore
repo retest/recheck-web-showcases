@@ -1,21 +1,5 @@
 # Ignore file for recheck. Please do not delete, even if it is empty.
 
-import: metadata.filter
-
-attribute=outline
-attribute=absolute-outline
-attribute=style
-attribute=transform
-attribute=id
-attribute-regex=padding-.*
-attribute-regex=margin-.*
-attribute=font-family
-
-matcher: type=input, attribute-regex=border-.*-color
-
-pixel-diff=2px
-
-
 # Instead of attributes, you can also ignore elements:
 #matcher: type=a
 
@@ -31,3 +15,21 @@ pixel-diff=2px
 
 # More details and examples can be found here:
 # https://retest.github.io/docs/recheck/how-ignore-works-in-recheck/
+
+matcher: type=input, attribute=border-.*-color
+matcher: type=input, attribute=outline-color
+matcher: type=iframe
+attribute=font-family
+attribute=style
+attribute=opacity
+attribute=name
+matcher: retestid=removefromcart, attribute=value
+matcher: retestid=order_number, attribute=text
+matcher: retestid=click_here_for, attribute=href
+matcher: retestid=a-5
+matcher: retestid=a-6
+matcher: retestid=a-7
+matcher: retestid=a-8
+matcher: retestid=purchaseordernu, attribute=outline-color
+matcher: retestid=purchaseordernu, attribute=outline-width
+matcher: retestid=barnotification

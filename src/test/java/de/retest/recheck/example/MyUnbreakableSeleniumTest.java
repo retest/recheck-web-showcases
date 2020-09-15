@@ -8,6 +8,10 @@ import org.junit.jupiter.api.Test;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
+<<<<<<< HEAD
+=======
+import de.retest.recheck.RecheckOptions;
+>>>>>>> Adding newly recorded tests'
 import de.retest.web.RecheckWebOptions;
 import de.retest.web.selenium.By;
 import de.retest.web.selenium.RecheckDriver;
