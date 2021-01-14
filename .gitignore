@@ -1,7 +1,11 @@
-# These files are ignored by git based on their name:
+# Eclipse.
+.classpath
+.project
+.settings/
 
-*.log
-*.class
+# IntelliJ.
+.idea/
+*.iml
 
-target/.*
+# Maven.
 /target/
