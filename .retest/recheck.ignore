@@ -46,3 +46,4 @@ matcher: retestid=at_vero_eos_et, attribute=margin-left
 matcher: retestid=the_caterpillar, attribute=margin-left
 matcher: retestid=consetetur_sadi, attribute=margin-left
 matcher: retestid=duis_autem_vel-1, attribute=margin-left
+matcher: retestid=banner, attribute=background-image
