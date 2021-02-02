@@ -7,14 +7,14 @@
 					<attribute key="absolute-outline" xsi:type="outlineAttribute">
 						<x>0</x>
 						<y>0</y>
-						<height>1069</height>
-						<width>1192</width>
+						<height>1200</height>
+						<width>1200</width>
 					</attribute>
 					<attribute key="outline" xsi:type="outlineAttribute">
 						<x>0</x>
 						<y>0</y>
-						<height>1069</height>
-						<width>1192</width>
+						<height>1200</height>
+						<width>1200</width>
 					</attribute>
 					<attribute key="path" xsi:type="pathAttribute">html[1]</attribute>
 					<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
@@ -53,8 +53,8 @@
 						<attribute key="outline" xsi:type="outlineAttribute">
 							<x>0</x>
 							<y>0</y>
-							<height>-1069</height>
-							<width>-1192</width>
+							<height>-1200</height>
+							<width>-1200</width>
 						</attribute>
 						<attribute key="path" xsi:type="pathAttribute">html[1]/head[1]</attribute>
 						<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
@@ -248,8 +248,8 @@
 						<attribute key="absolute-outline" xsi:type="outlineAttribute">
 							<x>0</x>
 							<y>0</y>
-							<height>1069</height>
-							<width>1192</width>
+							<height>1200</height>
+							<width>1200</width>
 						</attribute>
 						<attribute key="class" xsi:type="stringAttribute">auth-wrapper</attribute>
 						<attribute key="outline" xsi:type="outlineAttribute">
@@ -379,13 +379,13 @@
 								<x>0</x>
 								<y>0</y>
 								<height>655</height>
-								<width>1192</width>
+								<width>1200</width>
 							</attribute>
 							<attribute key="class" xsi:type="stringAttribute">all-wrapper menu-side with-pattern</attribute>
 							<attribute key="outline" xsi:type="outlineAttribute">
 								<x>0</x>
 								<y>0</y>
-								<height>-414</height>
+								<height>-545</height>
 								<width>0</width>
 							</attribute>
 							<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/div[1]</attribute>
@@ -421,17 +421,17 @@
 						<identifyingAttributes>
 							<attributes>
 								<attribute key="absolute-outline" xsi:type="outlineAttribute">
-									<x>371</x>
+									<x>375</x>
 									<y>0</y>
 									<height>655</height>
 									<width>450</width>
 								</attribute>
 								<attribute key="class" xsi:type="stringAttribute">auth-box-w</attribute>
 								<attribute key="outline" xsi:type="outlineAttribute">
-									<x>371</x>
+									<x>375</x>
 									<y>0</y>
 									<height>0</height>
-									<width>-742</width>
+									<width>-750</width>
 								</attribute>
 								<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/div[1]/div[1]</attribute>
 								<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
@@ -482,7 +482,7 @@
 							<identifyingAttributes>
 								<attributes>
 									<attribute key="absolute-outline" xsi:type="outlineAttribute">
-										<x>371</x>
+										<x>375</x>
 										<y>0</y>
 										<height>243</height>
 										<width>450</width>
@@ -531,15 +531,15 @@
 								<identifyingAttributes>
 									<attributes>
 										<attribute key="absolute-outline" xsi:type="outlineAttribute">
-											<x>471</x>
-											<y>111</y>
-											<height>17</height>
+											<x>475</x>
+											<y>113</y>
+											<height>16</height>
 											<width>250</width>
 										</attribute>
 										<attribute key="outline" xsi:type="outlineAttribute">
 											<x>100</x>
-											<y>111</y>
-											<height>-226</height>
+											<y>113</y>
+											<height>-227</height>
 											<width>-200</width>
 										</attribute>
 										<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/div[1]/div[1]/div[1]/a[1]</attribute>
@@ -599,15 +599,15 @@
 									<identifyingAttributes>
 										<attributes>
 											<attribute key="absolute-outline" xsi:type="outlineAttribute">
-												<x>471</x>
+												<x>475</x>
 												<y>59</y>
 												<height>126</height>
 												<width>250</width>
 											</attribute>
 											<attribute key="outline" xsi:type="outlineAttribute">
 												<x>0</x>
-												<y>-52</y>
-												<height>109</height>
+												<y>-54</y>
+												<height>110</height>
 												<width>0</width>
 											</attribute>
 											<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/div[1]/div[1]/div[1]/a[1]/img[1]</attribute>
@@ -638,7 +638,7 @@
 							<identifyingAttributes>
 								<attributes>
 									<attribute key="absolute-outline" xsi:type="outlineAttribute">
-										<x>371</x>
+										<x>375</x>
 										<y>243</y>
 										<height>45</height>
 										<width>450</width>
@@ -873,7 +873,7 @@
 							<identifyingAttributes>
 								<attributes>
 									<attribute key="absolute-outline" xsi:type="outlineAttribute">
-										<x>371</x>
+										<x>375</x>
 										<y>320</y>
 										<height>335</height>
 										<width>450</width>
@@ -921,7 +921,7 @@
 								<identifyingAttributes>
 									<attributes>
 										<attribute key="absolute-outline" xsi:type="outlineAttribute">
-											<x>451</x>
+											<x>455</x>
 											<y>340</y>
 											<height>62</height>
 											<width>290</width>
@@ -958,16 +958,16 @@
 									<identifyingAttributes>
 										<attributes>
 											<attribute key="absolute-outline" xsi:type="outlineAttribute">
-												<x>451</x>
+												<x>455</x>
 												<y>340</y>
 												<height>21</height>
-												<width>65</width>
+												<width>73</width>
 											</attribute>
 											<attribute key="outline" xsi:type="outlineAttribute">
 												<x>0</x>
 												<y>0</y>
 												<height>-41</height>
-												<width>-225</width>
+												<width>-217</width>
 											</attribute>
 											<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/div[1]/div[1]/form[1]/div[1]/label[1]</attribute>
 											<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
@@ -996,7 +996,7 @@
 									<identifyingAttributes>
 										<attributes>
 											<attribute key="absolute-outline" xsi:type="outlineAttribute">
-												<x>451</x>
+												<x>455</x>
 												<y>365</y>
 												<height>37</height>
 												<width>290</width>
@@ -1327,7 +1327,7 @@
 									<identifyingAttributes>
 										<attributes>
 											<attribute key="absolute-outline" xsi:type="outlineAttribute">
-												<x>413</x>
+												<x>417</x>
 												<y>373</y>
 												<height>24</height>
 												<width>24</width>
@@ -1447,7 +1447,7 @@
 								<identifyingAttributes>
 									<attributes>
 										<attribute key="absolute-outline" xsi:type="outlineAttribute">
-											<x>451</x>
+											<x>455</x>
 											<y>418</y>
 											<height>62</height>
 											<width>290</width>
@@ -1484,16 +1484,16 @@
 									<identifyingAttributes>
 										<attributes>
 											<attribute key="absolute-outline" xsi:type="outlineAttribute">
-												<x>451</x>
+												<x>455</x>
 												<y>418</y>
 												<height>21</height>
-												<width>62</width>
+												<width>67</width>
 											</attribute>
 											<attribute key="outline" xsi:type="outlineAttribute">
 												<x>0</x>
 												<y>0</y>
 												<height>-41</height>
-												<width>-228</width>
+												<width>-223</width>
 											</attribute>
 											<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/div[1]/div[1]/form[1]/div[2]/label[1]</attribute>
 											<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
@@ -1522,7 +1522,7 @@
 									<identifyingAttributes>
 										<attributes>
 											<attribute key="absolute-outline" xsi:type="outlineAttribute">
-												<x>451</x>
+												<x>455</x>
 												<y>443</y>
 												<height>37</height>
 												<width>290</width>
@@ -1853,7 +1853,7 @@
 									<identifyingAttributes>
 										<attributes>
 											<attribute key="absolute-outline" xsi:type="outlineAttribute">
-												<x>413</x>
+												<x>417</x>
 												<y>451</y>
 												<height>24</height>
 												<width>24</width>
@@ -1930,7 +1930,7 @@
 											</entry>
 											<entry>
 												<key>right</key>
-												<value xsi:type="xsd:string">304.047px</value>
+												<value xsi:type="xsd:string">304px</value>
 											</entry>
 											<entry>
 												<key>shown</key>
@@ -1973,7 +1973,7 @@
 								<identifyingAttributes>
 									<attributes>
 										<attribute key="absolute-outline" xsi:type="outlineAttribute">
-											<x>451</x>
+											<x>455</x>
 											<y>496</y>
 											<height>99</height>
 											<width>290</width>
@@ -2106,10 +2106,10 @@
 									<identifyingAttributes>
 										<attributes>
 											<attribute key="absolute-outline" xsi:type="outlineAttribute">
-												<x>451</x>
+												<x>455</x>
 												<y>513</y>
 												<height>30</height>
-												<width>71</width>
+												<width>77</width>
 											</attribute>
 											<attribute key="class" xsi:type="stringAttribute">btn btn-primary</attribute>
 											<attribute key="id" xsi:type="stringAttribute">sign-in</attribute>
@@ -2117,7 +2117,7 @@
 												<x>0</x>
 												<y>17</y>
 												<height>-69</height>
-												<width>-219</width>
+												<width>-213</width>
 											</attribute>
 											<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/div[1]/div[1]/form[1]/div[3]/a[1]</attribute>
 											<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
@@ -2414,17 +2414,17 @@
 									<identifyingAttributes>
 										<attributes>
 											<attribute key="absolute-outline" xsi:type="outlineAttribute">
-												<x>541</x>
-												<y>515</y>
+												<x>553</x>
+												<y>517</y>
 												<height>21</height>
-												<width>112</width>
+												<width>123</width>
 											</attribute>
 											<attribute key="class" xsi:type="stringAttribute">form-check-inline</attribute>
 											<attribute key="outline" xsi:type="outlineAttribute">
-												<x>90</x>
-												<y>19</y>
+												<x>98</x>
+												<y>21</y>
 												<height>-78</height>
-												<width>-178</width>
+												<width>-167</width>
 											</attribute>
 											<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/div[1]/div[1]/form[1]/div[3]/div[1]</attribute>
 											<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
@@ -2531,10 +2531,10 @@
 										<identifyingAttributes>
 											<attributes>
 												<attribute key="absolute-outline" xsi:type="outlineAttribute">
-													<x>541</x>
-													<y>515</y>
+													<x>553</x>
+													<y>517</y>
 													<height>21</height>
-													<width>112</width>
+													<width>123</width>
 												</attribute>
 												<attribute key="class" xsi:type="stringAttribute">form-check-label</attribute>
 												<attribute key="outline" xsi:type="outlineAttribute">
@@ -2564,17 +2564,17 @@
 											<identifyingAttributes>
 												<attributes>
 													<attribute key="absolute-outline" xsi:type="outlineAttribute">
-														<x>541</x>
-														<y>518</y>
+														<x>553</x>
+														<y>519</y>
 														<height>13</height>
 														<width>13</width>
 													</attribute>
 													<attribute key="class" xsi:type="stringAttribute">form-check-input</attribute>
 													<attribute key="outline" xsi:type="outlineAttribute">
 														<x>0</x>
-														<y>3</y>
+														<y>2</y>
 														<height>-8</height>
-														<width>-99</width>
+														<width>-110</width>
 													</attribute>
 													<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/div[1]/div[1]/form[1]/div[3]/div[1]/label[1]/input[1]</attribute>
 													<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
@@ -2614,10 +2614,10 @@
 											<identifyingAttributes>
 												<attributes>
 													<attribute key="absolute-outline" xsi:type="outlineAttribute">
-														<x>541</x>
-														<y>515</y>
+														<x>553</x>
+														<y>517</y>
 														<height>21</height>
-														<width>112</width>
+														<width>123</width>
 													</attribute>
 													<attribute key="outline" xsi:type="outlineAttribute">
 														<x>0</x>
@@ -2649,7 +2649,7 @@
 									<identifyingAttributes>
 										<attributes>
 											<attribute key="absolute-outline" xsi:type="outlineAttribute">
-												<x>451</x>
+												<x>455</x>
 												<y>543</y>
 												<height>52</height>
 												<width>290</width>
@@ -2681,7 +2681,7 @@
 										<identifyingAttributes>
 											<attributes>
 												<attribute key="absolute-outline" xsi:type="outlineAttribute">
-													<x>451</x>
+													<x>455</x>
 													<y>563</y>
 													<height>28</height>
 													<width>28</width>
@@ -2761,7 +2761,7 @@
 											<identifyingAttributes>
 												<attributes>
 													<attribute key="absolute-outline" xsi:type="outlineAttribute">
-														<x>451</x>
+														<x>455</x>
 														<y>563</y>
 														<height>28</height>
 														<width>28</width>
@@ -2803,7 +2803,7 @@
 										<identifyingAttributes>
 											<attributes>
 												<attribute key="absolute-outline" xsi:type="outlineAttribute">
-													<x>509</x>
+													<x>513</x>
 													<y>563</y>
 													<height>28</height>
 													<width>28</width>
@@ -2887,7 +2887,7 @@
 											<identifyingAttributes>
 												<attributes>
 													<attribute key="absolute-outline" xsi:type="outlineAttribute">
-														<x>509</x>
+														<x>513</x>
 														<y>563</y>
 														<height>28</height>
 														<width>28</width>
@@ -2929,7 +2929,7 @@
 										<identifyingAttributes>
 											<attributes>
 												<attribute key="absolute-outline" xsi:type="outlineAttribute">
-													<x>567</x>
+													<x>571</x>
 													<y>563</y>
 													<height>28</height>
 													<width>28</width>
@@ -3013,7 +3013,7 @@
 											<identifyingAttributes>
 												<attributes>
 													<attribute key="absolute-outline" xsi:type="outlineAttribute">
-														<x>567</x>
+														<x>571</x>
 														<y>563</y>
 														<height>28</height>
 														<width>28</width>
@@ -3081,7 +3081,7 @@
 			</entry>
 			<entry>
 				<key>vcs.commit</key>
-				<value>689af2df014dc56c623a785912d9d6bfc18a0c62</value>
+				<value>1a949cee090d17f0b47fba3415e09986da11435c</value>
 			</entry>
 			<entry>
 				<key>window.height</key>
@@ -3113,7 +3113,7 @@
 			</entry>
 			<entry>
 				<key>time.time</key>
-				<value>12:23:34.117</value>
+				<value>15:02:06.381</value>
 			</entry>
 			<entry>
 				<key>time.zone</key>

@@ -17,6 +17,7 @@ class MyUnbreakableSeleniumTest {
 	public void setup() {
 		// RecheckOptions opts = RecheckWebOptions.builder().disableScreenshots().enableReportUpload().build();
 		driver = new RecheckDriver( new ChromeDriver( Util.chromeDriverOpts() ) );
+		Util.forceContentSize( driver );
 	}
 
 	@Test

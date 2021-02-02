@@ -22,6 +22,7 @@ class CssTemplateTest {
 
 		//System.setProperty( "webdriver.chrome.driver", "C:\chromedriver.exe" );
 		driver = new ChromeDriver( Util.chromeDriverOpts() );
+		Util.forceContentSize( driver );
 	}
 
 	@Test

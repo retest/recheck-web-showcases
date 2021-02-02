@@ -20,6 +20,7 @@ class ExplicitChecksTest {
 	public void setup() {
 		re = new RecheckImpl();
 		driver = new ChromeDriver( Util.chromeDriverOpts() );
+		Util.forceContentSize( driver );
 	}
 
 	@Test

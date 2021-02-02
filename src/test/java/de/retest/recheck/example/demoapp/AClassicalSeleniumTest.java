@@ -18,6 +18,7 @@ class AClassicalSeleniumTest {
 	@BeforeEach
 	void setup() {
 		driver = new ChromeDriver( Util.chromeDriverOpts() );
+		Util.forceContentSize( driver );
 	}
 
 	@Test
