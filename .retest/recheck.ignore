@@ -2,18 +2,21 @@
 
 import: metadata.filter
 
+matcher: type=input, attribute-regex=border-.*-color
+pixel-diff=2px
 attribute=outline
 attribute=absolute-outline
 attribute=style
-attribute=transform
-attribute=id
-attribute-regex=padding-.*
-attribute-regex=margin-.*
-attribute=font-family
+attribute=covered
 
-matcher: type=input, attribute-regex=border-.*-color
 
-pixel-diff=2px
+#attribute=id
+#attribute=transform
+#attribute-regex=padding-.*
+#attribute-regex=margin-.*
+#attribute=font-family
+
+
 
 
 # Instead of attributes, you can also ignore elements:
@@ -31,3 +34,15 @@ pixel-diff=2px
 
 # More details and examples can be found here:
 # https://retest.github.io/docs/recheck/how-ignore-works-in-recheck/
+
+
+# AnimationTest
+matcher: retestid=lorem_ipsum_dol, attribute=margin-left
+matcher: retestid=duis_autem_vel, attribute=margin-left
+matcher: retestid=nam_liber_tempor, attribute=margin-left
+matcher: retestid=ut_wisi_enim, attribute=margin-left
+matcher: retestid=this_is_yet_ano, attribute=margin-left
+matcher: retestid=at_vero_eos_et, attribute=margin-left
+matcher: retestid=the_caterpillar, attribute=margin-left
+matcher: retestid=consetetur_sadi, attribute=margin-left
+matcher: retestid=duis_autem_vel-1, attribute=margin-left
