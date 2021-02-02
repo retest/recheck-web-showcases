@@ -1,21 +1,15 @@
-recheck-web-example
-===================
+recheck-web-showcases
+=====================
 
-This is an minimal example project to setup [recheck-web](https://github.com/retest/recheck-web):
+In this project you will find several showcases for [recheck-web](https://github.com/retest/recheck-web) for demo purposes.
+To start a new project is't better to use the [recheck-web-archetype](https://github.com/retest/recheck-web-archetype).
 
-- It contains a [pom.xml](pom.xml) file, that defines recheck-web as a needed test dependency.
-- It contains an example std. Selenium test [MySeleniumTest.java](src/test/java/de/retest/recheck/example/MySeleniumTest.java) together with a [login page](src/test/resources/demo-app.html) to test.
-- It contains the corresponding [unbreakable recheck test](src/test/java/de/retest/recheck/example/MyUnbreakableSeleniumTest.java).
-- It contains the [JUnit 5 extension file](src/test/resources/META-INF/services/org.junit.jupiter.api.extension.Extension) to integrate recheck into the JUnit life-cycle and omit calls to `capTest()` (execute tests with param `-Djunit.jupiter.extensions.autodetection.enabled=true`).
-- It contains the Golden Master files (e.g. [retest.xml](src/test/resources/retest/recheck/de.retest.recheck.example.MyUnbreakableSeleniumTest/login.00.recheck/retest.xml)) to which the rendered website is compared against.
-- It contains the recheck config files:
-    - The [recheck.ignore](.retest/recheck.ignore) file defines which attributes (CSS and HTML) and elements (e.g. via XPath) should be ignored.
-    - The [recheck.ignore.js](.retest/recheck.ignore.js) file allows you to define rules in JavaScript, which differences should be ignored. You can find examples on this in the [recheck-web project itself](https://github.com/retest/recheck-web/blob/master/.retest/recheck.ignore.js).
-    - The [retest.properties](.retest/retest.properties) file contains properties for your project that are relevant for retest, such whether you use rehub.
-- A [.travis.yml](.travis.yml) file, to have the build be executed on [Travis](https://travis-ci.com/retest/recheck-web-example).
-- A [slightly changed](src/test/resources/demo-app_btn-change.html) and a [broken login page](src/test/resources/demo-app_CSS-broken.html), so you can see differences by switching the used site in the the test.
 
-In order to set it up correctly, you should install [Java](https://www.java.com/de/download/help/download_options.xml), [Maven](https://maven.apache.org/install.html) and [Selenium](https://www.seleniumhq.org/download/) on your local machine.
+## Usage
+
+Import this project as maven project in your IDE and play around.
+In the Junit test classes, changed versions of the tested pages are
+mentioned, so you can easily switch between the versions.
 
 
 Further resources
