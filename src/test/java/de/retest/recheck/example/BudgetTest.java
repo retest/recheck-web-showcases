@@ -1,8 +1,7 @@
 package de.retest.recheck.example;
 
-import java.nio.file.Paths;
-
 import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -15,32 +14,33 @@ class BudgetTest {
 	WebDriver driver;
 	Recheck re;
 
+	@BeforeEach
+	public void setup() {
+		re = new RecheckImpl( RecheckOptions.builder()
+				//.reportUploadEnabled( true )
+				.build() );
+
+		//System.setProperty( "webdriver.chrome.driver", "C:\chromedriver.exe" );
+		driver = new ChromeDriver( Util.chromeDriverOpts() );
+	}
+
 	@Test
 	public void excel() throws Exception {
-		final RecheckOptions options = RecheckOptions.builder()
-				//.reportUploadEnabled( true )
-				.build();
-		re = new RecheckImpl( options );
 
-		System.setProperty( "webdriver.chrome.driver", "chromedriver" );
-		driver = new ChromeDriver();
+		final String file = "pages/budget/OriginalBudget.htm";
+		//final String file = "pages/budget/OriginalBudget-changed.htm";
+		//final String file = "pages/budget/AdaptedBudget.htm";
 
-		//		driver.get( "https://assets.retest.org/demos/budget/OriginalBudget.htm" );
-		//		driver.get( "https://assets.retest.org/demos/budget/AdaptedBudget.htm" );
-		String url = Paths.get( "src/test/resources/AdaptedBudget.htm" ).toUri().toURL().toString();
-		driver.get(url);
-
-		Thread.sleep( 1000 );
+		driver.get( Util.toClasspathUrl( file ) );
+		Util.sleep( 3 );
 
 		re.check( driver, "open" );
-		re.capTest();
+		re.capTest(); // Mark test as failed on differences.
 	}
 
 	@AfterEach
 	public void tearDown() {
 		driver.quit();
-
-		// Produce the result file.
-		re.cap();
+		re.cap(); // Produce the result file.
 	}
 }

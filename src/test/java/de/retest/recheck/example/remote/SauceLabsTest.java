@@ -1,4 +1,4 @@
-package de.retest.recheck.example;
+package de.retest.recheck.example.remote;
 
 import java.net.URL;
 
