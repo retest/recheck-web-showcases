@@ -1,13 +1,13 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<?xml version="1.0"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>de.retest</groupId>
-	<artifactId>recheck-web-example</artifactId>
+	<artifactId>recheck-web-showcase</artifactId>
 	<version>0.1-SNAPSHOT</version>
 
-	<name>recheck-junit-4-extension</name>
-	<description>Minimal example project to setup recheck-web.</description>
+	<name>recheck-web-showcase</name>
+	<description>Project with recheck-web showcases.</description>
 	<url>https://retest.de/recheck/</url>
 
 	<organization>
