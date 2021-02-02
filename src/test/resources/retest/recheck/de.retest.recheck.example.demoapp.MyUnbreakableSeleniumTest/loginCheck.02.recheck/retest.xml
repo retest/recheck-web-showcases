@@ -7,14 +7,14 @@
 					<attribute key="absolute-outline" xsi:type="outlineAttribute">
 						<x>0</x>
 						<y>0</y>
-						<height>1010</height>
-						<width>1200</width>
+						<height>1069</height>
+						<width>1192</width>
 					</attribute>
 					<attribute key="outline" xsi:type="outlineAttribute">
 						<x>0</x>
 						<y>0</y>
-						<height>505</height>
-						<width>600</width>
+						<height>1069</height>
+						<width>1192</width>
 					</attribute>
 					<attribute key="path" xsi:type="pathAttribute">html[1]</attribute>
 					<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
@@ -53,8 +53,8 @@
 						<attribute key="outline" xsi:type="outlineAttribute">
 							<x>0</x>
 							<y>0</y>
-							<height>-505</height>
-							<width>-600</width>
+							<height>-1069</height>
+							<width>-1192</width>
 						</attribute>
 						<attribute key="path" xsi:type="pathAttribute">html[1]/head[1]</attribute>
 						<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
@@ -248,8 +248,8 @@
 						<attribute key="absolute-outline" xsi:type="outlineAttribute">
 							<x>0</x>
 							<y>0</y>
-							<height>1010</height>
-							<width>1200</width>
+							<height>1069</height>
+							<width>1192</width>
 						</attribute>
 						<attribute key="class" xsi:type="stringAttribute">auth-wrapper</attribute>
 						<attribute key="outline" xsi:type="outlineAttribute">
@@ -299,7 +299,7 @@
 						</entry>
 						<entry>
 							<key>font-family</key>
-							<value xsi:type="xsd:string">&quot;Avenir Next W01&quot;, &quot;Proxima Nova W01&quot;, Rubik, -apple-system, system-ui, system-ui, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif</value>
+							<value xsi:type="xsd:string">&quot;Avenir Next W01&quot;, &quot;Proxima Nova W01&quot;, Rubik, -apple-system, system-ui, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif</value>
 						</entry>
 						<entry>
 							<key>font-size</key>
@@ -379,13 +379,13 @@
 								<x>0</x>
 								<y>0</y>
 								<height>595</height>
-								<width>1200</width>
+								<width>1192</width>
 							</attribute>
 							<attribute key="class" xsi:type="stringAttribute">all-wrapper menu-side with-pattern</attribute>
 							<attribute key="outline" xsi:type="outlineAttribute">
 								<x>0</x>
 								<y>0</y>
-								<height>-207</height>
+								<height>-474</height>
 								<width>0</width>
 							</attribute>
 							<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/div[1]</attribute>
@@ -421,17 +421,17 @@
 						<identifyingAttributes>
 							<attributes>
 								<attribute key="absolute-outline" xsi:type="outlineAttribute">
-									<x>375</x>
+									<x>371</x>
 									<y>0</y>
 									<height>579</height>
 									<width>450</width>
 								</attribute>
 								<attribute key="class" xsi:type="stringAttribute">auth-box-w centered</attribute>
 								<attribute key="outline" xsi:type="outlineAttribute">
-									<x>187</x>
+									<x>371</x>
 									<y>0</y>
-									<height>-8</height>
-									<width>-375</width>
+									<height>-16</height>
+									<width>-742</width>
 								</attribute>
 								<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/div[1]/div[1]</attribute>
 								<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
@@ -470,11 +470,11 @@
 								</entry>
 								<entry>
 									<key>margin-left</key>
-									<value xsi:type="xsd:string">375px</value>
+									<value xsi:type="xsd:string">371px</value>
 								</entry>
 								<entry>
 									<key>margin-right</key>
-									<value xsi:type="xsd:string">375px</value>
+									<value xsi:type="xsd:string">371px</value>
 								</entry>
 								<entry>
 									<key>max-width</key>
@@ -494,7 +494,7 @@
 							<identifyingAttributes>
 								<attributes>
 									<attribute key="absolute-outline" xsi:type="outlineAttribute">
-										<x>375</x>
+										<x>371</x>
 										<y>0</y>
 										<height>243</height>
 										<width>450</width>
@@ -503,7 +503,7 @@
 									<attribute key="outline" xsi:type="outlineAttribute">
 										<x>0</x>
 										<y>0</y>
-										<height>-168</height>
+										<height>-336</height>
 										<width>0</width>
 									</attribute>
 									<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/div[1]/div[1]/div[1]</attribute>
@@ -539,16 +539,16 @@
 								<identifyingAttributes>
 									<attributes>
 										<attribute key="absolute-outline" xsi:type="outlineAttribute">
-											<x>475</x>
+											<x>471</x>
 											<y>111</y>
 											<height>17</height>
 											<width>250</width>
 										</attribute>
 										<attribute key="outline" xsi:type="outlineAttribute">
-											<x>50</x>
-											<y>55</y>
-											<height>-113</height>
-											<width>-100</width>
+											<x>100</x>
+											<y>111</y>
+											<height>-226</height>
+											<width>-200</width>
 										</attribute>
 										<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/div[1]/div[1]/div[1]/a[1]</attribute>
 										<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
@@ -607,15 +607,15 @@
 									<identifyingAttributes>
 										<attributes>
 											<attribute key="absolute-outline" xsi:type="outlineAttribute">
-												<x>475</x>
+												<x>471</x>
 												<y>59</y>
 												<height>126</height>
 												<width>250</width>
 											</attribute>
 											<attribute key="outline" xsi:type="outlineAttribute">
 												<x>0</x>
-												<y>-26</y>
-												<height>54</height>
+												<y>-52</y>
+												<height>109</height>
 												<width>0</width>
 											</attribute>
 											<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/div[1]/div[1]/div[1]/a[1]/img[1]</attribute>
@@ -646,15 +646,15 @@
 							<identifyingAttributes>
 								<attributes>
 									<attribute key="absolute-outline" xsi:type="outlineAttribute">
-										<x>375</x>
+										<x>371</x>
 										<y>243</y>
 										<height>28</height>
 										<width>450</width>
 									</attribute>
 									<attribute key="outline" xsi:type="outlineAttribute">
 										<x>0</x>
-										<y>121</y>
-										<height>-275</height>
+										<y>243</y>
+										<height>-551</height>
 										<width>0</width>
 									</attribute>
 									<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/div[1]/div[1]/h4[1]</attribute>
@@ -728,15 +728,15 @@
 							<identifyingAttributes>
 								<attributes>
 									<attribute key="absolute-outline" xsi:type="outlineAttribute">
-										<x>375</x>
+										<x>371</x>
 										<y>279</y>
 										<height>300</height>
 										<width>450</width>
 									</attribute>
 									<attribute key="outline" xsi:type="outlineAttribute">
 										<x>0</x>
-										<y>139</y>
-										<height>-139</height>
+										<y>279</y>
+										<height>-279</height>
 										<width>0</width>
 									</attribute>
 									<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/div[1]/div[1]/p[1]</attribute>
@@ -773,7 +773,7 @@
 			</entry>
 			<entry>
 				<key>time.offset</key>
-				<value>+02:00</value>
+				<value>+01:00</value>
 			</entry>
 			<entry>
 				<key>os.arch</key>
@@ -785,19 +785,23 @@
 			</entry>
 			<entry>
 				<key>vcs.commit</key>
-				<value>d4455118b7fd229ddbfd1dacf763bf6944461fc0</value>
+				<value>689af2df014dc56c623a785912d9d6bfc18a0c62</value>
 			</entry>
 			<entry>
 				<key>window.height</key>
-				<value>1133</value>
+				<value>1200</value>
 			</entry>
 			<entry>
 				<key>vcs.branch</key>
-				<value>feature/slow-driver</value>
+				<value>master</value>
 			</entry>
 			<entry>
 				<key>url</key>
-				<value>file:///Users/roessler/Documents/startup/workspace/recheck-web-example/src/test/resources/success.html</value>
+				<value>file:///home/retest/workspace/recheck-web-showcases/src/test/resources/pages/app/success.html</value>
+			</entry>
+			<entry>
+				<key>machine.name</key>
+				<value>tenages</value>
 			</entry>
 			<entry>
 				<key>os.version</key>
@@ -809,11 +813,11 @@
 			</entry>
 			<entry>
 				<key>browser.version</key>
-				<value>84.0.4147.89</value>
+				<value>88.0.4324.96</value>
 			</entry>
 			<entry>
 				<key>time.time</key>
-				<value>09:57:12.904</value>
+				<value>12:23:42.018</value>
 			</entry>
 			<entry>
 				<key>time.zone</key>
@@ -825,11 +829,11 @@
 			</entry>
 			<entry>
 				<key>os.name</key>
-				<value>MAC</value>
+				<value>LINUX</value>
 			</entry>
 			<entry>
 				<key>time.date</key>
-				<value>2020-07-21</value>
+				<value>2021-02-02</value>
 			</entry>
 			<entry>
 				<key>vcs.name</key>
