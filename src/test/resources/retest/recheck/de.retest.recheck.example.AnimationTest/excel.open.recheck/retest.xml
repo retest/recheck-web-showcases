@@ -1,0 +1,1359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<reTestXmlDataContainer xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" reTestVersion="1.12.0-SNAPSHOT" dataType="de.retest.recheck.ui.descriptors.SutState" dataTypeVersion="4">
+	<data xsi:type="sutState">
+		<descriptors retestId="html" screenId="1" screen="Diffing Animated Text" title="Diffing Animated Text">
+			<identifyingAttributes>
+				<attributes>
+					<attribute key="absolute-outline" xsi:type="outlineAttribute">
+						<x>0</x>
+						<y>0</y>
+						<height>322</height>
+						<width>1192</width>
+					</attribute>
+					<attribute key="outline" xsi:type="outlineAttribute">
+						<x>0</x>
+						<y>0</y>
+						<height>322</height>
+						<width>1192</width>
+					</attribute>
+					<attribute key="path" xsi:type="pathAttribute">html[1]</attribute>
+					<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+					<attribute key="type" xsi:type="stringAttribute">html</attribute>
+				</attributes>
+			</identifyingAttributes>
+			<attributes>
+				<attributes>
+					<entry>
+						<key>shown</key>
+						<value xsi:type="xsd:string">true</value>
+					</entry>
+				</attributes>
+			</attributes>
+			<containedElements retestId="head">
+				<identifyingAttributes>
+					<attributes>
+						<attribute key="absolute-outline" xsi:type="outlineAttribute">
+							<x>0</x>
+							<y>0</y>
+							<height>0</height>
+							<width>0</width>
+						</attribute>
+						<attribute key="outline" xsi:type="outlineAttribute">
+							<x>0</x>
+							<y>0</y>
+							<height>-322</height>
+							<width>-1192</width>
+						</attribute>
+						<attribute key="path" xsi:type="pathAttribute">html[1]/head[1]</attribute>
+						<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+						<attribute key="type" xsi:type="stringAttribute">head</attribute>
+					</attributes>
+				</identifyingAttributes>
+				<attributes>
+					<attributes>
+						<entry>
+							<key>shown</key>
+							<value xsi:type="xsd:string">false</value>
+						</entry>
+					</attributes>
+				</attributes>
+				<containedElements retestId="meta">
+					<identifyingAttributes>
+						<attributes>
+							<attribute key="absolute-outline" xsi:type="outlineAttribute">
+								<x>0</x>
+								<y>0</y>
+								<height>0</height>
+								<width>0</width>
+							</attribute>
+							<attribute key="outline" xsi:type="outlineAttribute">
+								<x>0</x>
+								<y>0</y>
+								<height>0</height>
+								<width>0</width>
+							</attribute>
+							<attribute key="path" xsi:type="pathAttribute">html[1]/head[1]/meta[1]</attribute>
+							<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+							<attribute key="type" xsi:type="stringAttribute">meta</attribute>
+						</attributes>
+					</identifyingAttributes>
+					<attributes>
+						<attributes>
+							<entry>
+								<key>charset</key>
+								<value xsi:type="xsd:string">utf-8</value>
+							</entry>
+							<entry>
+								<key>shown</key>
+								<value xsi:type="xsd:string">false</value>
+							</entry>
+						</attributes>
+					</attributes>
+				</containedElements>
+				<containedElements retestId="diffing_animated">
+					<identifyingAttributes>
+						<attributes>
+							<attribute key="absolute-outline" xsi:type="outlineAttribute">
+								<x>0</x>
+								<y>0</y>
+								<height>0</height>
+								<width>0</width>
+							</attribute>
+							<attribute key="outline" xsi:type="outlineAttribute">
+								<x>0</x>
+								<y>0</y>
+								<height>0</height>
+								<width>0</width>
+							</attribute>
+							<attribute key="path" xsi:type="pathAttribute">html[1]/head[1]/title[1]</attribute>
+							<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+							<attribute key="text" xsi:type="textAttribute">Diffing Animated Text</attribute>
+							<attribute key="type" xsi:type="stringAttribute">title</attribute>
+						</attributes>
+					</identifyingAttributes>
+					<attributes>
+						<attributes>
+							<entry>
+								<key>shown</key>
+								<value xsi:type="xsd:string">false</value>
+							</entry>
+						</attributes>
+					</attributes>
+				</containedElements>
+			</containedElements>
+			<containedElements retestId="body">
+				<identifyingAttributes>
+					<attributes>
+						<attribute key="absolute-outline" xsi:type="outlineAttribute">
+							<x>8</x>
+							<y>16</y>
+							<height>290</height>
+							<width>1176</width>
+						</attribute>
+						<attribute key="outline" xsi:type="outlineAttribute">
+							<x>8</x>
+							<y>16</y>
+							<height>-32</height>
+							<width>-16</width>
+						</attribute>
+						<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]</attribute>
+						<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+						<attribute key="type" xsi:type="stringAttribute">body</attribute>
+					</attributes>
+				</identifyingAttributes>
+				<attributes>
+					<attributes>
+						<entry>
+							<key>shown</key>
+							<value xsi:type="xsd:string">true</value>
+						</entry>
+					</attributes>
+				</attributes>
+				<containedElements retestId="the_caterpillar">
+					<identifyingAttributes>
+						<attributes>
+							<attribute key="absolute-outline" xsi:type="outlineAttribute">
+								<x>78</x>
+								<y>16</y>
+								<height>18</height>
+								<width>1316</width>
+							</attribute>
+							<attribute key="outline" xsi:type="outlineAttribute">
+								<x>70</x>
+								<y>0</y>
+								<height>-272</height>
+								<width>140</width>
+							</attribute>
+							<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/p[1]</attribute>
+							<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+							<attribute key="text" xsi:type="textAttribute">The Caterpillar and Alice looked at each other for some time in silence: at last the Caterpillar took the hookah out of its mouth, and addressed her in a languid, sleepy voice.</attribute>
+							<attribute key="type" xsi:type="stringAttribute">p</attribute>
+						</attributes>
+					</identifyingAttributes>
+					<attributes>
+						<attributes>
+							<entry>
+								<key>animation-direction</key>
+								<value xsi:type="xsd:string">alternate</value>
+							</entry>
+							<entry>
+								<key>animation-duration</key>
+								<value xsi:type="xsd:string">3s</value>
+							</entry>
+							<entry>
+								<key>animation-iteration-count</key>
+								<value xsi:type="xsd:string">infinite</value>
+							</entry>
+							<entry>
+								<key>animation-name</key>
+								<value xsi:type="xsd:string">slidein</value>
+							</entry>
+							<entry>
+								<key>margin-left</key>
+								<value xsi:type="xsd:string">69.9062px</value>
+							</entry>
+							<entry>
+								<key>shown</key>
+								<value xsi:type="xsd:string">true</value>
+							</entry>
+						</attributes>
+					</attributes>
+					<containedElements retestId="before">
+						<identifyingAttributes>
+							<attributes>
+								<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/p[1]/#pseudo::before[1]</attribute>
+								<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+								<attribute key="type" xsi:type="stringAttribute">::before</attribute>
+							</attributes>
+						</identifyingAttributes>
+						<attributes>
+							<attributes>
+								<entry>
+									<key>pseudo</key>
+									<value xsi:type="xsd:string">true</value>
+								</entry>
+							</attributes>
+						</attributes>
+					</containedElements>
+					<containedElements retestId="after">
+						<identifyingAttributes>
+							<attributes>
+								<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/p[1]/#pseudo::after[1]</attribute>
+								<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+								<attribute key="type" xsi:type="stringAttribute">::after</attribute>
+							</attributes>
+						</identifyingAttributes>
+						<attributes>
+							<attributes>
+								<entry>
+									<key>pseudo</key>
+									<value xsi:type="xsd:string">true</value>
+								</entry>
+							</attributes>
+						</attributes>
+					</containedElements>
+					<containedElements retestId="firstline">
+						<identifyingAttributes>
+							<attributes>
+								<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/p[1]/#pseudo::first-line[1]</attribute>
+								<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+								<attribute key="type" xsi:type="stringAttribute">::first-line</attribute>
+							</attributes>
+						</identifyingAttributes>
+						<attributes>
+							<attributes>
+								<entry>
+									<key>pseudo</key>
+									<value xsi:type="xsd:string">true</value>
+								</entry>
+							</attributes>
+						</attributes>
+					</containedElements>
+					<containedElements retestId="firstletter">
+						<identifyingAttributes>
+							<attributes>
+								<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/p[1]/#pseudo::first-letter[1]</attribute>
+								<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+								<attribute key="type" xsi:type="stringAttribute">::first-letter</attribute>
+							</attributes>
+						</identifyingAttributes>
+						<attributes>
+							<attributes>
+								<entry>
+									<key>pseudo</key>
+									<value xsi:type="xsd:string">true</value>
+								</entry>
+							</attributes>
+						</attributes>
+					</containedElements>
+				</containedElements>
+				<containedElements retestId="this_is_yet_ano">
+					<identifyingAttributes>
+						<attributes>
+							<attribute key="absolute-outline" xsi:type="outlineAttribute">
+								<x>48</x>
+								<y>50</y>
+								<height>18</height>
+								<width>1256</width>
+							</attribute>
+							<attribute key="outline" xsi:type="outlineAttribute">
+								<x>40</x>
+								<y>34</y>
+								<height>-272</height>
+								<width>80</width>
+							</attribute>
+							<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/p[2]</attribute>
+							<attribute key="suffix" xsi:type="suffixAttribute">2</attribute>
+							<attribute key="text" xsi:type="textAttribute">This is yet another animated text. I have no idea why that would make any sense, but nonetheless, here it comes!</attribute>
+							<attribute key="type" xsi:type="stringAttribute">p</attribute>
+						</attributes>
+					</identifyingAttributes>
+					<attributes>
+						<attributes>
+							<entry>
+								<key>animation-delay</key>
+								<value xsi:type="xsd:string">0.2s</value>
+							</entry>
+							<entry>
+								<key>animation-direction</key>
+								<value xsi:type="xsd:string">alternate</value>
+							</entry>
+							<entry>
+								<key>animation-duration</key>
+								<value xsi:type="xsd:string">3s</value>
+							</entry>
+							<entry>
+								<key>animation-iteration-count</key>
+								<value xsi:type="xsd:string">infinite</value>
+							</entry>
+							<entry>
+								<key>animation-name</key>
+								<value xsi:type="xsd:string">slidein</value>
+							</entry>
+							<entry>
+								<key>margin-left</key>
+								<value xsi:type="xsd:string">40.1719px</value>
+							</entry>
+							<entry>
+								<key>shown</key>
+								<value xsi:type="xsd:string">true</value>
+							</entry>
+							<entry>
+								<key>style</key>
+								<value xsi:type="xsd:string">animation-delay: 0.2s;</value>
+							</entry>
+						</attributes>
+					</attributes>
+					<containedElements retestId="before-1">
+						<identifyingAttributes>
+							<attributes>
+								<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/p[2]/#pseudo::before[1]</attribute>
+								<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+								<attribute key="type" xsi:type="stringAttribute">::before</attribute>
+							</attributes>
+						</identifyingAttributes>
+						<attributes>
+							<attributes>
+								<entry>
+									<key>pseudo</key>
+									<value xsi:type="xsd:string">true</value>
+								</entry>
+							</attributes>
+						</attributes>
+					</containedElements>
+					<containedElements retestId="after-1">
+						<identifyingAttributes>
+							<attributes>
+								<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/p[2]/#pseudo::after[1]</attribute>
+								<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+								<attribute key="type" xsi:type="stringAttribute">::after</attribute>
+							</attributes>
+						</identifyingAttributes>
+						<attributes>
+							<attributes>
+								<entry>
+									<key>pseudo</key>
+									<value xsi:type="xsd:string">true</value>
+								</entry>
+							</attributes>
+						</attributes>
+					</containedElements>
+					<containedElements retestId="firstline-1">
+						<identifyingAttributes>
+							<attributes>
+								<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/p[2]/#pseudo::first-line[1]</attribute>
+								<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+								<attribute key="type" xsi:type="stringAttribute">::first-line</attribute>
+							</attributes>
+						</identifyingAttributes>
+						<attributes>
+							<attributes>
+								<entry>
+									<key>pseudo</key>
+									<value xsi:type="xsd:string">true</value>
+								</entry>
+							</attributes>
+						</attributes>
+					</containedElements>
+					<containedElements retestId="firstletter-1">
+						<identifyingAttributes>
+							<attributes>
+								<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/p[2]/#pseudo::first-letter[1]</attribute>
+								<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+								<attribute key="type" xsi:type="stringAttribute">::first-letter</attribute>
+							</attributes>
+						</identifyingAttributes>
+						<attributes>
+							<attributes>
+								<entry>
+									<key>pseudo</key>
+									<value xsi:type="xsd:string">true</value>
+								</entry>
+							</attributes>
+						</attributes>
+					</containedElements>
+				</containedElements>
+				<containedElements retestId="lorem_ipsum_dol">
+					<identifyingAttributes>
+						<attributes>
+							<attribute key="absolute-outline" xsi:type="outlineAttribute">
+								<x>28</x>
+								<y>84</y>
+								<height>18</height>
+								<width>1215</width>
+							</attribute>
+							<attribute key="outline" xsi:type="outlineAttribute">
+								<x>20</x>
+								<y>68</y>
+								<height>-272</height>
+								<width>39</width>
+							</attribute>
+							<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/p[3]</attribute>
+							<attribute key="suffix" xsi:type="suffixAttribute">3</attribute>
+							<attribute key="text" xsi:type="textAttribute">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</attribute>
+							<attribute key="type" xsi:type="stringAttribute">p</attribute>
+						</attributes>
+					</identifyingAttributes>
+					<attributes>
+						<attributes>
+							<entry>
+								<key>animation-delay</key>
+								<value xsi:type="xsd:string">0.4s</value>
+							</entry>
+							<entry>
+								<key>animation-direction</key>
+								<value xsi:type="xsd:string">alternate</value>
+							</entry>
+							<entry>
+								<key>animation-duration</key>
+								<value xsi:type="xsd:string">3s</value>
+							</entry>
+							<entry>
+								<key>animation-iteration-count</key>
+								<value xsi:type="xsd:string">infinite</value>
+							</entry>
+							<entry>
+								<key>animation-name</key>
+								<value xsi:type="xsd:string">slidein</value>
+							</entry>
+							<entry>
+								<key>margin-left</key>
+								<value xsi:type="xsd:string">19.5469px</value>
+							</entry>
+							<entry>
+								<key>shown</key>
+								<value xsi:type="xsd:string">true</value>
+							</entry>
+							<entry>
+								<key>style</key>
+								<value xsi:type="xsd:string">animation-delay: 0.4s;</value>
+							</entry>
+						</attributes>
+					</attributes>
+					<containedElements retestId="before-2">
+						<identifyingAttributes>
+							<attributes>
+								<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/p[3]/#pseudo::before[1]</attribute>
+								<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+								<attribute key="type" xsi:type="stringAttribute">::before</attribute>
+							</attributes>
+						</identifyingAttributes>
+						<attributes>
+							<attributes>
+								<entry>
+									<key>pseudo</key>
+									<value xsi:type="xsd:string">true</value>
+								</entry>
+							</attributes>
+						</attributes>
+					</containedElements>
+					<containedElements retestId="after-2">
+						<identifyingAttributes>
+							<attributes>
+								<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/p[3]/#pseudo::after[1]</attribute>
+								<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+								<attribute key="type" xsi:type="stringAttribute">::after</attribute>
+							</attributes>
+						</identifyingAttributes>
+						<attributes>
+							<attributes>
+								<entry>
+									<key>pseudo</key>
+									<value xsi:type="xsd:string">true</value>
+								</entry>
+							</attributes>
+						</attributes>
+					</containedElements>
+					<containedElements retestId="firstline-2">
+						<identifyingAttributes>
+							<attributes>
+								<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/p[3]/#pseudo::first-line[1]</attribute>
+								<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+								<attribute key="type" xsi:type="stringAttribute">::first-line</attribute>
+							</attributes>
+						</identifyingAttributes>
+						<attributes>
+							<attributes>
+								<entry>
+									<key>pseudo</key>
+									<value xsi:type="xsd:string">true</value>
+								</entry>
+							</attributes>
+						</attributes>
+					</containedElements>
+					<containedElements retestId="firstletter-2">
+						<identifyingAttributes>
+							<attributes>
+								<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/p[3]/#pseudo::first-letter[1]</attribute>
+								<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+								<attribute key="type" xsi:type="stringAttribute">::first-letter</attribute>
+							</attributes>
+						</identifyingAttributes>
+						<attributes>
+							<attributes>
+								<entry>
+									<key>pseudo</key>
+									<value xsi:type="xsd:string">true</value>
+								</entry>
+							</attributes>
+						</attributes>
+					</containedElements>
+				</containedElements>
+				<containedElements retestId="duis_autem_vel">
+					<identifyingAttributes>
+						<attributes>
+							<attribute key="absolute-outline" xsi:type="outlineAttribute">
+								<x>15</x>
+								<y>118</y>
+								<height>18</height>
+								<width>1190</width>
+							</attribute>
+							<attribute key="outline" xsi:type="outlineAttribute">
+								<x>7</x>
+								<y>102</y>
+								<height>-272</height>
+								<width>14</width>
+							</attribute>
+							<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/p[4]</attribute>
+							<attribute key="suffix" xsi:type="suffixAttribute">4</attribute>
+							<attribute key="text" xsi:type="textAttribute">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</attribute>
+							<attribute key="type" xsi:type="stringAttribute">p</attribute>
+						</attributes>
+					</identifyingAttributes>
+					<attributes>
+						<attributes>
+							<entry>
+								<key>animation-delay</key>
+								<value xsi:type="xsd:string">0.6s</value>
+							</entry>
+							<entry>
+								<key>animation-direction</key>
+								<value xsi:type="xsd:string">alternate</value>
+							</entry>
+							<entry>
+								<key>animation-duration</key>
+								<value xsi:type="xsd:string">3s</value>
+							</entry>
+							<entry>
+								<key>animation-iteration-count</key>
+								<value xsi:type="xsd:string">infinite</value>
+							</entry>
+							<entry>
+								<key>animation-name</key>
+								<value xsi:type="xsd:string">slidein</value>
+							</entry>
+							<entry>
+								<key>margin-left</key>
+								<value xsi:type="xsd:string">6.75px</value>
+							</entry>
+							<entry>
+								<key>shown</key>
+								<value xsi:type="xsd:string">true</value>
+							</entry>
+							<entry>
+								<key>style</key>
+								<value xsi:type="xsd:string">animation-delay: 0.6s;</value>
+							</entry>
+						</attributes>
+					</attributes>
+					<containedElements retestId="before-3">
+						<identifyingAttributes>
+							<attributes>
+								<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/p[4]/#pseudo::before[1]</attribute>
+								<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+								<attribute key="type" xsi:type="stringAttribute">::before</attribute>
+							</attributes>
+						</identifyingAttributes>
+						<attributes>
+							<attributes>
+								<entry>
+									<key>pseudo</key>
+									<value xsi:type="xsd:string">true</value>
+								</entry>
+							</attributes>
+						</attributes>
+					</containedElements>
+					<containedElements retestId="after-3">
+						<identifyingAttributes>
+							<attributes>
+								<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/p[4]/#pseudo::after[1]</attribute>
+								<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+								<attribute key="type" xsi:type="stringAttribute">::after</attribute>
+							</attributes>
+						</identifyingAttributes>
+						<attributes>
+							<attributes>
+								<entry>
+									<key>pseudo</key>
+									<value xsi:type="xsd:string">true</value>
+								</entry>
+							</attributes>
+						</attributes>
+					</containedElements>
+					<containedElements retestId="firstline-3">
+						<identifyingAttributes>
+							<attributes>
+								<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/p[4]/#pseudo::first-line[1]</attribute>
+								<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+								<attribute key="type" xsi:type="stringAttribute">::first-line</attribute>
+							</attributes>
+						</identifyingAttributes>
+						<attributes>
+							<attributes>
+								<entry>
+									<key>pseudo</key>
+									<value xsi:type="xsd:string">true</value>
+								</entry>
+							</attributes>
+						</attributes>
+					</containedElements>
+					<containedElements retestId="firstletter-3">
+						<identifyingAttributes>
+							<attributes>
+								<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/p[4]/#pseudo::first-letter[1]</attribute>
+								<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+								<attribute key="type" xsi:type="stringAttribute">::first-letter</attribute>
+							</attributes>
+						</identifyingAttributes>
+						<attributes>
+							<attributes>
+								<entry>
+									<key>pseudo</key>
+									<value xsi:type="xsd:string">true</value>
+								</entry>
+							</attributes>
+						</attributes>
+					</containedElements>
+				</containedElements>
+				<containedElements retestId="ut_wisi_enim">
+					<identifyingAttributes>
+						<attributes>
+							<attribute key="absolute-outline" xsi:type="outlineAttribute">
+								<x>9</x>
+								<y>152</y>
+								<height>18</height>
+								<width>1177</width>
+							</attribute>
+							<attribute key="outline" xsi:type="outlineAttribute">
+								<x>1</x>
+								<y>136</y>
+								<height>-272</height>
+								<width>1</width>
+							</attribute>
+							<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/p[5]</attribute>
+							<attribute key="suffix" xsi:type="suffixAttribute">5</attribute>
+							<attribute key="text" xsi:type="textAttribute">Ut wisi enim ad minim veniam, ex ea commodo consequat.</attribute>
+							<attribute key="type" xsi:type="stringAttribute">p</attribute>
+						</attributes>
+					</identifyingAttributes>
+					<attributes>
+						<attributes>
+							<entry>
+								<key>animation-delay</key>
+								<value xsi:type="xsd:string">0.8s</value>
+							</entry>
+							<entry>
+								<key>animation-direction</key>
+								<value xsi:type="xsd:string">alternate</value>
+							</entry>
+							<entry>
+								<key>animation-duration</key>
+								<value xsi:type="xsd:string">3s</value>
+							</entry>
+							<entry>
+								<key>animation-iteration-count</key>
+								<value xsi:type="xsd:string">infinite</value>
+							</entry>
+							<entry>
+								<key>animation-name</key>
+								<value xsi:type="xsd:string">slidein</value>
+							</entry>
+							<entry>
+								<key>margin-left</key>
+								<value xsi:type="xsd:string">0.71875px</value>
+							</entry>
+							<entry>
+								<key>shown</key>
+								<value xsi:type="xsd:string">true</value>
+							</entry>
+							<entry>
+								<key>style</key>
+								<value xsi:type="xsd:string">animation-delay: 0.8s;</value>
+							</entry>
+						</attributes>
+					</attributes>
+					<containedElements retestId="before-4">
+						<identifyingAttributes>
+							<attributes>
+								<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/p[5]/#pseudo::before[1]</attribute>
+								<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+								<attribute key="type" xsi:type="stringAttribute">::before</attribute>
+							</attributes>
+						</identifyingAttributes>
+						<attributes>
+							<attributes>
+								<entry>
+									<key>pseudo</key>
+									<value xsi:type="xsd:string">true</value>
+								</entry>
+							</attributes>
+						</attributes>
+					</containedElements>
+					<containedElements retestId="after-4">
+						<identifyingAttributes>
+							<attributes>
+								<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/p[5]/#pseudo::after[1]</attribute>
+								<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+								<attribute key="type" xsi:type="stringAttribute">::after</attribute>
+							</attributes>
+						</identifyingAttributes>
+						<attributes>
+							<attributes>
+								<entry>
+									<key>pseudo</key>
+									<value xsi:type="xsd:string">true</value>
+								</entry>
+							</attributes>
+						</attributes>
+					</containedElements>
+					<containedElements retestId="firstline-4">
+						<identifyingAttributes>
+							<attributes>
+								<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/p[5]/#pseudo::first-line[1]</attribute>
+								<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+								<attribute key="type" xsi:type="stringAttribute">::first-line</attribute>
+							</attributes>
+						</identifyingAttributes>
+						<attributes>
+							<attributes>
+								<entry>
+									<key>pseudo</key>
+									<value xsi:type="xsd:string">true</value>
+								</entry>
+							</attributes>
+						</attributes>
+					</containedElements>
+					<containedElements retestId="firstletter-4">
+						<identifyingAttributes>
+							<attributes>
+								<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/p[5]/#pseudo::first-letter[1]</attribute>
+								<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+								<attribute key="type" xsi:type="stringAttribute">::first-letter</attribute>
+							</attributes>
+						</identifyingAttributes>
+						<attributes>
+							<attributes>
+								<entry>
+									<key>pseudo</key>
+									<value xsi:type="xsd:string">true</value>
+								</entry>
+							</attributes>
+						</attributes>
+					</containedElements>
+				</containedElements>
+				<containedElements retestId="nam_liber_tempor">
+					<identifyingAttributes>
+						<attributes>
+							<attribute key="absolute-outline" xsi:type="outlineAttribute">
+								<x>9</x>
+								<y>186</y>
+								<height>18</height>
+								<width>1177</width>
+							</attribute>
+							<attribute key="outline" xsi:type="outlineAttribute">
+								<x>1</x>
+								<y>170</y>
+								<height>-272</height>
+								<width>1</width>
+							</attribute>
+							<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/p[6]</attribute>
+							<attribute key="suffix" xsi:type="suffixAttribute">6</attribute>
+							<attribute key="text" xsi:type="textAttribute">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.</attribute>
+							<attribute key="type" xsi:type="stringAttribute">p</attribute>
+						</attributes>
+					</identifyingAttributes>
+					<attributes>
+						<attributes>
+							<entry>
+								<key>animation-delay</key>
+								<value xsi:type="xsd:string">1s</value>
+							</entry>
+							<entry>
+								<key>animation-direction</key>
+								<value xsi:type="xsd:string">alternate</value>
+							</entry>
+							<entry>
+								<key>animation-duration</key>
+								<value xsi:type="xsd:string">3s</value>
+							</entry>
+							<entry>
+								<key>animation-iteration-count</key>
+								<value xsi:type="xsd:string">infinite</value>
+							</entry>
+							<entry>
+								<key>animation-name</key>
+								<value xsi:type="xsd:string">slidein</value>
+							</entry>
+							<entry>
+								<key>margin-left</key>
+								<value xsi:type="xsd:string">0.6875px</value>
+							</entry>
+							<entry>
+								<key>shown</key>
+								<value xsi:type="xsd:string">true</value>
+							</entry>
+							<entry>
+								<key>style</key>
+								<value xsi:type="xsd:string">animation-delay: 1s;</value>
+							</entry>
+						</attributes>
+					</attributes>
+					<containedElements retestId="before-5">
+						<identifyingAttributes>
+							<attributes>
+								<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/p[6]/#pseudo::before[1]</attribute>
+								<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+								<attribute key="type" xsi:type="stringAttribute">::before</attribute>
+							</attributes>
+						</identifyingAttributes>
+						<attributes>
+							<attributes>
+								<entry>
+									<key>pseudo</key>
+									<value xsi:type="xsd:string">true</value>
+								</entry>
+							</attributes>
+						</attributes>
+					</containedElements>
+					<containedElements retestId="after-5">
+						<identifyingAttributes>
+							<attributes>
+								<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/p[6]/#pseudo::after[1]</attribute>
+								<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+								<attribute key="type" xsi:type="stringAttribute">::after</attribute>
+							</attributes>
+						</identifyingAttributes>
+						<attributes>
+							<attributes>
+								<entry>
+									<key>pseudo</key>
+									<value xsi:type="xsd:string">true</value>
+								</entry>
+							</attributes>
+						</attributes>
+					</containedElements>
+					<containedElements retestId="firstline-5">
+						<identifyingAttributes>
+							<attributes>
+								<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/p[6]/#pseudo::first-line[1]</attribute>
+								<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+								<attribute key="type" xsi:type="stringAttribute">::first-line</attribute>
+							</attributes>
+						</identifyingAttributes>
+						<attributes>
+							<attributes>
+								<entry>
+									<key>pseudo</key>
+									<value xsi:type="xsd:string">true</value>
+								</entry>
+							</attributes>
+						</attributes>
+					</containedElements>
+					<containedElements retestId="firstletter-5">
+						<identifyingAttributes>
+							<attributes>
+								<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/p[6]/#pseudo::first-letter[1]</attribute>
+								<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+								<attribute key="type" xsi:type="stringAttribute">::first-letter</attribute>
+							</attributes>
+						</identifyingAttributes>
+						<attributes>
+							<attributes>
+								<entry>
+									<key>pseudo</key>
+									<value xsi:type="xsd:string">true</value>
+								</entry>
+							</attributes>
+						</attributes>
+					</containedElements>
+				</containedElements>
+				<containedElements retestId="duis_autem_vel-1">
+					<identifyingAttributes>
+						<attributes>
+							<attribute key="absolute-outline" xsi:type="outlineAttribute">
+								<x>15</x>
+								<y>220</y>
+								<height>18</height>
+								<width>1189</width>
+							</attribute>
+							<attribute key="outline" xsi:type="outlineAttribute">
+								<x>7</x>
+								<y>204</y>
+								<height>-272</height>
+								<width>13</width>
+							</attribute>
+							<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/p[7]</attribute>
+							<attribute key="suffix" xsi:type="suffixAttribute">7</attribute>
+							<attribute key="text" xsi:type="textAttribute">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.</attribute>
+							<attribute key="type" xsi:type="stringAttribute">p</attribute>
+						</attributes>
+					</identifyingAttributes>
+					<attributes>
+						<attributes>
+							<entry>
+								<key>animation-delay</key>
+								<value xsi:type="xsd:string">1.2s</value>
+							</entry>
+							<entry>
+								<key>animation-direction</key>
+								<value xsi:type="xsd:string">alternate</value>
+							</entry>
+							<entry>
+								<key>animation-duration</key>
+								<value xsi:type="xsd:string">3s</value>
+							</entry>
+							<entry>
+								<key>animation-iteration-count</key>
+								<value xsi:type="xsd:string">infinite</value>
+							</entry>
+							<entry>
+								<key>animation-name</key>
+								<value xsi:type="xsd:string">slidein</value>
+							</entry>
+							<entry>
+								<key>margin-left</key>
+								<value xsi:type="xsd:string">6.60938px</value>
+							</entry>
+							<entry>
+								<key>shown</key>
+								<value xsi:type="xsd:string">true</value>
+							</entry>
+							<entry>
+								<key>style</key>
+								<value xsi:type="xsd:string">animation-delay: 1.2s;</value>
+							</entry>
+						</attributes>
+					</attributes>
+					<containedElements retestId="before-6">
+						<identifyingAttributes>
+							<attributes>
+								<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/p[7]/#pseudo::before[1]</attribute>
+								<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+								<attribute key="type" xsi:type="stringAttribute">::before</attribute>
+							</attributes>
+						</identifyingAttributes>
+						<attributes>
+							<attributes>
+								<entry>
+									<key>pseudo</key>
+									<value xsi:type="xsd:string">true</value>
+								</entry>
+							</attributes>
+						</attributes>
+					</containedElements>
+					<containedElements retestId="after-6">
+						<identifyingAttributes>
+							<attributes>
+								<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/p[7]/#pseudo::after[1]</attribute>
+								<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+								<attribute key="type" xsi:type="stringAttribute">::after</attribute>
+							</attributes>
+						</identifyingAttributes>
+						<attributes>
+							<attributes>
+								<entry>
+									<key>pseudo</key>
+									<value xsi:type="xsd:string">true</value>
+								</entry>
+							</attributes>
+						</attributes>
+					</containedElements>
+					<containedElements retestId="firstline-6">
+						<identifyingAttributes>
+							<attributes>
+								<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/p[7]/#pseudo::first-line[1]</attribute>
+								<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+								<attribute key="type" xsi:type="stringAttribute">::first-line</attribute>
+							</attributes>
+						</identifyingAttributes>
+						<attributes>
+							<attributes>
+								<entry>
+									<key>pseudo</key>
+									<value xsi:type="xsd:string">true</value>
+								</entry>
+							</attributes>
+						</attributes>
+					</containedElements>
+					<containedElements retestId="firstletter-6">
+						<identifyingAttributes>
+							<attributes>
+								<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/p[7]/#pseudo::first-letter[1]</attribute>
+								<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+								<attribute key="type" xsi:type="stringAttribute">::first-letter</attribute>
+							</attributes>
+						</identifyingAttributes>
+						<attributes>
+							<attributes>
+								<entry>
+									<key>pseudo</key>
+									<value xsi:type="xsd:string">true</value>
+								</entry>
+							</attributes>
+						</attributes>
+					</containedElements>
+				</containedElements>
+				<containedElements retestId="at_vero_eos_et">
+					<identifyingAttributes>
+						<attributes>
+							<attribute key="absolute-outline" xsi:type="outlineAttribute">
+								<x>27</x>
+								<y>254</y>
+								<height>18</height>
+								<width>1215</width>
+							</attribute>
+							<attribute key="outline" xsi:type="outlineAttribute">
+								<x>19</x>
+								<y>238</y>
+								<height>-272</height>
+								<width>39</width>
+							</attribute>
+							<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/p[8]</attribute>
+							<attribute key="suffix" xsi:type="suffixAttribute">8</attribute>
+							<attribute key="text" xsi:type="textAttribute">At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</attribute>
+							<attribute key="type" xsi:type="stringAttribute">p</attribute>
+						</attributes>
+					</identifyingAttributes>
+					<attributes>
+						<attributes>
+							<entry>
+								<key>animation-delay</key>
+								<value xsi:type="xsd:string">1.4s</value>
+							</entry>
+							<entry>
+								<key>animation-direction</key>
+								<value xsi:type="xsd:string">alternate</value>
+							</entry>
+							<entry>
+								<key>animation-duration</key>
+								<value xsi:type="xsd:string">3s</value>
+							</entry>
+							<entry>
+								<key>animation-iteration-count</key>
+								<value xsi:type="xsd:string">infinite</value>
+							</entry>
+							<entry>
+								<key>animation-name</key>
+								<value xsi:type="xsd:string">slidein</value>
+							</entry>
+							<entry>
+								<key>margin-left</key>
+								<value xsi:type="xsd:string">19.3125px</value>
+							</entry>
+							<entry>
+								<key>shown</key>
+								<value xsi:type="xsd:string">true</value>
+							</entry>
+							<entry>
+								<key>style</key>
+								<value xsi:type="xsd:string">animation-delay: 1.4s;</value>
+							</entry>
+						</attributes>
+					</attributes>
+					<containedElements retestId="before-7">
+						<identifyingAttributes>
+							<attributes>
+								<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/p[8]/#pseudo::before[1]</attribute>
+								<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+								<attribute key="type" xsi:type="stringAttribute">::before</attribute>
+							</attributes>
+						</identifyingAttributes>
+						<attributes>
+							<attributes>
+								<entry>
+									<key>pseudo</key>
+									<value xsi:type="xsd:string">true</value>
+								</entry>
+							</attributes>
+						</attributes>
+					</containedElements>
+					<containedElements retestId="after-7">
+						<identifyingAttributes>
+							<attributes>
+								<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/p[8]/#pseudo::after[1]</attribute>
+								<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+								<attribute key="type" xsi:type="stringAttribute">::after</attribute>
+							</attributes>
+						</identifyingAttributes>
+						<attributes>
+							<attributes>
+								<entry>
+									<key>pseudo</key>
+									<value xsi:type="xsd:string">true</value>
+								</entry>
+							</attributes>
+						</attributes>
+					</containedElements>
+					<containedElements retestId="firstline-7">
+						<identifyingAttributes>
+							<attributes>
+								<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/p[8]/#pseudo::first-line[1]</attribute>
+								<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+								<attribute key="type" xsi:type="stringAttribute">::first-line</attribute>
+							</attributes>
+						</identifyingAttributes>
+						<attributes>
+							<attributes>
+								<entry>
+									<key>pseudo</key>
+									<value xsi:type="xsd:string">true</value>
+								</entry>
+							</attributes>
+						</attributes>
+					</containedElements>
+					<containedElements retestId="firstletter-7">
+						<identifyingAttributes>
+							<attributes>
+								<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/p[8]/#pseudo::first-letter[1]</attribute>
+								<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+								<attribute key="type" xsi:type="stringAttribute">::first-letter</attribute>
+							</attributes>
+						</identifyingAttributes>
+						<attributes>
+							<attributes>
+								<entry>
+									<key>pseudo</key>
+									<value xsi:type="xsd:string">true</value>
+								</entry>
+							</attributes>
+						</attributes>
+					</containedElements>
+				</containedElements>
+				<containedElements retestId="consetetur_sadi">
+					<identifyingAttributes>
+						<attributes>
+							<attribute key="absolute-outline" xsi:type="outlineAttribute">
+								<x>48</x>
+								<y>288</y>
+								<height>18</height>
+								<width>1256</width>
+							</attribute>
+							<attribute key="outline" xsi:type="outlineAttribute">
+								<x>40</x>
+								<y>272</y>
+								<height>-272</height>
+								<width>80</width>
+							</attribute>
+							<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/p[9]</attribute>
+							<attribute key="suffix" xsi:type="suffixAttribute">9</attribute>
+							<attribute key="text" xsi:type="textAttribute">Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</attribute>
+							<attribute key="type" xsi:type="stringAttribute">p</attribute>
+						</attributes>
+					</identifyingAttributes>
+					<attributes>
+						<attributes>
+							<entry>
+								<key>animation-delay</key>
+								<value xsi:type="xsd:string">1.6s</value>
+							</entry>
+							<entry>
+								<key>animation-direction</key>
+								<value xsi:type="xsd:string">alternate</value>
+							</entry>
+							<entry>
+								<key>animation-duration</key>
+								<value xsi:type="xsd:string">3s</value>
+							</entry>
+							<entry>
+								<key>animation-iteration-count</key>
+								<value xsi:type="xsd:string">infinite</value>
+							</entry>
+							<entry>
+								<key>animation-name</key>
+								<value xsi:type="xsd:string">slidein</value>
+							</entry>
+							<entry>
+								<key>margin-left</key>
+								<value xsi:type="xsd:string">39.8125px</value>
+							</entry>
+							<entry>
+								<key>shown</key>
+								<value xsi:type="xsd:string">true</value>
+							</entry>
+							<entry>
+								<key>style</key>
+								<value xsi:type="xsd:string">animation-delay: 1.6s;</value>
+							</entry>
+						</attributes>
+					</attributes>
+					<containedElements retestId="before-8">
+						<identifyingAttributes>
+							<attributes>
+								<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/p[9]/#pseudo::before[1]</attribute>
+								<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+								<attribute key="type" xsi:type="stringAttribute">::before</attribute>
+							</attributes>
+						</identifyingAttributes>
+						<attributes>
+							<attributes>
+								<entry>
+									<key>pseudo</key>
+									<value xsi:type="xsd:string">true</value>
+								</entry>
+							</attributes>
+						</attributes>
+					</containedElements>
+					<containedElements retestId="after-8">
+						<identifyingAttributes>
+							<attributes>
+								<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/p[9]/#pseudo::after[1]</attribute>
+								<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+								<attribute key="type" xsi:type="stringAttribute">::after</attribute>
+							</attributes>
+						</identifyingAttributes>
+						<attributes>
+							<attributes>
+								<entry>
+									<key>pseudo</key>
+									<value xsi:type="xsd:string">true</value>
+								</entry>
+							</attributes>
+						</attributes>
+					</containedElements>
+					<containedElements retestId="firstline-8">
+						<identifyingAttributes>
+							<attributes>
+								<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/p[9]/#pseudo::first-line[1]</attribute>
+								<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+								<attribute key="type" xsi:type="stringAttribute">::first-line</attribute>
+							</attributes>
+						</identifyingAttributes>
+						<attributes>
+							<attributes>
+								<entry>
+									<key>pseudo</key>
+									<value xsi:type="xsd:string">true</value>
+								</entry>
+							</attributes>
+						</attributes>
+					</containedElements>
+					<containedElements retestId="firstletter-8">
+						<identifyingAttributes>
+							<attributes>
+								<attribute key="path" xsi:type="pathAttribute">html[1]/body[1]/p[9]/#pseudo::first-letter[1]</attribute>
+								<attribute key="suffix" xsi:type="suffixAttribute">1</attribute>
+								<attribute key="type" xsi:type="stringAttribute">::first-letter</attribute>
+							</attributes>
+						</identifyingAttributes>
+						<attributes>
+							<attributes>
+								<entry>
+									<key>pseudo</key>
+									<value xsi:type="xsd:string">true</value>
+								</entry>
+							</attributes>
+						</attributes>
+					</containedElements>
+				</containedElements>
+			</containedElements>
+			<screenshot>
+				<persistenceId>html</persistenceId>
+				<type>PNG</type>
+			</screenshot>
+		</descriptors>
+		<metadata>
+			<entry>
+				<key>driver.type</key>
+				<value>ChromeDriver</value>
+			</entry>
+			<entry>
+				<key>time.offset</key>
+				<value>+01:00</value>
+			</entry>
+			<entry>
+				<key>os.arch</key>
+				<value></value>
+			</entry>
+			<entry>
+				<key>check.type</key>
+				<value>driver</value>
+			</entry>
+			<entry>
+				<key>vcs.commit</key>
+				<value>689af2df014dc56c623a785912d9d6bfc18a0c62</value>
+			</entry>
+			<entry>
+				<key>window.height</key>
+				<value>1200</value>
+			</entry>
+			<entry>
+				<key>vcs.branch</key>
+				<value>master</value>
+			</entry>
+			<entry>
+				<key>url</key>
+				<value>file:///home/retest/workspace/recheck-web-showcases/src/test/resources/pages/animation/animation.html</value>
+			</entry>
+			<entry>
+				<key>machine.name</key>
+				<value>tenages</value>
+			</entry>
+			<entry>
+				<key>os.version</key>
+				<value></value>
+			</entry>
+			<entry>
+				<key>browser.name</key>
+				<value>chrome</value>
+			</entry>
+			<entry>
+				<key>browser.version</key>
+				<value>88.0.4324.96</value>
+			</entry>
+			<entry>
+				<key>time.time</key>
+				<value>12:23:10.635</value>
+			</entry>
+			<entry>
+				<key>time.zone</key>
+				<value>Europe/Berlin</value>
+			</entry>
+			<entry>
+				<key>window.width</key>
+				<value>1200</value>
+			</entry>
+			<entry>
+				<key>os.name</key>
+				<value>LINUX</value>
+			</entry>
+			<entry>
+				<key>time.date</key>
+				<value>2021-02-02</value>
+			</entry>
+			<entry>
+				<key>vcs.name</key>
+				<value>git</value>
+			</entry>
+		</metadata>
+	</data>
+</reTestXmlDataContainer>

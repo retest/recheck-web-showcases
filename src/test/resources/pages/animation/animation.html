@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8>
+<title>Diffing Animated Text</title>
+<style>
+p {
+  margin-left:100%;
+	animation-duration: 3s;
+	animation-name: slidein;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+@keyframes slidein {
+	from { 
+		margin-left:100%;
+		width: 300%;
+	}
+	
+	to {
+		margin-left: 0%;
+		width: 100%;
+	}
+}
+</style>
+</head>
+<body>
+	<p>
+		The Caterpillar and Alice looked at each other for some time in silence: at last the Caterpillar took the hookah out of its mouth, and addressed her in a languid, sleepy voice.
+	</p>
+	<p style="animation-delay: 0.2s;">
+		This is yet another animated text. I have no idea why that would make any sense, but nonetheless, here it comes!
+	</p>
+	<p style="animation-delay: 0.4s;">
+		Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
+	</p>
+	<p style="animation-delay: 0.6s;">
+		Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.   
+	</p>
+	<p style="animation-delay: 0.8s;">
+		Ut wisi enim ad minim veniam, ex ea commodo consequat.   
+	</p>
+	<p style="animation-delay: 1s;">
+		Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.   
+	</p>
+	<p style="animation-delay: 1.2s;">
+		Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.   
+	</p>
+	<p style="animation-delay: 1.4s;">
+		At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.   
+	</p>
+	<p style="animation-delay: 1.6s;">
+		Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.   
+	</p>
+</body>
+</html>
