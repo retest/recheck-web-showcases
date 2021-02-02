@@ -59,8 +59,14 @@
 	<dependencies>
 		<dependency>
 			<groupId>de.retest</groupId>
+			<artifactId>recheck</artifactId>
+			<version>0097c1f0f57c5eaf180f983a48761f489168f238</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>de.retest</groupId>
 			<artifactId>recheck-web</artifactId>
-			<version>d67e8ea6e70f0e0d73f9a5afebcce8aa7a1427d8</version>
+			<version>b7da3d46aa82799e9b99f6cb9fee1d68b8d5765d</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
