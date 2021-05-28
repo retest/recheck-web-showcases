@@ -8,7 +8,7 @@
 
 	<name>recheck-web-showcase</name>
 	<description>Project with recheck-web showcases.</description>
-	<url>https://retest.de/recheck/</url>
+	<url>https://retest.de/recheck-web/</url>
 
 	<organization>
 		<name>retest @ UBS Hainer GmbH</name>
@@ -40,6 +40,8 @@
 
 	<properties>
 		<java.version>1.8</java.version>
+		<git.repo.host>github.com</git.repo.host>
+		<git.repo.path>retest/${project.artifactId}</git.repo.path>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.resources.sourceEncoding>UTF-8</project.resources.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
