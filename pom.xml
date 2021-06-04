@@ -62,19 +62,19 @@
 		<dependency>
 			<groupId>de.retest</groupId>
 			<artifactId>recheck</artifactId>
-			<version>0097c1f0f57c5eaf180f983a48761f489168f238</version>
+			<version>1.12.0-beta.2</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
 			<groupId>de.retest</groupId>
 			<artifactId>recheck-web</artifactId>
-			<version>b7da3d46aa82799e9b99f6cb9fee1d68b8d5765d</version>
+			<version>1.12.0-beta.1</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
 			<groupId>de.retest</groupId>
 			<artifactId>recheck-junit-jupiter-extension</artifactId>
-			<version>1.11.0</version>
+			<version>1.12.0-beta.1</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
