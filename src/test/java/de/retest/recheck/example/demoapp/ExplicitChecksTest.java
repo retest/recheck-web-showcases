@@ -7,8 +7,11 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import com.google.common.base.Strings;
+
 import de.retest.recheck.Recheck;
 import de.retest.recheck.RecheckImpl;
+import de.retest.recheck.RecheckOptions;
 import de.retest.recheck.example.Util;
 
 class ExplicitChecksTest {
@@ -18,7 +21,12 @@ class ExplicitChecksTest {
 
 	@BeforeEach
 	public void setup() {
-		re = new RecheckImpl();
+		if ( Strings.isNullOrEmpty( System.getenv( "RECHECK_API_KEY" ) ) ) {
+			re = new RecheckImpl();
+		} else {
+			re = new RecheckImpl( RecheckOptions.builder().enableReportUpload().build() );
+		}
+
 		driver = new ChromeDriver( Util.chromeDriverOpts() );
 		Util.forceContentSize( driver );
 	}

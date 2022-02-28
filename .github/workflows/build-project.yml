@@ -53,6 +53,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+          RECHECK_API_KEY: ${{ secrets.RECHECK_API_KEY }}
 
       - name: Test without SonarCloud
         id: test-without-sonar
