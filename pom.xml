@@ -62,13 +62,13 @@
 		<dependency>
 			<groupId>de.retest</groupId>
 			<artifactId>recheck</artifactId>
-			<version>1.12.0</version>
+			<version>d0d1e6f981</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
 			<groupId>de.retest</groupId>
 			<artifactId>recheck-web</artifactId>
-			<version>1.12.0</version>
+			<version>85378b84ac</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>

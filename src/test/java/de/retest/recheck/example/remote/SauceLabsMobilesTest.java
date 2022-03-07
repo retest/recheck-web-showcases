@@ -6,7 +6,9 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
+import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.remote.Browser;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
@@ -36,7 +38,8 @@ class SauceLabsMobilesTest {
 	public void checkSamsungGalaxy() throws Exception {
 		re = new RecheckImpl();
 		re.startTest( testName );
-		final DesiredCapabilities capabilities = DesiredCapabilities.android();
+		final DesiredCapabilities capabilities =
+				new DesiredCapabilities( Browser.CHROME.browserName(), "", Platform.ANDROID );
 		capabilities.setCapability( "username", sauceUserName );
 		capabilities.setCapability( "accessKey", sauceAccessKey );
 		capabilities.setCapability( "deviceName", "Samsung Galaxy S8 Plus GoogleAPI Emulator" );
